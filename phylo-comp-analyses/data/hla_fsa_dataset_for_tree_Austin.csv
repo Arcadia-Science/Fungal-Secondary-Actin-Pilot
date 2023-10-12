@@ -1,0 +1,749 @@
+Species,tip.label,Phylum,Class,Order,Genus,hla,fsa,hla_count,fsa_count,hla_logcount,fsa_logcount
+Phialophora attinorum,Phialophora_attinorum,Ascomycota,Eurotiomycetes,Chaetothyriales,Phialophora,No,No,0,0,-Inf,-Inf
+Aspergillus vadensis CBS 113365,Aspergillus_vadensis_CBS_113365,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,No,No,0,0,-Inf,-Inf
+Trichophyton tonsurans CBS 112818,Trichophyton_tonsurans_CBS_112818,Ascomycota,Eurotiomycetes,Onygenales,Trichophyton,No,No,0,0,-Inf,-Inf
+Monilinia fructigena,Monilinia_fructigena,Ascomycota,Leotiomycetes,Helotiales,Monilinia,No,No,0,0,-Inf,-Inf
+Pseudogymnoascus sp. VKM F-3775,Pseudogymnoascus_sp._VKM_F-3775,Ascomycota,Leotiomycetes,Unknown,Pseudogymnoascus,No,No,0,0,-Inf,-Inf
+Fusarium asiaticum,Fusarium_asiaticum,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,No,No,0,0,-Inf,-Inf
+Ganoderma boninense,Ganoderma_boninense,Basidiomycota,Agaricomycetes,Polyporales,Ganoderma,No,No,0,0,-Inf,-Inf
+Batrachochytrium dendrobatidis JEL423,Batrachochytrium_dendrobatidis_JEL423,Chytridiomycota,Chytridiomycetes,Rhizophydiales,Batrachochytrium,No,No,0,0,-Inf,-Inf
+Acaulospora colombiana,Acaulospora_colombiana,Mucoromycota,Glomeromycetes,Diversisporales,Acaulospora,No,No,0,0,-Inf,-Inf
+Scutellospora calospora,Scutellospora_calospora,Mucoromycota,Glomeromycetes,Diversisporales,Scutellospora,No,No,0,0,-Inf,-Inf
+Spiromyces aspiralis,Spiromyces_aspiralis,Zoopagomycota,Kickxellomycetes,Kickxellales,Spiromyces,No,No,0,0,-Inf,-Inf
+Pyrenophora tritici-repentis Pt-1C-BFP,Pyrenophora_tritici-repentis_Pt-1C-BFP,Ascomycota,Dothideomycetes,Pleosporales,Pyrenophora,No,Yes,0,1,-Inf,0
+Aspergillus indologenus CBS 114.80,Aspergillus_indologenus_CBS_114.80,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,No,Yes,0,1,-Inf,0
+Tuber melanosporum,Tuber_melanosporum,Ascomycota,Pezizomycetes,Pezizales,Tuber,No,Yes,0,1,-Inf,0
+Cyathus striatus,Cyathus_striatus,Basidiomycota,Agaricomycetes,Agaricales,Cyathus,No,Yes,0,1,-Inf,0
+Dentiscutata heterogama,Dentiscutata_heterogama,Mucoromycota,Glomeromycetes,Diversisporales,Dentiscutata,No,Yes,0,1,-Inf,0
+Mycena sanguinolenta,Mycena_sanguinolenta,Basidiomycota,Agaricomycetes,Agaricales,Mycena,Yes,Yes,9,2,2.197224577,0.693147181
+Alternaria alternata,Alternaria_alternata,Ascomycota,Dothideomycetes,Pleosporales,Alternaria,Yes,Yes,7,1,1.945910149,0
+Hanseniaspora uvarum,Hanseniaspora_uvarum,Ascomycota,Saccharomycetes,Saccharomycetales,Hanseniaspora,Yes,No,6,0,1.791759469,-Inf
+Ogataea polymorpha,Ogataea_polymorpha,Ascomycota,Saccharomycetes,Saccharomycetales,Ogataea,Yes,No,6,0,1.791759469,-Inf
+Pichia kudriavzevii,Pichia_kudriavzevii,Ascomycota,Saccharomycetes,Saccharomycetales,Pichia,Yes,No,6,0,1.791759469,-Inf
+Fusarium falciforme,Fusarium_falciforme,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,6,0,1.791759469,-Inf
+Lentinula raphanica,Lentinula_raphanica,Basidiomycota,Agaricomycetes,Agaricales,Lentinula,Yes,Yes,6,1,1.791759469,0
+Mycena galericulata,Mycena_galericulata,Basidiomycota,Agaricomycetes,Agaricales,Mycena,Yes,Yes,6,1,1.791759469,0
+Mycena galopus ATCC 62051,Mycena_galopus_ATCC_62051,Basidiomycota,Agaricomycetes,Agaricales,Mycena,Yes,Yes,6,1,1.791759469,0
+Pleurotus pulmonarius,Pleurotus_pulmonarius,Basidiomycota,Agaricomycetes,Agaricales,Pleurotus,Yes,Yes,6,1,1.791759469,0
+Verticillium longisporum,Verticillium_longisporum,Ascomycota,Sordariomycetes,Glomerellales,Verticillium,Yes,No,5,0,1.609437912,-Inf
+Lentinula edodes,Lentinula_edodes,Basidiomycota,Agaricomycetes,Agaricales,Lentinula,Yes,Yes,5,4,1.609437912,1.386294361
+Mycena chlorophos,Mycena_chlorophos,Basidiomycota,Agaricomycetes,Agaricales,Mycena,Yes,Yes,5,1,1.609437912,0
+Mycena metata,Mycena_metata,Basidiomycota,Agaricomycetes,Agaricales,Mycena,Yes,Yes,5,1,1.609437912,0
+Mycena rosella,Mycena_rosella,Basidiomycota,Agaricomycetes,Agaricales,Mycena,Yes,Yes,5,1,1.609437912,0
+Aspergillus arachidicola,Aspergillus_arachidicola,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,4,0,1.386294361,-Inf
+Penicillium nalgiovense,Penicillium_nalgiovense,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,4,0,1.386294361,-Inf
+Debaryomyces fabryi,Debaryomyces_fabryi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomyces,Yes,No,4,0,1.386294361,-Inf
+Kluyveromyces lactis,Kluyveromyces_lactis,Ascomycota,Saccharomycetes,Saccharomycetales,Kluyveromyces,Yes,No,4,0,1.386294361,-Inf
+Zygosaccharomyces rouxii,Zygosaccharomyces_rouxii,Ascomycota,Saccharomycetes,Saccharomycetales,Zygosaccharomyces,Yes,No,4,0,1.386294361,-Inf
+Cetraspora pellucida,Cetraspora_pellucida,Mucoromycota,Glomeromycetes,Diversisporales,Cetraspora,Yes,No,4,0,1.386294361,-Inf
+Rhizopus stolonifer,Rhizopus_stolonifer,Mucoromycota,Mucoromycetes,Mucorales,Rhizopus,Yes,No,4,0,1.386294361,-Inf
+Aspergillus lentulus,Aspergillus_lentulus,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,4,1,1.386294361,0
+Ophidiomyces ophidiicola,Ophidiomyces_ophidiicola,Ascomycota,Eurotiomycetes,Onygenales,Ophidiomyces,Yes,Yes,4,5,1.386294361,1.609437912
+Purpureocillium lilacinum,Purpureocillium_lilacinum,Ascomycota,Sordariomycetes,Hypocreales,Purpureocillium,Yes,Yes,4,1,1.386294361,0
+Flammula alnicola,Flammula_alnicola,Basidiomycota,Agaricomycetes,Agaricales,Flammula,Yes,Yes,4,1,1.386294361,0
+Lentinula lateritia,Lentinula_lateritia,Basidiomycota,Agaricomycetes,Agaricales,Lentinula,Yes,Yes,4,1,1.386294361,0
+Marasmius tenuissimus,Marasmius_tenuissimus,Basidiomycota,Agaricomycetes,Agaricales,Marasmius,Yes,Yes,4,1,1.386294361,0
+Mycena amicta,Mycena_amicta,Basidiomycota,Agaricomycetes,Agaricales,Mycena,Yes,Yes,4,1,1.386294361,0
+Mycena crocata,Mycena_crocata,Basidiomycota,Agaricomycetes,Agaricales,Mycena,Yes,Yes,4,1,1.386294361,0
+Mycena maculata,Mycena_maculata,Basidiomycota,Agaricomycetes,Agaricales,Mycena,Yes,Yes,4,1,1.386294361,0
+Rhodocollybia butyracea,Rhodocollybia_butyracea,Basidiomycota,Agaricomycetes,Agaricales,Rhodocollybia,Yes,Yes,4,1,1.386294361,0
+Chytriomyces hyalinus,Chytriomyces_hyalinus,Chytridiomycota,Chytridiomycetes,Chytridiales,Chytriomyces,Yes,Yes,4,2,1.386294361,0.693147181
+Rhizophlyctis rosea,Rhizophlyctis_rosea,Chytridiomycota,Chytridiomycetes,Rhizophlyctidales,Rhizophlyctis,Yes,Yes,4,1,1.386294361,0
+Hyaloraphidium curvatum,Hyaloraphidium_curvatum,Chytridiomycota,Monoblepharidomycetes,Monoblepharidales,Hyaloraphidium,Yes,Yes,4,1,1.386294361,0
+Cladophialophora immunda,Cladophialophora_immunda,Ascomycota,Eurotiomycetes,Chaetothyriales,Cladophialophora,Yes,No,3,0,1.098612289,-Inf
+Trichophyton rubrum CBS 100081,Trichophyton_rubrum_CBS_100081,Ascomycota,Eurotiomycetes,Onygenales,Trichophyton,Yes,No,3,0,1.098612289,-Inf
+Trichophyton soudanense CBS 452.61,Trichophyton_soudanense_CBS_452.61,Ascomycota,Eurotiomycetes,Onygenales,Trichophyton,Yes,No,3,0,1.098612289,-Inf
+Geotrichum candidum,Geotrichum_candidum,Ascomycota,Saccharomycetes,Saccharomycetales,Geotrichum,Yes,No,3,0,1.098612289,-Inf
+Torulaspora delbrueckii,Torulaspora_delbrueckii,Ascomycota,Saccharomycetes,Saccharomycetales,Torulaspora,Yes,No,3,0,1.098612289,-Inf
+Colletotrichum asianum,Colletotrichum_asianum,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,No,3,0,1.098612289,-Inf
+Fusarium decemcellulare,Fusarium_decemcellulare,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,3,0,1.098612289,-Inf
+Fusarium solani,Fusarium_solani,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,3,0,1.098612289,-Inf
+Mycena polygramma,Mycena_polygramma,Basidiomycota,Agaricomycetes,Agaricales,Mycena,Yes,No,3,0,1.098612289,-Inf
+Hermanssonia centrifuga,Hermanssonia_centrifuga,Basidiomycota,Agaricomycetes,Polyporales,Hermanssonia,Yes,No,3,0,1.098612289,-Inf
+Cryptococcus neoformans,Cryptococcus_neoformans,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcus,Yes,No,3,0,1.098612289,-Inf
+Aspergillus flavus NRRL3357,Aspergillus_flavus_NRRL3357,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,3,1,1.098612289,0
+Colletotrichum tofieldiae,Colletotrichum_tofieldiae,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,Yes,3,3,1.098612289,1.098612289
+Fusarium redolens,Fusarium_redolens,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,Yes,3,1,1.098612289,0
+Armillaria tabescens,Armillaria_tabescens,Basidiomycota,Agaricomycetes,Agaricales,Armillaria,Yes,Yes,3,1,1.098612289,0
+Fistulina hepatica ATCC 64428,Fistulina_hepatica_ATCC_64428,Basidiomycota,Agaricomycetes,Agaricales,Fistulina,Yes,Yes,3,1,1.098612289,0
+Lentinula detonsa,Lentinula_detonsa,Basidiomycota,Agaricomycetes,Agaricales,Lentinula,Yes,Yes,3,2,1.098612289,0.693147181
+Marasmius oreades,Marasmius_oreades,Basidiomycota,Agaricomycetes,Agaricales,Marasmius,Yes,Yes,3,1,1.098612289,0
+Mycena belliae,Mycena_belliae,Basidiomycota,Agaricomycetes,Agaricales,Mycena,Yes,Yes,3,1,1.098612289,0
+Mycena haematopus,Mycena_haematopus,Basidiomycota,Agaricomycetes,Agaricales,Mycena,Yes,Yes,3,1,1.098612289,0
+Mycena pura,Mycena_pura,Basidiomycota,Agaricomycetes,Agaricales,Mycena,Yes,Yes,3,1,1.098612289,0
+Plicaturopsis crispa FD-325 SS-3,Plicaturopsis_crispa_FD-325_SS-3,Basidiomycota,Agaricomycetes,Amylocorticiales,Plicaturopsis,Yes,Yes,3,1,1.098612289,0
+Leucogyrophana mollusca,Leucogyrophana_mollusca,Basidiomycota,Agaricomycetes,Boletales,Leucogyrophana,Yes,Yes,3,1,1.098612289,0
+Fomitiporia mediterranea MF3/22,Fomitiporia_mediterranea_MF3/22,Basidiomycota,Agaricomycetes,Hymenochaetales,Fomitiporia,Yes,Yes,3,1,1.098612289,0
+Auriscalpium vulgare,Auriscalpium_vulgare,Basidiomycota,Agaricomycetes,Russulales,Auriscalpium,Yes,Yes,3,1,1.098612289,0
+Dentipellis fragilis,Dentipellis_fragilis,Basidiomycota,Agaricomycetes,Russulales,Dentipellis,Yes,Yes,3,1,1.098612289,0
+Serendipita indica DSM 11827,Serendipita_indica_DSM_11827,Basidiomycota,Agaricomycetes,Sebacinales,Serendipita,Yes,Yes,3,1,1.098612289,0
+Sporisorium scitamineum,Sporisorium_scitamineum,Basidiomycota,Ustilaginomycetes,Ustilaginales,Sporisorium,Yes,Yes,3,1,1.098612289,0
+Rhizophagus clarus,Rhizophagus_clarus,Mucoromycota,Glomeromycetes,Glomerales,Rhizophagus,Yes,Yes,3,2,1.098612289,0.693147181
+Umbelopsis ramanniana AG,Umbelopsis_ramanniana_AG,Mucoromycota,Umbelopsidomycetes,Umbelopsidales,Umbelopsis,Yes,Yes,3,1,1.098612289,0
+Basidiobolus meristosporus CBS 931.73,Basidiobolus_meristosporus_CBS_931.73,Zoopagomycota,Basidiobolomycetes,Basidiobolales,Basidiobolus,Yes,Yes,3,1,1.098612289,0
+Alternaria arborescens,Alternaria_arborescens,Ascomycota,Dothideomycetes,Pleosporales,Alternaria,Yes,No,2,0,0.693147181,-Inf
+Stagonospora sp. SRC1lsM3a,Stagonospora_sp._SRC1lsM3a,Ascomycota,Dothideomycetes,Pleosporales,Stagospora,Yes,No,2,0,0.693147181,-Inf
+Stemphylium lycopersici,Stemphylium_lycopersici,Ascomycota,Dothideomycetes,Pleosporales,Stemphylium,Yes,No,2,0,0.693147181,-Inf
+Venturia inaequalis,Venturia_inaequalis,Ascomycota,Dothideomycetes,Venturiales,Venturia,Yes,No,2,0,0.693147181,-Inf
+Aspergillus bombycis,Aspergillus_bombycis,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,2,0,0.693147181,-Inf
+Aspergillus caelatus,Aspergillus_caelatus,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,2,0,0.693147181,-Inf
+Aspergillus nomiae NRRL 13137,Aspergillus_nomiae_NRRL_13137,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,2,0,0.693147181,-Inf
+Aspergillus parasiticus SU-1,Aspergillus_parasiticus_SU-1,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,2,0,0.693147181,-Inf
+Aspergillus udagawae,Aspergillus_udagawae,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,2,0,0.693147181,-Inf
+Penicillium brasilianum,Penicillium_brasilianum,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,2,0,0.693147181,-Inf
+Penicillium chrysogenum,Penicillium_chrysogenum,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,2,0,0.693147181,-Inf
+Penicillium freii,Penicillium_freii,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,2,0,0.693147181,-Inf
+Talaromyces pinophilus,Talaromyces_pinophilus,Ascomycota,Eurotiomycetes,Eurotiales,Talaromyces,Yes,No,2,0,0.693147181,-Inf
+Monilinia laxa,Monilinia_laxa,Ascomycota,Leotiomycetes,Helotiales,Monilinia,Yes,No,2,0,0.693147181,-Inf
+Ambrosiozyma monospora,Ambrosiozyma_monospora,Ascomycota,Saccharomycetes,Saccharomycetales,Ambrosiozyma,Yes,No,2,0,0.693147181,-Inf
+Brettanomyces bruxellensis,Brettanomyces_bruxellensis,Ascomycota,Saccharomycetes,Saccharomycetales,Brettanomyces,Yes,No,2,0,0.693147181,-Inf
+Candida parapsilosis,Candida_parapsilosis,Ascomycota,Saccharomycetes,Saccharomycetales,Candida,Yes,No,2,0,0.693147181,-Inf
+Cyberlindnera fabianii,Cyberlindnera_fabianii,Ascomycota,Saccharomycetes,Saccharomycetales,Cyberlindnera,Yes,No,2,0,0.693147181,-Inf
+Metschnikowia pulcherrima,Metschnikowia_pulcherrima,Ascomycota,Saccharomycetes,Saccharomycetales,Metschnikowia,Yes,No,2,0,0.693147181,-Inf
+Saccharomyces cerevisiae S288C,Saccharomyces_cerevisiae_S288C,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomyces,Yes,No,2,0,0.693147181,-Inf
+Saccharomyces kudriavzevii IFO 1802,Saccharomyces_kudriavzevii_IFO_1802,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomyces,Yes,No,2,0,0.693147181,-Inf
+Vanderwaltozyma polyspora DSM 70294,Vanderwaltozyma_polyspora_DSM_70294,Ascomycota,Saccharomycetes,Saccharomycetales,Vanderwaltozyma,Yes,No,2,0,0.693147181,-Inf
+Zygosaccharomyces bailii ISA1307,Zygosaccharomyces_bailii_ISA1307,Ascomycota,Saccharomycetes,Saccharomycetales,Zygosaccharomyces,Yes,No,2,0,0.693147181,-Inf
+Zygotorulaspora mrakii,Zygotorulaspora_mrakii,Ascomycota,Saccharomycetes,Saccharomycetales,Zygotorulaspora,Yes,No,2,0,0.693147181,-Inf
+Schizosaccharomyces pombe,Schizosaccharomyces_pombe,Ascomycota,Schizosaccharomycetes,Schizosaccharomycetales,Schizosaccharomyces,Yes,No,2,0,0.693147181,-Inf
+Diaporthe eres,Diaporthe_eres,Ascomycota,Sordariomycetes,Diaporthales,Diaporthe,Yes,No,2,0,0.693147181,-Inf
+Valsa mali,Valsa_mali,Ascomycota,Sordariomycetes,Diaporthales,Valsa,Yes,No,2,0,0.693147181,-Inf
+Akanthomyces lecanii RCEF 1005,Akanthomyces_lecanii_RCEF_1005,Ascomycota,Sordariomycetes,Hypocreales,Akanthomyces,Yes,No,2,0,0.693147181,-Inf
+Beauveria bassiana D1-5,Beauveria_bassiana_D1-5,Ascomycota,Sordariomycetes,Hypocreales,Beauveria,Yes,No,2,0,0.693147181,-Inf
+Beauveria brongniartii RCEF 3172,Beauveria_brongniartii_RCEF_3172,Ascomycota,Sordariomycetes,Hypocreales,Beauveria,Yes,No,2,0,0.693147181,-Inf
+Cordyceps militaris CM01,Cordyceps_militaris_CM01,Ascomycota,Sordariomycetes,Hypocreales,Cordyceps,Yes,No,2,0,0.693147181,-Inf
+Drechmeria coniospora,Drechmeria_coniospora,Ascomycota,Sordariomycetes,Hypocreales,Drechmeria,Yes,No,2,0,0.693147181,-Inf
+Fusarium ambrosium,Fusarium_ambrosium,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,2,0,0.693147181,-Inf
+Fusarium culmorum,Fusarium_culmorum,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,2,0,0.693147181,-Inf
+Fusarium duplospermum,Fusarium_duplospermum,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,2,0,0.693147181,-Inf
+Fusarium equiseti,Fusarium_equiseti,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,2,0,0.693147181,-Inf
+Fusarium euwallaceae,Fusarium_euwallaceae,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,2,0,0.693147181,-Inf
+Fusarium flagelliforme,Fusarium_flagelliforme,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,2,0,0.693147181,-Inf
+Fusarium floridanum,Fusarium_floridanum,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,2,0,0.693147181,-Inf
+Fusarium oligoseptatum,Fusarium_oligoseptatum,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,2,0,0.693147181,-Inf
+Fusarium oxysporum f. sp. narcissi,Fusarium_oxysporum_f._sp._narcissi,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,2,0,0.693147181,-Inf
+Fusarium poae,Fusarium_poae,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,2,0,0.693147181,-Inf
+Fusarium sp. AF-6,Fusarium_sp._AF-6,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,2,0,0.693147181,-Inf
+Fusarium torreyae,Fusarium_torreyae,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,2,0,0.693147181,-Inf
+Fusarium venenatum,Fusarium_venenatum,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,2,0,0.693147181,-Inf
+Ilyonectria destructans,Ilyonectria_destructans,Ascomycota,Sordariomycetes,Hypocreales,Ilyonectria,Yes,No,2,0,0.693147181,-Inf
+Lecanicillium fungicola,Lecanicillium_fungicola,Ascomycota,Sordariomycetes,Hypocreales,Lecanicillium,Yes,No,2,0,0.693147181,-Inf
+Saitoella complicata NRRL Y-17804,Saitoella_complicata_NRRL_Y-17804,Ascomycota,Unknown,Unknown,Saitoella,Yes,No,2,0,0.693147181,-Inf
+Agaricus bisporus var. burnettii,Agaricus_bisporus_var._burnettii,Basidiomycota,Agaricomycetes,Agaricales,Agaricus,Yes,No,2,0,0.693147181,-Inf
+Armillaria borealis,Armillaria_borealis,Basidiomycota,Agaricomycetes,Agaricales,Armillaria,Yes,No,2,0,0.693147181,-Inf
+Coprinopsis cinerea okayama7#130,Coprinopsis_cinerea_okayama7#130,Basidiomycota,Agaricomycetes,Agaricales,Coprinopsis,Yes,No,2,0,0.693147181,-Inf
+Hymenopellis radicata,Hymenopellis_radicata,Basidiomycota,Agaricomycetes,Agaricales,Hymenopellis,Yes,No,2,0,0.693147181,-Inf
+Lentinula novae-zelandiae,Lentinula_novae-zelandiae,Basidiomycota,Agaricomycetes,Agaricales,Lentinula,Yes,No,2,0,0.693147181,-Inf
+Pleurotus eryngii,Pleurotus_eryngii,Basidiomycota,Agaricomycetes,Agaricales,Pleurotus,Yes,No,2,0,0.693147181,-Inf
+Pleurotus ostreatus PC15,Pleurotus_ostreatus_PC15,Basidiomycota,Agaricomycetes,Agaricales,Pleurotus,Yes,No,2,0,0.693147181,-Inf
+Schizophyllum commune Loenen D,Schizophyllum_commune_Loenen_D,Basidiomycota,Agaricomycetes,Agaricales,Schizophyllum,Yes,No,2,0,0.693147181,-Inf
+Schizopora paradoxa,Schizopora_paradoxa,Basidiomycota,Agaricomycetes,Hymenochaetales,Schizopora,Yes,No,2,0,0.693147181,-Inf
+Grifola frondosa,Grifola_frondosa,Basidiomycota,Agaricomycetes,Polyporales,Grifola,Yes,No,2,0,0.693147181,-Inf
+Lactarius deliciosus,Lactarius_deliciosus,Basidiomycota,Agaricomycetes,Russulales,Lactarius,Yes,No,2,0,0.693147181,-Inf
+Peniophora sp. CBMAI 1063,Peniophora_sp._CBMAI_1063,Basidiomycota,Agaricomycetes,Russulales,Peniophora,Yes,No,2,0,0.693147181,-Inf
+Phaffia rhodozyma,Phaffia_rhodozyma,Basidiomycota,Tremellomycetes,Mrakiaceae,Phaffia,Yes,No,2,0,0.693147181,-Inf
+Ustilago hordei,Ustilago_hordei,Basidiomycota,Ustilaginomycetes,Ustilaginales,Ustilago,Yes,No,2,0,0.693147181,-Inf
+Anaeromyces robustus,Anaeromyces_robustus,Chytridiomycota,Neocallimastigomycetes,Neocallimastigales,Anaeromyces,Yes,No,2,0,0.693147181,-Inf
+Entomophthora muscae,Entomophthora_muscae,Zoopagomycota,Entomophthoromycetes,Entomophthorales,Entomophthora,Yes,No,2,0,0.693147181,-Inf
+Diplodia seriata,Diplodia_seriata,Ascomycota,Dothideomycetes,Botryosphaeriales,Diplodia,Yes,Yes,2,1,0.693147181,0
+Cercospora beticola,Cercospora_beticola,Ascomycota,Dothideomycetes,Mycosphaerellales,Cercospora,Yes,Yes,2,1,0.693147181,0
+Aspergillus chevalieri,Aspergillus_chevalieri,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,2,1,0.693147181,0
+Aspergillus hancockii,Aspergillus_hancockii,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,2,1,0.693147181,0
+Aspergillus nidulans FGSC A4,Aspergillus_nidulans_FGSC_A4,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,2,1,0.693147181,0
+Aspergillus turcosus,Aspergillus_turcosus,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,2,1,0.693147181,0
+Aspergillus wentii DTO 134E9,Aspergillus_wentii_DTO_134E9,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,2,1,0.693147181,0
+Penicillium malachiteum,Penicillium_malachiteum,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,Yes,2,3,0.693147181,1.098612289
+Trichophyton benhamiae CBS 112371,Trichophyton_benhamiae_CBS_112371,Ascomycota,Eurotiomycetes,Onygenales,Trichophyton,Yes,Yes,2,2,0.693147181,0.693147181
+Trichoglossum hirsutum,Trichoglossum_hirsutum,Ascomycota,Geoglossomycetes,Geoglossales,Trichoglossum,Yes,Yes,2,2,0.693147181,0.693147181
+Botrytis porri,Botrytis_porri,Ascomycota,Leotiomycetes,Helotiales,Botrytis,Yes,Yes,2,1,0.693147181,0
+Diaporthe ampelina,Diaporthe_ampelina,Ascomycota,Sordariomycetes,Diaporthales,Diaporthe,Yes,Yes,2,1,0.693147181,0
+Colletotrichum incanum,Colletotrichum_incanum,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,Yes,2,1,0.693147181,0
+Clonostachys rosea,Clonostachys_rosea,Ascomycota,Sordariomycetes,Hypocreales,Clonostachys,Yes,Yes,2,1,0.693147181,0
+Cordyceps fumosorosea ARSEF 2679,Cordyceps_fumosorosea_ARSEF_2679,Ascomycota,Sordariomycetes,Hypocreales,Cordyceps,Yes,Yes,2,1,0.693147181,0
+Fusarium avenaceum,Fusarium_avenaceum,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,Yes,2,1,0.693147181,0
+Tolypocladium ophioglossoides CBS 100239,Tolypocladium_ophioglossoides_CBS_100239,Ascomycota,Sordariomycetes,Hypocreales,Tolypocladium,Yes,Yes,2,1,0.693147181,0
+Pyricularia grisea,Pyricularia_grisea,Ascomycota,Sordariomycetes,Magnaporthales,Pyricularia,Yes,Yes,2,2,0.693147181,0.693147181
+Xylaria longipes,Xylaria_longipes,Ascomycota,Sordariomycetes,Xylariales,Xylaria,Yes,Yes,2,1,0.693147181,0
+Amanita muscaria Koide BX008,Amanita_muscaria_Koide_BX008,Basidiomycota,Agaricomycetes,Agaricales,Amanita,Yes,Yes,2,1,0.693147181,0
+Armillaria fumosa,Armillaria_fumosa,Basidiomycota,Agaricomycetes,Agaricales,Armillaria,Yes,Yes,2,1,0.693147181,0
+Armillaria gallica,Armillaria_gallica,Basidiomycota,Agaricomycetes,Agaricales,Armillaria,Yes,Yes,2,1,0.693147181,0
+Armillaria luteobubalina,Armillaria_luteobubalina,Basidiomycota,Agaricomycetes,Agaricales,Armillaria,Yes,Yes,2,1,0.693147181,0
+Armillaria mellea,Armillaria_mellea,Basidiomycota,Agaricomycetes,Agaricales,Armillaria,Yes,Yes,2,1,0.693147181,0
+Armillaria nabsnona,Armillaria_nabsnona,Basidiomycota,Agaricomycetes,Agaricales,Armillaria,Yes,Yes,2,1,0.693147181,0
+Armillaria novae-zelandiae,Armillaria_novae-zelandiae,Basidiomycota,Agaricomycetes,Agaricales,Armillaria,Yes,Yes,2,1,0.693147181,0
+Armillaria ostoyae,Armillaria_ostoyae,Basidiomycota,Agaricomycetes,Agaricales,Armillaria,Yes,Yes,2,1,0.693147181,0
+Armillaria solidipes,Armillaria_solidipes,Basidiomycota,Agaricomycetes,Agaricales,Armillaria,Yes,Yes,2,1,0.693147181,0
+Auriculariopsis ampla,Auriculariopsis_ampla,Basidiomycota,Agaricomycetes,Agaricales,Auriculariopsis,Yes,Yes,2,1,0.693147181,0
+Coprinopsis marcescibilis,Coprinopsis_marcescibilis,Basidiomycota,Agaricomycetes,Agaricales,Coprinopsis,Yes,Yes,2,1,0.693147181,0
+Crepidotus variabilis,Crepidotus_variabilis,Basidiomycota,Agaricomycetes,Agaricales,Crepidotus,Yes,Yes,2,1,0.693147181,0
+Crucibulum laeve,Crucibulum_laeve,Basidiomycota,Agaricomycetes,Agaricales,Crucibulum,Yes,Yes,2,1,0.693147181,0
+Desarmillaria ectypa,Desarmillaria_ectypa,Basidiomycota,Agaricomycetes,Agaricales,Desarmillaria,Yes,Yes,2,1,0.693147181,0
+Galerina marginata CBS 339.88,Galerina_marginata_CBS_339.88,Basidiomycota,Agaricomycetes,Agaricales,Galerina,Yes,Yes,2,1,0.693147181,0
+Guyanagaster necrorhizus MCA 3950,Guyanagaster_necrorhizus_MCA_3950,Basidiomycota,Agaricomycetes,Agaricales,Guyanagaster,Yes,Yes,2,1,0.693147181,0
+Gymnopilus junonius,Gymnopilus_junonius,Basidiomycota,Agaricomycetes,Agaricales,Gymnopilus,Yes,Yes,2,1,0.693147181,0
+Gymnopus androsaceus JB14,Gymnopus_androsaceus_JB14,Basidiomycota,Agaricomycetes,Agaricales,Gymnopus,Yes,Yes,2,1,0.693147181,0
+Hypholoma sublateritium FD-334 SS-4,Hypholoma_sublateritium_FD-334_SS-4,Basidiomycota,Agaricomycetes,Agaricales,Hypholoma,Yes,Yes,2,1,0.693147181,0
+Laccaria bicolor S238N-H82,Laccaria_bicolor_S238N-H82,Basidiomycota,Agaricomycetes,Agaricales,Laccaria,Yes,Yes,2,1,0.693147181,0
+Lentinula aff. detonsa,Lentinula_aff._detonsa,Basidiomycota,Agaricomycetes,Agaricales,Lentinula,Yes,Yes,2,2,0.693147181,0.693147181
+Lentinula aff. lateritia,Lentinula_aff._lateritia,Basidiomycota,Agaricomycetes,Agaricales,Lentinula,Yes,Yes,2,1,0.693147181,0
+Lentinula boryana,Lentinula_boryana,Basidiomycota,Agaricomycetes,Agaricales,Lentinula,Yes,Yes,2,1,0.693147181,0
+Mycena epipterygia,Mycena_epipterygia,Basidiomycota,Agaricomycetes,Agaricales,Mycena,Yes,Yes,2,1,0.693147181,0
+Phlegmacium glaucopus,Phlegmacium_glaucopus,Basidiomycota,Agaricomycetes,Agaricales,Phlegmacium,Yes,Yes,2,1,0.693147181,0
+Pleurotus djamor,Pleurotus_djamor,Basidiomycota,Agaricomycetes,Agaricales,Pleurotus,Yes,Yes,2,1,0.693147181,0
+Pluteus cervinus,Pluteus_cervinus,Basidiomycota,Agaricomycetes,Agaricales,Pluteus,Yes,Yes,2,1,0.693147181,0
+Tricholoma matsutake 945,Tricholoma_matsutake_945,Basidiomycota,Agaricomycetes,Agaricales,Tricholoma,Yes,Yes,2,1,0.693147181,0
+Volvariella volvacea WC 439,Volvariella_volvacea_WC_439,Basidiomycota,Agaricomycetes,Agaricales,Volvariella,Yes,Yes,2,1,0.693147181,0
+Piloderma croceum F 1598,Piloderma_croceum_F_1598,Basidiomycota,Agaricomycetes,Atheliales,Piloderma,Yes,Yes,2,1,0.693147181,0
+Hygrophoropsis aurantiaca,Hygrophoropsis_aurantiaca,Basidiomycota,Agaricomycetes,Boletales,Hygrophoropsis,Yes,Yes,2,1,0.693147181,0
+Pisolithus albus,Pisolithus_albus,Basidiomycota,Agaricomycetes,Boletales,Pisolithus,Yes,Yes,2,1,0.693147181,0
+Suillus spraguei,Suillus_spraguei,Basidiomycota,Agaricomycetes,Boletales,Suillus,Yes,Yes,2,1,0.693147181,0
+Punctularia strigosozonata HHB-11173 SS5,Punctularia_strigosozonata_HHB-11173_SS5,Basidiomycota,Agaricomycetes,Corticiales,Punctularia,Yes,Yes,2,1,0.693147181,0
+Gloeophyllum trabeum ATCC 11539,Gloeophyllum_trabeum_ATCC_11539,Basidiomycota,Agaricomycetes,Gloeophyllales,Gloeophyllum,Yes,Yes,2,1,0.693147181,0
+Heliocybe sulcata,Heliocybe_sulcata,Basidiomycota,Agaricomycetes,Gloeophyllales,Heliocybe,Yes,Yes,2,1,0.693147181,0
+Neolentinus lepideus HHB14362 ss-1,Neolentinus_lepideus_HHB14362_ss-1,Basidiomycota,Agaricomycetes,Gloeophyllales,Neolentinus,Yes,Yes,2,1,0.693147181,0
+Ramaria rubella,Ramaria_rubella,Basidiomycota,Agaricomycetes,Gomphales,Ramaria,Yes,Yes,2,1,0.693147181,0
+Coniferiporia weirii,Coniferiporia_weirii,Basidiomycota,Agaricomycetes,Hymenochaetales,Coniferiporia,Yes,Yes,2,1,0.693147181,0
+Jaapia argillacea MUCL 33604,Jaapia_argillacea_MUCL_33604,Basidiomycota,Agaricomycetes,Jaapiales,Jaapia,Yes,Yes,2,1,0.693147181,0
+Gelatoporia subvermispora B,Gelatoporia_subvermispora_B,Basidiomycota,Agaricomycetes,Polyporales,Gelatoporia,Yes,Yes,2,1,0.693147181,0
+Rhodofomes roseus,Rhodofomes_roseus,Basidiomycota,Agaricomycetes,Polyporales,Rhodofomes,Yes,Yes,2,1,0.693147181,0
+Amylostereum chailletii,Amylostereum_chailletii,Basidiomycota,Agaricomycetes,Russulales,Amylostereum,Yes,Yes,2,1,0.693147181,0
+Artomyces pyxidatus,Artomyces_pyxidatus,Basidiomycota,Agaricomycetes,Russulales,Artomyces,Yes,Yes,2,1,0.693147181,0
+Hericium alpestre,Hericium_alpestre,Basidiomycota,Agaricomycetes,Russulales,Hericium,Yes,Yes,2,1,0.693147181,0
+Heterobasidion irregulare TC 32-1,Heterobasidion_irregulare_TC_32-1,Basidiomycota,Agaricomycetes,Russulales,Heterobasidion,Yes,Yes,2,1,0.693147181,0
+Stereum hirsutum FP-91666 SS1,Stereum_hirsutum_FP-91666_SS1,Basidiomycota,Agaricomycetes,Russulales,Stereum,Yes,Yes,2,1,0.693147181,0
+Serendipita vermifera MAFF 305830,Serendipita_vermifera_MAFF_305830,Basidiomycota,Agaricomycetes,Sebacinales,Serendipita,Yes,Yes,2,1,0.693147181,0
+Thelephora ganbajun,Thelephora_ganbajun,Basidiomycota,Agaricomycetes,Thelephorales,Thelephora,Yes,Yes,2,1,0.693147181,0
+Siphonaria sp. JEL0065,Siphonaria_sp._JEL0065,Chytridiomycota,Chytridiomycetes,Chytridiales,Siphonaria,Yes,Yes,2,3,0.693147181,1.098612289
+Gigaspora margarita,Gigaspora_margarita,Mucoromycota,Glomeromycetes,Diversisporales,Gigaspora,Yes,Yes,2,1,0.693147181,0
+Alyxoria varia,Alyxoria_varia,Ascomycota,Arthoniomycetes,Arthoniales,Alyxoria,Yes,No,1,0,0,-Inf
+Botryosphaeria dothidea,Botryosphaeria_dothidea,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeria,Yes,No,1,0,0,-Inf
+Lasiodiplodia theobromae,Lasiodiplodia_theobromae,Ascomycota,Dothideomycetes,Botryosphaeriales,Lasiodiplodia,Yes,No,1,0,0,-Inf
+Macrophomina phaseolina MS6,Macrophomina_phaseolina_MS6,Ascomycota,Dothideomycetes,Botryosphaeriales,Macrophomina,Yes,No,1,0,0,-Inf
+Rachicladosporium sp. CCFEE 5018,Rachicladosporium_sp._CCFEE_5018,Ascomycota,Dothideomycetes,Cladosporiales,Rachicladosporium,Yes,No,1,0,0,-Inf
+Microthyrium microscopicum,Microthyrium_microscopicum,Ascomycota,Dothideomycetes,Microthyriales,Microthyrium,Yes,No,1,0,0,-Inf
+Acidomyces richmondensis BFW,Acidomyces_richmondensis_BFW,Ascomycota,Dothideomycetes,Mycosphaerellales,Acidomyces,Yes,No,1,0,0,-Inf
+Pseudocercospora eumusae,Pseudocercospora_eumusae,Ascomycota,Dothideomycetes,Mycosphaerellales,Pseudocercospora,Yes,No,1,0,0,-Inf
+Pseudocercospora musae,Pseudocercospora_musae,Ascomycota,Dothideomycetes,Mycosphaerellales,Pseudocercospora,Yes,No,1,0,0,-Inf
+Ramularia collo-cygni,Ramularia_collo-cygni,Ascomycota,Dothideomycetes,Mycosphaerellales,Ramularia,Yes,No,1,0,0,-Inf
+Zymoseptoria brevis,Zymoseptoria_brevis,Ascomycota,Dothideomycetes,Mycosphaerellales,Zymoseptoria,Yes,No,1,0,0,-Inf
+Sphaceloma murrayae,Sphaceloma_murrayae,Ascomycota,Dothideomycetes,Myriangiales,Sphaceloma,Yes,No,1,0,0,-Inf
+Bipolaris maydis C5,Bipolaris_maydis_C5,Ascomycota,Dothideomycetes,Pleosporales,Bipolaris,Yes,No,1,0,0,-Inf
+Bipolaris victoriae FI3,Bipolaris_victoriae_FI3,Ascomycota,Dothideomycetes,Pleosporales,Bipolaris,Yes,No,1,0,0,-Inf
+Bipolaris zeicola 26-R-13,Bipolaris_zeicola_26-R-13,Ascomycota,Dothideomycetes,Pleosporales,Bipolaris,Yes,No,1,0,0,-Inf
+Epicoccum nigrum,Epicoccum_nigrum,Ascomycota,Dothideomycetes,Pleosporales,Epicoccum,Yes,No,1,0,0,-Inf
+Parastagonospora nodorum SN15,Parastagonospora_nodorum_SN15,Ascomycota,Dothideomycetes,Pleosporales,Parastagonospora,Yes,No,1,0,0,-Inf
+Pyrenophora seminiperda CCB06,Pyrenophora_seminiperda_CCB06,Ascomycota,Dothideomycetes,Pleosporales,Pyrenophora,Yes,No,1,0,0,-Inf
+Pyrenophora teres f. maculata,Pyrenophora_teres_f._maculata,Ascomycota,Dothideomycetes,Pleosporales,Pyrenophora,Yes,No,1,0,0,-Inf
+Venturia effusa,Venturia_effusa,Ascomycota,Dothideomycetes,Venturiales,Venturia,Yes,No,1,0,0,-Inf
+Cladophialophora bantiana CBS 173.52,Cladophialophora_bantiana_CBS_173.52,Ascomycota,Eurotiomycetes,Chaetothyriales,Cladophialophora,Yes,No,1,0,0,-Inf
+Cladophialophora carrionii CBS 160.54,Cladophialophora_carrionii_CBS_160.54,Ascomycota,Eurotiomycetes,Chaetothyriales,Cladophialophora,Yes,No,1,0,0,-Inf
+Cyphellophora europaea CBS 101466,Cyphellophora_europaea_CBS_101466,Ascomycota,Eurotiomycetes,Chaetothyriales,Cyphellophora,Yes,No,1,0,0,-Inf
+Exophiala mesophila,Exophiala_mesophila,Ascomycota,Eurotiomycetes,Chaetothyriales,Exophiala,Yes,No,1,0,0,-Inf
+Fonsecaea monophora,Fonsecaea_monophora,Ascomycota,Eurotiomycetes,Chaetothyriales,Fonsecaea,Yes,No,1,0,0,-Inf
+Fonsecaea multimorphosa CBS 102226,Fonsecaea_multimorphosa_CBS_102226,Ascomycota,Eurotiomycetes,Chaetothyriales,Fonsecaea,Yes,No,1,0,0,-Inf
+Fonsecaea nubica,Fonsecaea_nubica,Ascomycota,Eurotiomycetes,Chaetothyriales,Fonsecaea,Yes,No,1,0,0,-Inf
+Aspergillus aculeatinus CBS 121060,Aspergillus_aculeatinus_CBS_121060,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus calidoustus,Aspergillus_calidoustus,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus carbonarius ITEM 5010,Aspergillus_carbonarius_ITEM_5010,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus costaricaensis CBS 115574,Aspergillus_costaricaensis_CBS_115574,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus cristatus,Aspergillus_cristatus,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus ellipticus CBS 707.79,Aspergillus_ellipticus_CBS_707.79,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus eucalypticola CBS 122712,Aspergillus_eucalypticola_CBS_122712,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus fijiensis CBS 313.89,Aspergillus_fijiensis_CBS_313.89,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus fumigatus Z5,Aspergillus_fumigatus_Z5,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus ibericus CBS 121593,Aspergillus_ibericus_CBS_121593,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus japonicus CBS 114.51,Aspergillus_japonicus_CBS_114.51,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus luchuensis CBS 106.47,Aspergillus_luchuensis_CBS_106.47,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus neoniger CBS 115656,Aspergillus_neoniger_CBS_115656,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus niger CBS 101883,Aspergillus_niger_CBS_101883,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus piperis CBS 112811,Aspergillus_piperis_CBS_112811,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus rambellii,Aspergillus_rambellii,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus ruber CBS 135680,Aspergillus_ruber_CBS_135680,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus sclerotiicarbonarius CBS 121057,Aspergillus_sclerotiicarbonarius_CBS_121057,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus sclerotioniger CBS 115572,Aspergillus_sclerotioniger_CBS_115572,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus sydowii CBS 593.65,Aspergillus_sydowii_CBS_593.65,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus tubingensis CBS 134.48,Aspergillus_tubingensis_CBS_134.48,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus uvarum CBS 121591,Aspergillus_uvarum_CBS_121591,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus violaceofuscus CBS 115571,Aspergillus_violaceofuscus_CBS_115571,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Aspergillus welwitschiae,Aspergillus_welwitschiae,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,No,1,0,0,-Inf
+Paecilomyces variotii No. 5,Paecilomyces_variotii_No._5,Ascomycota,Eurotiomycetes,Eurotiales,Paecilomyces,Yes,No,1,0,0,-Inf
+Penicillium antarcticum,Penicillium_antarcticum,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,1,0,0,-Inf
+Penicillium camemberti,Penicillium_camemberti,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,1,0,0,-Inf
+Penicillium digitatum PHI26,Penicillium_digitatum_PHI26,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,1,0,0,-Inf
+Penicillium flavigenum,Penicillium_flavigenum,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,1,0,0,-Inf
+Penicillium griseofulvum,Penicillium_griseofulvum,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,1,0,0,-Inf
+Penicillium italicum,Penicillium_italicum,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,1,0,0,-Inf
+Penicillium nordicum,Penicillium_nordicum,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,1,0,0,-Inf
+Penicillium oxalicum 114-2,Penicillium_oxalicum_114-2,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,1,0,0,-Inf
+Penicillium polonicum,Penicillium_polonicum,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,1,0,0,-Inf
+Penicillium roqueforti FM164,Penicillium_roqueforti_FM164,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,1,0,0,-Inf
+Penicillium solitum,Penicillium_solitum,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,1,0,0,-Inf
+Penicillium subrubescens,Penicillium_subrubescens,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,1,0,0,-Inf
+Penicillium verrucosum,Penicillium_verrucosum,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,1,0,0,-Inf
+Penicillium vulpinum,Penicillium_vulpinum,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,No,1,0,0,-Inf
+Talaromyces marneffei ATCC 18224,Talaromyces_marneffei_ATCC_18224,Ascomycota,Eurotiomycetes,Eurotiales,Talaromyces,Yes,No,1,0,0,-Inf
+Talaromyces verruculosus,Talaromyces_verruculosus,Ascomycota,Eurotiomycetes,Eurotiales,Talaromyces,Yes,No,1,0,0,-Inf
+Ascosphaera apis ARSEF 7405,Ascosphaera_apis_ARSEF_7405,Ascomycota,Eurotiomycetes,Onygenales,Ascosphaera,Yes,No,1,0,0,-Inf
+Blastomyces dermatitidis ER-3,Blastomyces_dermatitidis_ER-3,Ascomycota,Eurotiomycetes,Onygenales,Blastomyces,Yes,No,1,0,0,-Inf
+Blastomyces gilchristii SLH14081,Blastomyces_gilchristii_SLH14081,Ascomycota,Eurotiomycetes,Onygenales,Blastomyces,Yes,No,1,0,0,-Inf
+Blastomyces parvus,Blastomyces_parvus,Ascomycota,Eurotiomycetes,Onygenales,Blastomyces,Yes,No,1,0,0,-Inf
+Blastomyces percursus,Blastomyces_percursus,Ascomycota,Eurotiomycetes,Onygenales,Blastomyces,Yes,No,1,0,0,-Inf
+Coccidioides immitis RMSCC 2394,Coccidioides_immitis_RMSCC_2394,Ascomycota,Eurotiomycetes,Onygenales,Coccidioides,Yes,No,1,0,0,-Inf
+Coccidioides posadasii RMSCC 3488,Coccidioides_posadasii_RMSCC_3488,Ascomycota,Eurotiomycetes,Onygenales,Coccidioides,Yes,No,1,0,0,-Inf
+Paracoccidioides brasiliensis Pb03,Paracoccidioides_brasiliensis_Pb03,Ascomycota,Eurotiomycetes,Onygenales,Paracoccidioides,Yes,No,1,0,0,-Inf
+Trichophyton mentagrophytes,Trichophyton_mentagrophytes,Ascomycota,Eurotiomycetes,Onygenales,Trichophyton,Yes,No,1,0,0,-Inf
+Endocarpon pusillum,Endocarpon_pusillum,Ascomycota,Eurotiomycetes,Verrucariales,Endocarpon,Yes,No,1,0,0,-Inf
+Blumeria graminis f. sp. tritici,Blumeria_graminis_f._sp._tritici,Ascomycota,Leotiomycetes,Erysiphales,Blumeria,Yes,No,1,0,0,-Inf
+Botryotinia calthae,Botryotinia_calthae,Ascomycota,Leotiomycetes,Helotiales,Botryotinia,Yes,No,1,0,0,-Inf
+Botryotinia convoluta,Botryotinia_convoluta,Ascomycota,Leotiomycetes,Helotiales,Botryotinia,Yes,No,1,0,0,-Inf
+Botrytis byssoidea,Botrytis_byssoidea,Ascomycota,Leotiomycetes,Helotiales,Botrytis,Yes,No,1,0,0,-Inf
+Botrytis elliptica,Botrytis_elliptica,Ascomycota,Leotiomycetes,Helotiales,Botrytis,Yes,No,1,0,0,-Inf
+Botrytis galanthina,Botrytis_galanthina,Ascomycota,Leotiomycetes,Helotiales,Botrytis,Yes,No,1,0,0,-Inf
+Botrytis hyacinthi,Botrytis_hyacinthi,Ascomycota,Leotiomycetes,Helotiales,Botrytis,Yes,No,1,0,0,-Inf
+Botrytis paeoniae,Botrytis_paeoniae,Ascomycota,Leotiomycetes,Helotiales,Botrytis,Yes,No,1,0,0,-Inf
+Botrytis sinoallii,Botrytis_sinoallii,Ascomycota,Leotiomycetes,Helotiales,Botrytis,Yes,No,1,0,0,-Inf
+Botrytis tulipae,Botrytis_tulipae,Ascomycota,Leotiomycetes,Helotiales,Botrytis,Yes,No,1,0,0,-Inf
+Coleophoma crateriformis,Coleophoma_crateriformis,Ascomycota,Leotiomycetes,Helotiales,Coleophoma,Yes,No,1,0,0,-Inf
+Diplocarpon rosae,Diplocarpon_rosae,Ascomycota,Leotiomycetes,Helotiales,Diplocarpon,Yes,No,1,0,0,-Inf
+Glarea lozoyensis 74030,Glarea_lozoyensis_74030,Ascomycota,Leotiomycetes,Helotiales,Glarea,Yes,No,1,0,0,-Inf
+Marssonina coronariae,Marssonina_coronariae,Ascomycota,Leotiomycetes,Helotiales,Marssonina,Yes,No,1,0,0,-Inf
+Rhynchosporium commune,Rhynchosporium_commune,Ascomycota,Leotiomycetes,Helotiales,Rhynchosporium,Yes,No,1,0,0,-Inf
+Rutstroemia sp. NJR-2017a BVV2,Rutstroemia_sp._NJR-2017a_BVV2,Ascomycota,Leotiomycetes,Helotiales,Rutstroemia,Yes,No,1,0,0,-Inf
+Sclerotinia borealis F-4128,Sclerotinia_borealis_F-4128,Ascomycota,Leotiomycetes,Helotiales,Sclerotinia,Yes,No,1,0,0,-Inf
+Sclerotinia trifoliorum,Sclerotinia_trifoliorum,Ascomycota,Leotiomycetes,Helotiales,Sclerotinia,Yes,No,1,0,0,-Inf
+Pseudogymnoascus destructans 20631-21,Pseudogymnoascus_destructans_20631-21,Ascomycota,Leotiomycetes,Unknown,Pseudogymnoascus,Yes,No,1,0,0,-Inf
+Pseudogymnoascus sp. 23342-1-I1,Pseudogymnoascus_sp._23342-1-I1,Ascomycota,Leotiomycetes,Unknown,Pseudogymnoascus,Yes,No,1,0,0,-Inf
+Pseudogymnoascus sp. VKM F-103,Pseudogymnoascus_sp._VKM_F-103,Ascomycota,Leotiomycetes,Unknown,Pseudogymnoascus,Yes,No,1,0,0,-Inf
+Pseudogymnoascus sp. VKM F-3557,Pseudogymnoascus_sp._VKM_F-3557,Ascomycota,Leotiomycetes,Unknown,Pseudogymnoascus,Yes,No,1,0,0,-Inf
+Pseudogymnoascus sp. WSF 3629,Pseudogymnoascus_sp._WSF_3629,Ascomycota,Leotiomycetes,Unknown,Pseudogymnoascus,Yes,No,1,0,0,-Inf
+Morchella conica CCBAS932,Morchella_conica_CCBAS932,Ascomycota,Pezizomycetes,Pezizales,Morchella,Yes,No,1,0,0,-Inf
+Ascoidea rubescens DSM 1968,Ascoidea_rubescens_DSM_1968,Ascomycota,Saccharomycetes,Saccharomycetales,Ascoidea,Yes,No,1,0,0,-Inf
+Babjeviella inositovora NRRL Y-12698,Babjeviella_inositovora_NRRL_Y-12698,Ascomycota,Saccharomycetes,Saccharomycetales,Babjeviella,Yes,No,1,0,0,-Inf
+Candida albicans P57055,Candida_albicans_P57055,Ascomycota,Saccharomycetes,Saccharomycetales,Candida,Yes,No,1,0,0,-Inf
+Candida dubliniensis CD36,Candida_dubliniensis_CD36,Ascomycota,Saccharomycetes,Saccharomycetales,Candida,Yes,No,1,0,0,-Inf
+Candida haemuloni var. vulneris,Candida_haemuloni_var._vulneris,Ascomycota,Saccharomycetes,Saccharomycetales,Candida,Yes,No,1,0,0,-Inf
+Candida orthopsilosis Co 90-125,Candida_orthopsilosis_Co_90-125,Ascomycota,Saccharomycetes,Saccharomycetales,Candida,Yes,No,1,0,0,-Inf
+Candida tropicalis MYA-3404,Candida_tropicalis_MYA-3404,Ascomycota,Saccharomycetes,Saccharomycetales,Candida,Yes,No,1,0,0,-Inf
+Clavispora lusitaniae ATCC 42720,Clavispora_lusitaniae_ATCC_42720,Ascomycota,Saccharomycetes,Saccharomycetales,Clavispora,Yes,No,1,0,0,-Inf
+Cyberlindnera jadinii NRRL Y-1542,Cyberlindnera_jadinii_NRRL_Y-1542,Ascomycota,Saccharomycetes,Saccharomycetales,Cyberlindnera,Yes,No,1,0,0,-Inf
+Debaryomyces hansenii CBS767,Debaryomyces_hansenii_CBS767,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomyces,Yes,No,1,0,0,-Inf
+Eremothecium cymbalariae DBVPG#7215,Eremothecium_cymbalariae_DBVPG#7215,Ascomycota,Saccharomycetes,Saccharomycetales,Eremothecium,Yes,No,1,0,0,-Inf
+Eremothecium gossypii ATCC 10895,Eremothecium_gossypii_ATCC_10895,Ascomycota,Saccharomycetes,Saccharomycetales,Eremothecium,Yes,No,1,0,0,-Inf
+Eremothecium sinecaudum,Eremothecium_sinecaudum,Ascomycota,Saccharomycetes,Saccharomycetales,Eremothecium,Yes,No,1,0,0,-Inf
+Hyphopichia burtonii NRRL Y-1933,Hyphopichia_burtonii_NRRL_Y-1933,Ascomycota,Saccharomycetes,Saccharomycetales,Hyphopichia,Yes,No,1,0,0,-Inf
+Kazachstania africana CBS 2517,Kazachstania_africana_CBS_2517,Ascomycota,Saccharomycetes,Saccharomycetales,Kazachstania,Yes,No,1,0,0,-Inf
+Kazachstania naganishii CBS 8797,Kazachstania_naganishii_CBS_8797,Ascomycota,Saccharomycetes,Saccharomycetales,Kazachstania,Yes,No,1,0,0,-Inf
+Kluyveromyces marxianus DMKU3-1042,Kluyveromyces_marxianus_DMKU3-1042,Ascomycota,Saccharomycetes,Saccharomycetales,Kluyveromyces,Yes,No,1,0,0,-Inf
+Komagataella phaffii CBS 7435,Komagataella_phaffii_CBS_7435,Ascomycota,Saccharomycetes,Saccharomycetales,Komagataella,Yes,No,1,0,0,-Inf
+Kuraishia capsulata CBS 1993,Kuraishia_capsulata_CBS_1993,Ascomycota,Saccharomycetes,Saccharomycetales,Kuraishia,Yes,No,1,0,0,-Inf
+Lachancea lanzarotensis,Lachancea_lanzarotensis,Ascomycota,Saccharomycetes,Saccharomycetales,Lachancea,Yes,No,1,0,0,-Inf
+Lachancea thermotolerans CBS 6340,Lachancea_thermotolerans_CBS_6340,Ascomycota,Saccharomycetes,Saccharomycetales,Lachancea,Yes,No,1,0,0,-Inf
+Lipomyces starkeyi NRRL Y-11557,Lipomyces_starkeyi_NRRL_Y-11557,Ascomycota,Saccharomycetes,Saccharomycetales,Lipomyces,Yes,No,1,0,0,-Inf
+Lodderomyces elongisporus NRRL YB-4239,Lodderomyces_elongisporus_NRRL_YB-4239,Ascomycota,Saccharomycetes,Saccharomycetales,Lodderomyces,Yes,No,1,0,0,-Inf
+Metschnikowia bicuspidata var. bicuspidata NRRL YB-4993,Metschnikowia_bicuspidata_var._bicuspidata_NRRL_YB-4993,Ascomycota,Saccharomycetes,Saccharomycetales,Metschnikowia,Yes,No,1,0,0,-Inf
+Meyerozyma guilliermondii ATCC 6260,Meyerozyma_guilliermondii_ATCC_6260,Ascomycota,Saccharomycetes,Saccharomycetales,Meyerozyma,Yes,No,1,0,0,-Inf
+Naumovozyma castellii CBS 4309,Naumovozyma_castellii_CBS_4309,Ascomycota,Saccharomycetes,Saccharomycetales,Naumovozyma,Yes,No,1,0,0,-Inf
+Naumovozyma dairenensis CBS 421,Naumovozyma_dairenensis_CBS_421,Ascomycota,Saccharomycetes,Saccharomycetales,Naumovozyma,Yes,No,1,0,0,-Inf
+Ogataea parapolymorpha DL-1,Ogataea_parapolymorpha_DL-1,Ascomycota,Saccharomycetes,Saccharomycetales,Ogataea,Yes,No,1,0,0,-Inf
+Ogataea philodendri,Ogataea_philodendri,Ascomycota,Saccharomycetes,Saccharomycetales,Ogataea,Yes,No,1,0,0,-Inf
+Pichia membranifaciens NRRL Y-2026,Pichia_membranifaciens_NRRL_Y-2026,Ascomycota,Saccharomycetes,Saccharomycetales,Pichia,Yes,No,1,0,0,-Inf
+Saccharomyces eubayanus,Saccharomyces_eubayanus,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomyces,Yes,No,1,0,0,-Inf
+Saccharomyces mikatae IFO 1815,Saccharomyces_mikatae_IFO_1815,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomyces,Yes,No,1,0,0,-Inf
+Saccharomyces paradoxus,Saccharomyces_paradoxus,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomyces,Yes,No,1,0,0,-Inf
+Saccharomyces uvarum,Saccharomyces_uvarum,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomyces,Yes,No,1,0,0,-Inf
+Scheffersomyces stipitis CBS 6054,Scheffersomyces_stipitis_CBS_6054,Ascomycota,Saccharomycetes,Saccharomycetales,Scheffersomyces,Yes,No,1,0,0,-Inf
+Spathaspora passalidarum NRRL Y-27907,Spathaspora_passalidarum_NRRL_Y-27907,Ascomycota,Saccharomycetes,Saccharomycetales,Spathaspora,Yes,No,1,0,0,-Inf
+Sugiyamaella lignohabitans,Sugiyamaella_lignohabitans,Ascomycota,Saccharomycetes,Saccharomycetales,Sugiyamaella,Yes,No,1,0,0,-Inf
+Suhomyces tanzawaensis NRRL Y-17324,Suhomyces_tanzawaensis_NRRL_Y-17324,Ascomycota,Saccharomycetes,Saccharomycetales,Suhomyces,Yes,No,1,0,0,-Inf
+Tetrapisispora blattae CBS 6284,Tetrapisispora_blattae_CBS_6284,Ascomycota,Saccharomycetes,Saccharomycetales,Tetrapisispora,Yes,No,1,0,0,-Inf
+Tetrapisispora phaffii CBS 4417,Tetrapisispora_phaffii_CBS_4417,Ascomycota,Saccharomycetes,Saccharomycetales,Tetrapisispora,Yes,No,1,0,0,-Inf
+Wickerhamomyces anomalus NRRL Y-366-8,Wickerhamomyces_anomalus_NRRL_Y-366-8,Ascomycota,Saccharomycetes,Saccharomycetales,Wickerhamomyces,Yes,No,1,0,0,-Inf
+Wickerhamomyces ciferrii,Wickerhamomyces_ciferrii,Ascomycota,Saccharomycetes,Saccharomycetales,Wickerhamomyces,Yes,No,1,0,0,-Inf
+Yamadazyma tenuis ATCC 10573,Yamadazyma_tenuis_ATCC_10573,Ascomycota,Saccharomycetes,Saccharomycetales,Yamadazyma,Yes,No,1,0,0,-Inf
+Yarrowia lipolytica CLIB122,Yarrowia_lipolytica_CLIB122,Ascomycota,Saccharomycetes,Saccharomycetales,Yarrowia,Yes,No,1,0,0,-Inf
+Schizosaccharomyces cryophilus OY26,Schizosaccharomyces_cryophilus_OY26,Ascomycota,Schizosaccharomycetes,Schizosaccharomycetales,Schizosaccharomyces,Yes,No,1,0,0,-Inf
+Schizosaccharomyces japonicus yFS275,Schizosaccharomyces_japonicus_yFS275,Ascomycota,Schizosaccharomycetes,Schizosaccharomycetales,Schizosaccharomyces,Yes,No,1,0,0,-Inf
+Schizosaccharomyces octosporus yFS286,Schizosaccharomyces_octosporus_yFS286,Ascomycota,Schizosaccharomycetes,Schizosaccharomycetales,Schizosaccharomyces,Yes,No,1,0,0,-Inf
+Diaporthe helianthi,Diaporthe_helianthi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthe,Yes,No,1,0,0,-Inf
+Valsa malicola,Valsa_malicola,Ascomycota,Sordariomycetes,Diaporthales,Valsa,Yes,No,1,0,0,-Inf
+Colletotrichum acutatum,Colletotrichum_acutatum,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,No,1,0,0,-Inf
+Colletotrichum fioriniae PJ7,Colletotrichum_fioriniae_PJ7,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,No,1,0,0,-Inf
+Colletotrichum fructicola Nara gc5,Colletotrichum_fructicola_Nara_gc5,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,No,1,0,0,-Inf
+Colletotrichum gloeosporioides 23,Colletotrichum_gloeosporioides_23,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,No,1,0,0,-Inf
+Colletotrichum godetiae,Colletotrichum_godetiae,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,No,1,0,0,-Inf
+Colletotrichum salicis,Colletotrichum_salicis,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,No,1,0,0,-Inf
+Colletotrichum siamense,Colletotrichum_siamense,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,No,1,0,0,-Inf
+Colletotrichum simmondsii,Colletotrichum_simmondsii,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,No,1,0,0,-Inf
+Colletotrichum sublineola,Colletotrichum_sublineola,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,No,1,0,0,-Inf
+Colletotrichum truncatum,Colletotrichum_truncatum,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,No,1,0,0,-Inf
+Verticillium alfalfae VaMs.102,Verticillium_alfalfae_VaMs.102,Ascomycota,Sordariomycetes,Glomerellales,Verticillium,Yes,No,1,0,0,-Inf
+Verticillium dahliae VDG1,Verticillium_dahliae_VDG1,Ascomycota,Sordariomycetes,Glomerellales,Verticillium,Yes,No,1,0,0,-Inf
+Verticillium nonalfalfae,Verticillium_nonalfalfae,Ascomycota,Sordariomycetes,Glomerellales,Verticillium,Yes,No,1,0,0,-Inf
+Claviceps purpurea 20.1,Claviceps_purpurea_20.1,Ascomycota,Sordariomycetes,Hypocreales,Claviceps,Yes,No,1,0,0,-Inf
+Epichloe festucae Fl1,Epichloe_festucae_Fl1,Ascomycota,Sordariomycetes,Hypocreales,Epichloe,Yes,No,1,0,0,-Inf
+Escovopsis weberi,Escovopsis_weberi,Ascomycota,Sordariomycetes,Hypocreales,Escovopsis,Yes,No,1,0,0,-Inf
+Fusarium agapanthi,Fusarium_agapanthi,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,1,0,0,-Inf
+Fusarium circinatum,Fusarium_circinatum,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,1,0,0,-Inf
+Fusarium fujikuroi IMI 58289,Fusarium_fujikuroi_IMI_58289,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,1,0,0,-Inf
+Fusarium gaditjirri,Fusarium_gaditjirri,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,1,0,0,-Inf
+Fusarium graminearum PH-1,Fusarium_graminearum_PH-1,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,1,0,0,-Inf
+Fusarium heterosporum,Fusarium_heterosporum,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,1,0,0,-Inf
+Fusarium langsethiae,Fusarium_langsethiae,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,1,0,0,-Inf
+Fusarium nygamai,Fusarium_nygamai,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,1,0,0,-Inf
+Fusarium sp. NRRL 52700,Fusarium_sp._NRRL_52700,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,1,0,0,-Inf
+Fusarium sporotrichioides,Fusarium_sporotrichioides,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,1,0,0,-Inf
+Fusarium tricinctum,Fusarium_tricinctum,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,1,0,0,-Inf
+Fusarium verticillioides 7600,Fusarium_verticillioides_7600,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,No,1,0,0,-Inf
+Metarhizium anisopliae BRIP 53284,Metarhizium_anisopliae_BRIP_53284,Ascomycota,Sordariomycetes,Hypocreales,Metarhizium,Yes,No,1,0,0,-Inf
+Metarhizium brunneum ARSEF 3297,Metarhizium_brunneum_ARSEF_3297,Ascomycota,Sordariomycetes,Hypocreales,Metarhizium,Yes,No,1,0,0,-Inf
+Metarhizium guizhouense ARSEF 977,Metarhizium_guizhouense_ARSEF_977,Ascomycota,Sordariomycetes,Hypocreales,Metarhizium,Yes,No,1,0,0,-Inf
+Metarhizium majus ARSEF 297,Metarhizium_majus_ARSEF_297,Ascomycota,Sordariomycetes,Hypocreales,Metarhizium,Yes,No,1,0,0,-Inf
+Ophiocordyceps camponoti-rufipedis,Ophiocordyceps_camponoti-rufipedis,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordyceps,Yes,No,1,0,0,-Inf
+Ophiocordyceps polyrhachis-furcata BCC 54312,Ophiocordyceps_polyrhachis-furcata_BCC_54312,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordyceps,Yes,No,1,0,0,-Inf
+Ophiocordyceps sinensis CO18,Ophiocordyceps_sinensis_CO18,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordyceps,Yes,No,1,0,0,-Inf
+Trichoderma arundinaceum,Trichoderma_arundinaceum,Ascomycota,Sordariomycetes,Hypocreales,Trichoderma,Yes,No,1,0,0,-Inf
+Trichoderma asperellum CBS 433.97,Trichoderma_asperellum_CBS_433.97,Ascomycota,Sordariomycetes,Hypocreales,Trichoderma,Yes,No,1,0,0,-Inf
+Trichoderma citrinoviride,Trichoderma_citrinoviride,Ascomycota,Sordariomycetes,Hypocreales,Trichoderma,Yes,No,1,0,0,-Inf
+Trichoderma guizhouense,Trichoderma_guizhouense,Ascomycota,Sordariomycetes,Hypocreales,Trichoderma,Yes,No,1,0,0,-Inf
+Trichoderma harzianum CBS 226.95,Trichoderma_harzianum_CBS_226.95,Ascomycota,Sordariomycetes,Hypocreales,Trichoderma,Yes,No,1,0,0,-Inf
+Trichoderma longibrachiatum ATCC 18648,Trichoderma_longibrachiatum_ATCC_18648,Ascomycota,Sordariomycetes,Hypocreales,Trichoderma,Yes,No,1,0,0,-Inf
+Trichoderma parareesei,Trichoderma_parareesei,Ascomycota,Sordariomycetes,Hypocreales,Trichoderma,Yes,No,1,0,0,-Inf
+Trichoderma reesei RUT C-30,Trichoderma_reesei_RUT_C-30,Ascomycota,Sordariomycetes,Hypocreales,Trichoderma,Yes,No,1,0,0,-Inf
+Trichoderma virens FT-333,Trichoderma_virens_FT-333,Ascomycota,Sordariomycetes,Hypocreales,Trichoderma,Yes,No,1,0,0,-Inf
+Pyricularia oryzae Y34,Pyricularia_oryzae_Y34,Ascomycota,Sordariomycetes,Magnaporthales,Pyricularia,Yes,No,1,0,0,-Inf
+Ceratocystis fimbriata CBS 114723,Ceratocystis_fimbriata_CBS_114723,Ascomycota,Sordariomycetes,Microascales,Ceratocystis,Yes,No,1,0,0,-Inf
+Lomentospora prolificans,Lomentospora_prolificans,Ascomycota,Sordariomycetes,Microascales,Lomentospora,Yes,No,1,0,0,-Inf
+Sporothrix brasiliensis 5110,Sporothrix_brasiliensis_5110,Ascomycota,Sordariomycetes,Ophiostomatales,Sporothrix,Yes,No,1,0,0,-Inf
+Chaetomium globosum CBS 148.51,Chaetomium_globosum_CBS_148.51,Ascomycota,Sordariomycetes,Sordariales,Chaetomium,Yes,No,1,0,0,-Inf
+Madurella mycetomatis,Madurella_mycetomatis,Ascomycota,Sordariomycetes,Sordariales,Madurella,Yes,No,1,0,0,-Inf
+Neurospora crassa OR74A,Neurospora_crassa_OR74A,Ascomycota,Sordariomycetes,Sordariales,Neurospora,Yes,No,1,0,0,-Inf
+Neurospora tetrasperma FGSC 2509,Neurospora_tetrasperma_FGSC_2509,Ascomycota,Sordariomycetes,Sordariales,Neurospora,Yes,No,1,0,0,-Inf
+Podospora comata,Podospora_comata,Ascomycota,Sordariomycetes,Sordariales,Podospora,Yes,No,1,0,0,-Inf
+Sordaria macrospora,Sordaria_macrospora,Ascomycota,Sordariomycetes,Sordariales,Sordaria,Yes,No,1,0,0,-Inf
+Daldinia sp. EC12,Daldinia_sp._EC12,Ascomycota,Sordariomycetes,Xylariales,Daldinia,Yes,No,1,0,0,-Inf
+Nemania diffusa,Nemania_diffusa,Ascomycota,Sordariomycetes,Xylariales,Nemania,Yes,No,1,0,0,-Inf
+Protomyces lactucae-debilis,Protomyces_lactucae-debilis,Ascomycota,Taphrinomycetes,Taphrinales,Protomyces,Yes,No,1,0,0,-Inf
+Pleurotus cornucopiae,Pleurotus_cornucopiae,Basidiomycota,Agaricomycetes,Agaricales,Pleurotus,Yes,No,1,0,0,-Inf
+Termitomyces sp. J132,Termitomyces_sp._J132,Basidiomycota,Agaricomycetes,Agaricales,Termitomyces,Yes,No,1,0,0,-Inf
+Pisolithus tinctorius Marx 270,Pisolithus_tinctorius_Marx_270,Basidiomycota,Agaricomycetes,Boletales,Pisolithus,Yes,No,1,0,0,-Inf
+Serpula lacrymans var. lacrymans S7.3,Serpula_lacrymans_var._lacrymans_S7.3,Basidiomycota,Agaricomycetes,Boletales,Serpula,Yes,No,1,0,0,-Inf
+Clathrus columnatus,Clathrus_columnatus,Basidiomycota,Agaricomycetes,Phallales,Clathrus,Yes,No,1,0,0,-Inf
+Cerioporus squamosus,Cerioporus_squamosus,Basidiomycota,Agaricomycetes,Polyporales,Cerioporus,Yes,No,1,0,0,-Inf
+Daedalea quercina L-15889,Daedalea_quercina_L-15889,Basidiomycota,Agaricomycetes,Polyporales,Daedalea,Yes,No,1,0,0,-Inf
+Earliella scabrosa,Earliella_scabrosa,Basidiomycota,Agaricomycetes,Polyporales,Earliella,Yes,No,1,0,0,-Inf
+Ganoderma sinense ZZ0214-1,Ganoderma_sinense_ZZ0214-1,Basidiomycota,Agaricomycetes,Polyporales,Ganoderma,Yes,No,1,0,0,-Inf
+Lentinus tigrinus ALCF2SS1-7,Lentinus_tigrinus_ALCF2SS1-7,Basidiomycota,Agaricomycetes,Polyporales,Lentinus,Yes,No,1,0,0,-Inf
+Neoantrodia serialis,Neoantrodia_serialis,Basidiomycota,Agaricomycetes,Polyporales,Neoantrodia,Yes,No,1,0,0,-Inf
+Physisporinus lineatus,Physisporinus_lineatus,Basidiomycota,Agaricomycetes,Polyporales,Physisporinus,Yes,No,1,0,0,-Inf
+Polyporus arcularius HHB13444,Polyporus_arcularius_HHB13444,Basidiomycota,Agaricomycetes,Polyporales,Polyporus,Yes,No,1,0,0,-Inf
+Steccherinum ochraceum,Steccherinum_ochraceum,Basidiomycota,Agaricomycetes,Polyporales,Steccherinum,Yes,No,1,0,0,-Inf
+Trametes pubescens,Trametes_pubescens,Basidiomycota,Agaricomycetes,Polyporales,Trametes,Yes,No,1,0,0,-Inf
+Exobasidium rhododendri,Exobasidium_rhododendri,Basidiomycota,Exobasidiomycetes,Exobasidiales,Exobasidium,Yes,No,1,0,0,-Inf
+Rozella allomycis CSF55,Rozella_allomycis_CSF55,Cryptomycota,Unknown,Unknown,Rozella,Yes,No,1,0,0,-Inf
+Gigaspora rosea,Gigaspora_rosea,Mucoromycota,Glomeromycetes,Diversisporales,Gigaspora,Yes,No,1,0,0,-Inf
+Racocetra fulgida,Racocetra_fulgida,Mucoromycota,Glomeromycetes,Diversisporales,Racocetra,Yes,No,1,0,0,-Inf
+Funneliformis caledonium,Funneliformis_caledonium,Mucoromycota,Glomeromycetes,Glomerales,Funneliformis,Yes,No,1,0,0,-Inf
+Funneliformis mosseae,Funneliformis_mosseae,Mucoromycota,Glomeromycetes,Glomerales,Funneliformis,Yes,No,1,0,0,-Inf
+Rhizophagus sp. MUCL 43196,Rhizophagus_sp._MUCL_43196,Mucoromycota,Glomeromycetes,Glomerales,Rhizophagus,Yes,No,1,0,0,-Inf
+Conidiobolus coronatus NRRL 28638,Conidiobolus_coronatus_NRRL_28638,Zoopagomycota,Entomophthoromycetes,Entomophthorales,Conidiobolus,Yes,No,1,0,0,-Inf
+Neoconidiobolus thromboides FSU 785,Neoconidiobolus_thromboides_FSU_785,Zoopagomycota,Entomophthoromycetes,Entomophthorales,Neoconidiobolus,Yes,No,1,0,0,-Inf
+Candelaria pacifica,Candelaria_pacifica,Ascomycota,Candelariomycetes,Candelariales,Candelaria,Yes,Yes,1,1,0,0
+Sclerophora amabilis,Sclerophora_amabilis,Ascomycota,Coniocybomycetes,Coniocybales,Sclerophora,Yes,Yes,1,1,0,0
+Aplosporella prunicola CBS 121167,Aplosporella_prunicola_CBS_121167,Ascomycota,Dothideomycetes,Botryosphaeriales,Aplosporella,Yes,Yes,1,1,0,0
+Diplodia corticola,Diplodia_corticola,Ascomycota,Dothideomycetes,Botryosphaeriales,Diplodia,Yes,Yes,1,1,0,0
+Neofusicoccum parvum UCRNP2,Neofusicoccum_parvum_UCRNP2,Ascomycota,Dothideomycetes,Botryosphaeriales,Neofusicoccum,Yes,Yes,1,1,0,0
+Saccharata proteae CBS 121410,Saccharata_proteae_CBS_121410,Ascomycota,Dothideomycetes,Botryosphaeriales,Saccharata,Yes,Yes,1,1,0,0
+Polychaeton citri CBS 116435,Polychaeton_citri_CBS_116435,Ascomycota,Dothideomycetes,Capnodiales,Polychaeton,Yes,Yes,1,1,0,0
+Aureobasidium melanogenum CBS 110374,Aureobasidium_melanogenum_CBS_110374,Ascomycota,Dothideomycetes,Dothideales,Aureobasidium,Yes,Yes,1,1,0,0
+Aureobasidium namibiae CBS 147.97,Aureobasidium_namibiae_CBS_147.97,Ascomycota,Dothideomycetes,Dothideales,Aureobasidium,Yes,Yes,1,1,0,0
+Aureobasidium pullulans EXF-150,Aureobasidium_pullulans_EXF-150,Ascomycota,Dothideomycetes,Dothideales,Aureobasidium,Yes,Yes,1,1,0,0
+Aureobasidium subglaciale EXF-2481,Aureobasidium_subglaciale_EXF-2481,Ascomycota,Dothideomycetes,Dothideales,Aureobasidium,Yes,Yes,1,1,0,0
+Baudoinia panamericana UAMH 10762,Baudoinia_panamericana_UAMH_10762,Ascomycota,Dothideomycetes,Mycosphaerellales,Baudoinia,Yes,Yes,1,1,0,0
+Cercospora berteroae,Cercospora_berteroae,Ascomycota,Dothideomycetes,Mycosphaerellales,Cercospora,Yes,Yes,1,1,0,0
+Dothistroma septosporum NZE10,Dothistroma_septosporum_NZE10,Ascomycota,Dothideomycetes,Mycosphaerellales,Dothistroma,Yes,Yes,1,1,0,0
+Fulvia fulva,Fulvia_fulva,Ascomycota,Dothideomycetes,Mycosphaerellales,Fulvia,Yes,Yes,1,1,0,0
+Pseudocercospora fijiensis CIRAD86,Pseudocercospora_fijiensis_CIRAD86,Ascomycota,Dothideomycetes,Mycosphaerellales,Pseudocercospora,Yes,Yes,1,1,0,0
+Sphaerulina musiva SO2202,Sphaerulina_musiva_SO2202,Ascomycota,Dothideomycetes,Mycosphaerellales,Sphaerulina,Yes,Yes,1,1,0,0
+Zasmidium cellare ATCC 36951,Zasmidium_cellare_ATCC_36951,Ascomycota,Dothideomycetes,Mycosphaerellales,Zasmidium,Yes,Yes,1,1,0,0
+Zymoseptoria tritici IPO323,Zymoseptoria_tritici_IPO323,Ascomycota,Dothideomycetes,Mycosphaerellales,Zymoseptoria,Yes,Yes,1,1,0,0
+Elsinoe australis,Elsinoe_australis,Ascomycota,Dothideomycetes,Myriangiales,Elsinoe,Yes,Yes,1,2,0,0.693147181
+Lepidopterella palustris CBS 459.81,Lepidopterella_palustris_CBS_459.81,Ascomycota,Dothideomycetes,Mytilinidiales,Lepidopterella,Yes,Yes,1,1,0,0
+Patellaria atrata CBS 101060,Patellaria_atrata_CBS_101060,Ascomycota,Dothideomycetes,Patellariales,Patellaria,Yes,Yes,1,1,0,0
+Peltaster fructicola,Peltaster_fructicola,Ascomycota,Dothideomycetes,Peltaster,Peltaster,Yes,Yes,1,1,0,0
+Ascochyta rabiei,Ascochyta_rabiei,Ascomycota,Dothideomycetes,Pleosporales,Ascochyta,Yes,Yes,1,1,0,0
+Bipolaris oryzae ATCC 44560,Bipolaris_oryzae_ATCC_44560,Ascomycota,Dothideomycetes,Pleosporales,Bipolaris,Yes,Yes,1,1,0,0
+Bipolaris sorokiniana ND90Pr,Bipolaris_sorokiniana_ND90Pr,Ascomycota,Dothideomycetes,Pleosporales,Bipolaris,Yes,Yes,1,1,0,0
+Boeremia exigua,Boeremia_exigua,Ascomycota,Dothideomycetes,Pleosporales,Boeremia,Yes,Yes,1,2,0,0.693147181
+Byssothecium circinans,Byssothecium_circinans,Ascomycota,Dothideomycetes,Pleosporales,Byssothecium,Yes,Yes,1,1,0,0
+Clohesyomyces aquaticus,Clohesyomyces_aquaticus,Ascomycota,Dothideomycetes,Pleosporales,Clohesyomyces,Yes,Yes,1,1,0,0
+Corynespora cassiicola Philippines,Corynespora_cassiicola_Philippines,Ascomycota,Dothideomycetes,Pleosporales,Corynespora,Yes,Yes,1,1,0,0
+Curvularia clavata,Curvularia_clavata,Ascomycota,Dothideomycetes,Pleosporales,Curvularia,Yes,Yes,1,1,0,0
+Exserohilum turcica Et28A,Exserohilum_turcica_Et28A,Ascomycota,Dothideomycetes,Pleosporales,Exserohilum,Yes,Yes,1,1,0,0
+Periconia macrospinosa,Periconia_macrospinosa,Ascomycota,Dothideomycetes,Pleosporales,Periconia,Yes,Yes,1,1,0,0
+Pyrenochaeta sp. DS3sAY3a,Pyrenochaeta_sp._DS3sAY3a,Ascomycota,Dothideomycetes,Pleosporales,Pyrenochaeta,Yes,Yes,1,1,0,0
+Cenococcum geophilum 1.58,Cenococcum_geophilum_1.58,Ascomycota,Dothideomycetes,Unknown,Cenococcum,Yes,Yes,1,1,0,0
+Coniosporium apollinis CBS 100218,Coniosporium_apollinis_CBS_100218,Ascomycota,Dothideomycetes,Unknown,Coniosporium,Yes,Yes,1,1,0,0
+Glonium stellatum,Glonium_stellatum,Ascomycota,Dothideomycetes,Unknown,Glonium,Yes,Yes,1,1,0,0
+Verruconis gallopava,Verruconis_gallopava,Ascomycota,Dothideomycetes,Venturiales,Verruconis,Yes,Yes,1,1,0,0
+Capronia coronata CBS 617.96,Capronia_coronata_CBS_617.96,Ascomycota,Eurotiomycetes,Chaetothyriales,Capronia,Yes,Yes,1,1,0,0
+Capronia epimyces CBS 606.96,Capronia_epimyces_CBS_606.96,Ascomycota,Eurotiomycetes,Chaetothyriales,Capronia,Yes,Yes,1,1,0,0
+Cladophialophora psammophila CBS 110553,Cladophialophora_psammophila_CBS_110553,Ascomycota,Eurotiomycetes,Chaetothyriales,Cladophialophora,Yes,Yes,1,1,0,0
+Cladophialophora yegresii CBS 114405,Cladophialophora_yegresii_CBS_114405,Ascomycota,Eurotiomycetes,Chaetothyriales,Cladophialophora,Yes,Yes,1,1,0,0
+Exophiala aquamarina CBS 119918,Exophiala_aquamarina_CBS_119918,Ascomycota,Eurotiomycetes,Chaetothyriales,Exophiala,Yes,Yes,1,1,0,0
+Exophiala dermatitidis NIH/UT8656,Exophiala_dermatitidis_NIH/UT8656,Ascomycota,Eurotiomycetes,Chaetothyriales,Exophiala,Yes,Yes,1,1,0,0
+Exophiala oligosperma,Exophiala_oligosperma,Ascomycota,Eurotiomycetes,Chaetothyriales,Exophiala,Yes,Yes,1,1,0,0
+Exophiala sideris,Exophiala_sideris,Ascomycota,Eurotiomycetes,Chaetothyriales,Exophiala,Yes,Yes,1,1,0,0
+Exophiala spinifera,Exophiala_spinifera,Ascomycota,Eurotiomycetes,Chaetothyriales,Exophiala,Yes,Yes,1,1,0,0
+Exophiala xenobiotica,Exophiala_xenobiotica,Ascomycota,Eurotiomycetes,Chaetothyriales,Exophiala,Yes,Yes,1,2,0,0.693147181
+Fonsecaea erecta,Fonsecaea_erecta,Ascomycota,Eurotiomycetes,Chaetothyriales,Fonsecaea,Yes,Yes,1,1,0,0
+Fonsecaea pedrosoi CBS 271.37,Fonsecaea_pedrosoi_CBS_271.37,Ascomycota,Eurotiomycetes,Chaetothyriales,Fonsecaea,Yes,Yes,1,1,0,0
+Rhinocladiella mackenziei CBS 650.93,Rhinocladiella_mackenziei_CBS_650.93,Ascomycota,Eurotiomycetes,Chaetothyriales,Rhinocladiella,Yes,Yes,1,1,0,0
+Aspergillus aculeatus ATCC 16872,Aspergillus_aculeatus_ATCC_16872,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus awamori,Aspergillus_awamori,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus brasiliensis CBS 101740,Aspergillus_brasiliensis_CBS_101740,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus brunneoviolaceus CBS 621.78,Aspergillus_brunneoviolaceus_CBS_621.78,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus campestris IBT 28561,Aspergillus_campestris_IBT_28561,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus candidus,Aspergillus_candidus,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus clavatus NRRL 1,Aspergillus_clavatus_NRRL_1,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus fischeri NRRL 181,Aspergillus_fischeri_NRRL_181,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus heteromorphus CBS 117.55,Aspergillus_heteromorphus_CBS_117.55,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus homomorphus CBS 101889,Aspergillus_homomorphus_CBS_101889,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus mulundensis,Aspergillus_mulundensis,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus novofumigatus IBT 16806,Aspergillus_novofumigatus_IBT_16806,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus ochraceoroseus IBT 24754,Aspergillus_ochraceoroseus_IBT_24754,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus oryzae RIB40,Aspergillus_oryzae_RIB40,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus phoenicis ATCC 13157,Aspergillus_phoenicis_ATCC_13157,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus saccharolyticus JOP 1030-1,Aspergillus_saccharolyticus_JOP_1030-1,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus steynii IBT 23096,Aspergillus_steynii_IBT_23096,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus taichungensis,Aspergillus_taichungensis,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus tanneri,Aspergillus_tanneri,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,2,0,0.693147181
+Aspergillus terreus NIH2624,Aspergillus_terreus_NIH2624,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Aspergillus versicolor CBS 583.65,Aspergillus_versicolor_CBS_583.65,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillus,Yes,Yes,1,1,0,0
+Monascus purpureus,Monascus_purpureus,Ascomycota,Eurotiomycetes,Eurotiales,Monascus,Yes,Yes,1,2,0,0.693147181
+Penicilliopsis zonata CBS 506.65,Penicilliopsis_zonata_CBS_506.65,Ascomycota,Eurotiomycetes,Eurotiales,Penicilliopsis,Yes,Yes,1,1,0,0
+Penicillium arizonense,Penicillium_arizonense,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,Yes,1,1,0,0
+Penicillium capsulatum,Penicillium_capsulatum,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,Yes,1,1,0,0
+Penicillium citrinum,Penicillium_citrinum,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,Yes,1,1,0,0
+Penicillium coprophilum,Penicillium_coprophilum,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,Yes,1,1,0,0
+Penicillium decumbens,Penicillium_decumbens,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,Yes,1,1,0,0
+Penicillium expansum,Penicillium_expansum,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,Yes,1,1,0,0
+Penicillium rubens Wisconsin 54-1255,Penicillium_rubens_Wisconsin_54-1255,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,Yes,1,1,0,0
+Penicillium steckii,Penicillium_steckii,Ascomycota,Eurotiomycetes,Eurotiales,Penicillium,Yes,Yes,1,1,0,0
+Rasamsonia emersonii CBS 393.64,Rasamsonia_emersonii_CBS_393.64,Ascomycota,Eurotiomycetes,Eurotiales,Rasamsonia,Yes,Yes,1,1,0,0
+Talaromyces amestolkiae,Talaromyces_amestolkiae,Ascomycota,Eurotiomycetes,Eurotiales,Talaromyces,Yes,Yes,1,1,0,0
+Talaromyces atroroseus,Talaromyces_atroroseus,Ascomycota,Eurotiomycetes,Eurotiales,Talaromyces,Yes,Yes,1,1,0,0
+Talaromyces islandicus,Talaromyces_islandicus,Ascomycota,Eurotiomycetes,Eurotiales,Talaromyces,Yes,Yes,1,1,0,0
+Talaromyces stipitatus ATCC 10500,Talaromyces_stipitatus_ATCC_10500,Ascomycota,Eurotiomycetes,Eurotiales,Talaromyces,Yes,Yes,1,1,0,0
+Arthroderma uncinatum,Arthroderma_uncinatum,Ascomycota,Eurotiomycetes,Onygenales,Arthroderma,Yes,Yes,1,1,0,0
+Emergomyces pasteurianus Ep9510,Emergomyces_pasteurianus_Ep9510,Ascomycota,Eurotiomycetes,Onygenales,Emergomyces,Yes,Yes,1,1,0,0
+Emmonsia crescens UAMH 3008,Emmonsia_crescens_UAMH_3008,Ascomycota,Eurotiomycetes,Onygenales,Emmonsia,Yes,Yes,1,1,0,0
+Helicocarpus griseus UAMH5409,Helicocarpus_griseus_UAMH5409,Ascomycota,Eurotiomycetes,Onygenales,Helicocarpus,Yes,Yes,1,1,0,0
+Histoplasma capsulatum H143,Histoplasma_capsulatum_H143,Ascomycota,Eurotiomycetes,Onygenales,Histoplasma,Yes,Yes,1,1,0,0
+Microsporum canis CBS 113480,Microsporum_canis_CBS_113480,Ascomycota,Eurotiomycetes,Onygenales,Microsporum,Yes,Yes,1,1,0,0
+Nannizzia gypsea CBS 118893,Nannizzia_gypsea_CBS_118893,Ascomycota,Eurotiomycetes,Onygenales,Nannizzia,Yes,Yes,1,1,0,0
+Paracoccidioides lutzii Pb01,Paracoccidioides_lutzii_Pb01,Ascomycota,Eurotiomycetes,Onygenales,Paracoccidioides,Yes,Yes,1,1,0,0
+Polytolypa hystricis UAMH7299,Polytolypa_hystricis_UAMH7299,Ascomycota,Eurotiomycetes,Onygenales,Polytolypa,Yes,Yes,1,1,0,0
+Trichophyton equinum CBS 127.97,Trichophyton_equinum_CBS_127.97,Ascomycota,Eurotiomycetes,Onygenales,Trichophyton,Yes,Yes,1,1,0,0
+Trichophyton interdigitale H6,Trichophyton_interdigitale_H6,Ascomycota,Eurotiomycetes,Onygenales,Trichophyton,Yes,Yes,1,1,0,0
+Trichophyton verrucosum HKI 0517,Trichophyton_verrucosum_HKI_0517,Ascomycota,Eurotiomycetes,Onygenales,Trichophyton,Yes,Yes,1,1,0,0
+Trichophyton violaceum,Trichophyton_violaceum,Ascomycota,Eurotiomycetes,Onygenales,Trichophyton,Yes,Yes,1,1,0,0
+Uncinocarpus reesii 1704,Uncinocarpus_reesii_1704,Ascomycota,Eurotiomycetes,Onygenales,Uncinocarpus,Yes,Yes,1,1,0,0
+Phaeomoniella chlamydospora,Phaeomoniella_chlamydospora,Ascomycota,Eurotiomycetes,Phaeomoniellales,Phaeomoniella,Yes,Yes,1,1,0,0
+Pleopsidium flavum,Pleopsidium_flavum,Ascomycota,Lecanoromycetes,Acarosporales,Pleopsidium,Yes,Yes,1,1,0,0
+Heterodermia speciosa,Heterodermia_speciosa,Ascomycota,Lecanoromycetes,Caliciales,Heterodermia,Yes,Yes,1,1,0,0
+Physcia stellaris,Physcia_stellaris,Ascomycota,Lecanoromycetes,Caliciales,Physcia,Yes,Yes,1,1,0,0
+Alectoria sarmentosa,Alectoria_sarmentosa,Ascomycota,Lecanoromycetes,Lecanorales,Alectoria,Yes,Yes,1,2,0,0.693147181
+Cladonia borealis,Cladonia_borealis,Ascomycota,Lecanoromycetes,Lecanorales,Cladonia,Yes,Yes,1,1,0,0
+Imshaugia aleurites,Imshaugia_aleurites,Ascomycota,Lecanoromycetes,Lecanorales,Imshaugia,Yes,Yes,1,1,0,0
+Letharia columbiana,Letharia_columbiana,Ascomycota,Lecanoromycetes,Lecanorales,Letharia,Yes,Yes,1,1,0,0
+Diploschistes diacapsis,Diploschistes_diacapsis,Ascomycota,Lecanoromycetes,Ostropales,Diploschistes,Yes,Yes,1,1,0,0
+Caloplaca aegaea,Caloplaca_aegaea,Ascomycota,Lecanoromycetes,Teloschistales,Caloplaca,Yes,Yes,1,1,0,0
+Caloplaca aetnensis,Caloplaca_aetnensis,Ascomycota,Lecanoromycetes,Teloschistales,Caloplaca,Yes,Yes,1,1,0,0
+Letrouitia leprolyta,Letrouitia_leprolyta,Ascomycota,Lecanoromycetes,Teloschistales,Letrouitia,Yes,Yes,1,1,0,0
+Niorma chrysophthalma,Niorma_chrysophthalma,Ascomycota,Lecanoromycetes,Teloschistales,Niorma,Yes,Yes,1,1,0,0
+Seirophora lacunosa,Seirophora_lacunosa,Ascomycota,Lecanoromycetes,Teloschistales,Seirophora,Yes,Yes,1,1,0,0
+Teloschistes flavicans,Teloschistes_flavicans,Ascomycota,Lecanoromycetes,Teloschistales,Teloschistes,Yes,Yes,1,1,0,0
+Usnochroma carphineum,Usnochroma_carphineum,Ascomycota,Lecanoromycetes,Teloschistales,Usnochroma,Yes,Yes,1,1,0,0
+Variospora aurantia,Variospora_aurantia,Ascomycota,Lecanoromycetes,Teloschistales,Variospora,Yes,Yes,1,1,0,0
+Xanthoria aureola,Xanthoria_aureola,Ascomycota,Lecanoromycetes,Teloschistales,Xanthoria,Yes,Yes,1,1,0,0
+Lasallia pustulata,Lasallia_pustulata,Ascomycota,Lecanoromycetes,Umbilicariales,Lasallia,Yes,Yes,1,2,0,0.693147181
+Umbilicaria vellea,Umbilicaria_vellea,Ascomycota,Lecanoromycetes,Umbilicariales,Umbilicaria,Yes,Yes,1,1,0,0
+Erysiphe necator,Erysiphe_necator,Ascomycota,Leotiomycetes,Erysiphales,Erysiphe,Yes,Yes,1,1,0,0
+Erysiphe pulchra,Erysiphe_pulchra,Ascomycota,Leotiomycetes,Erysiphales,Erysiphe,Yes,Yes,1,1,0,0
+Golovinomyces magnicellulatus,Golovinomyces_magnicellulatus,Ascomycota,Leotiomycetes,Erysiphales,Golovinomyces,Yes,Yes,1,2,0,0.693147181
+Podosphaera aphanis,Podosphaera_aphanis,Ascomycota,Leotiomycetes,Erysiphales,Podosphaera,Yes,Yes,1,1,0,0
+Acephala macrosclerotiorum,Acephala_macrosclerotiorum,Ascomycota,Leotiomycetes,Helotiales,Acephala,Yes,Yes,1,1,0,0
+Amorphotheca resinae ATCC 22711,Amorphotheca_resinae_ATCC_22711,Ascomycota,Leotiomycetes,Helotiales,Amorphotheca,Yes,Yes,1,1,0,0
+Botryotinia narcissicola,Botryotinia_narcissicola,Ascomycota,Leotiomycetes,Helotiales,Botryotinia,Yes,Yes,1,1,0,0
+Botrytis aclada,Botrytis_aclada,Ascomycota,Leotiomycetes,Helotiales,Botrytis,Yes,Yes,1,1,0,0
+Botrytis cinerea BcDW1,Botrytis_cinerea_BcDW1,Ascomycota,Leotiomycetes,Helotiales,Botrytis,Yes,Yes,1,1,0,0
+Cadophora malorum,Cadophora_malorum,Ascomycota,Leotiomycetes,Helotiales,Cadophora,Yes,Yes,1,1,0,0
+Cadophora sp. DSE1049,Cadophora_sp._DSE1049,Ascomycota,Leotiomycetes,Helotiales,Cadophora,Yes,Yes,1,1,0,0
+Chlorociboria aeruginascens,Chlorociboria_aeruginascens,Ascomycota,Leotiomycetes,Helotiales,Chlorociboria,Yes,Yes,1,1,0,0
+Ciborinia camelliae,Ciborinia_camelliae,Ascomycota,Leotiomycetes,Helotiales,Ciborinia,Yes,Yes,1,1,0,0
+Coleophoma cylindrospora,Coleophoma_cylindrospora,Ascomycota,Leotiomycetes,Helotiales,Coleophoma,Yes,Yes,1,1,0,0
+Hyaloscypha bicolor E,Hyaloscypha_bicolor_E,Ascomycota,Leotiomycetes,Helotiales,Hyaloscypha,Yes,Yes,1,1,0,0
+Hyaloscypha hepaticicola,Hyaloscypha_hepaticicola,Ascomycota,Leotiomycetes,Helotiales,Hyaloscypha,Yes,Yes,1,1,0,0
+Hyaloscypha variabilis F,Hyaloscypha_variabilis_F,Ascomycota,Leotiomycetes,Helotiales,Hyaloscypha,Yes,Yes,1,1,0,0
+Hymenoscyphus fraxineus,Hymenoscyphus_fraxineus,Ascomycota,Leotiomycetes,Helotiales,Hymenoscyphus,Yes,Yes,1,1,0,0
+Mollisia scopiformis,Mollisia_scopiformis,Ascomycota,Leotiomycetes,Helotiales,Mollisia,Yes,Yes,1,1,0,0
+Monilinia fructicola,Monilinia_fructicola,Ascomycota,Leotiomycetes,Helotiales,Monilinia,Yes,Yes,1,1,0,0
+Phialocephala subalpina,Phialocephala_subalpina,Ascomycota,Leotiomycetes,Helotiales,Phialocephala,Yes,Yes,1,1,0,0
+Rhynchosporium agropyri,Rhynchosporium_agropyri,Ascomycota,Leotiomycetes,Helotiales,Rhynchosporium,Yes,Yes,1,1,0,0
+Rhynchosporium secalis,Rhynchosporium_secalis,Ascomycota,Leotiomycetes,Helotiales,Rhynchosporium,Yes,Yes,1,1,0,0
+Rutstroemia sp. NJR-2017a BBW,Rutstroemia_sp._NJR-2017a_BBW,Ascomycota,Leotiomycetes,Helotiales,Rutstroemia,Yes,Yes,1,1,0,0
+Rutstroemia sp. NJR-2017a WRK4,Rutstroemia_sp._NJR-2017a_WRK4,Ascomycota,Leotiomycetes,Helotiales,Rutstroemia,Yes,Yes,1,1,0,0
+Sclerotinia nivalis,Sclerotinia_nivalis,Ascomycota,Leotiomycetes,Helotiales,Sclerotinia,Yes,Yes,1,1,0,0
+Sclerotinia sclerotiorum 1980 UF-70,Sclerotinia_sclerotiorum_1980_UF-70,Ascomycota,Leotiomycetes,Helotiales,Sclerotinia,Yes,Yes,1,1,0,0
+Stromatinia cepivora,Stromatinia_cepivora,Ascomycota,Leotiomycetes,Helotiales,Stromatinia,Yes,Yes,1,1,0,0
+Venustampulla echinocandica,Venustampulla_echinocandica,Ascomycota,Leotiomycetes,Helotiales,Venustampulla,Yes,Yes,1,1,0,0
+Oidiodendron maius Zn,Oidiodendron_maius_Zn,Ascomycota,Leotiomycetes,Unknown,Oidiodendron,Yes,Yes,1,1,0,0
+Pseudogymnoascus sp. 03VT05,Pseudogymnoascus_sp._03VT05,Ascomycota,Leotiomycetes,Unknown,Pseudogymnoascus,Yes,Yes,1,1,0,0
+Pseudogymnoascus sp. 05NY08,Pseudogymnoascus_sp._05NY08,Ascomycota,Leotiomycetes,Unknown,Pseudogymnoascus,Yes,Yes,1,1,0,0
+Pseudogymnoascus sp. 24MN13,Pseudogymnoascus_sp._24MN13,Ascomycota,Leotiomycetes,Unknown,Pseudogymnoascus,Yes,Yes,1,1,0,0
+Pseudogymnoascus sp. VKM F-3808,Pseudogymnoascus_sp._VKM_F-3808,Ascomycota,Leotiomycetes,Unknown,Pseudogymnoascus,Yes,Yes,1,1,0,0
+Pseudogymnoascus sp. VKM F-4246,Pseudogymnoascus_sp._VKM_F-4246,Ascomycota,Leotiomycetes,Unknown,Pseudogymnoascus,Yes,Yes,1,1,0,0
+Pseudogymnoascus verrucosus,Pseudogymnoascus_verrucosus,Ascomycota,Leotiomycetes,Unknown,Pseudogymnoascus,Yes,Yes,1,1,0,0
+Scytalidium lignicola,Scytalidium_lignicola,Ascomycota,Leotiomycetes,Unknown,Scytalidium,Yes,Yes,1,1,0,0
+Peltula sp. TS41687,Peltula_sp._TS41687,Ascomycota,Lichinomycetes,Lichinales,Peltula,Yes,Yes,1,1,0,0
+Phylliscum demangeonii,Phylliscum_demangeonii,Ascomycota,Lichinomycetes,Lichinales,Phylliscum,Yes,Yes,1,1,0,0
+Dactylellina haptotyla CBS 200.50,Dactylellina_haptotyla_CBS_200.50,Ascomycota,Orbiliomycetes,Orbiliales,Dactylellina,Yes,Yes,1,1,0,0
+Drechslerella brochopaga,Drechslerella_brochopaga,Ascomycota,Orbiliomycetes,Orbiliales,Drechslerella,Yes,Yes,1,1,0,0
+Drechslerella dactyloides,Drechslerella_dactyloides,Ascomycota,Orbiliomycetes,Orbiliales,Drechslerella,Yes,Yes,1,1,0,0
+Orbilia oligospora ATCC 24927,Orbilia_oligospora_ATCC_24927,Ascomycota,Orbiliomycetes,Orbiliales,Orbilia,Yes,Yes,1,1,0,0
+Choiromyces venosus 120613-1,Choiromyces_venosus_120613-1,Ascomycota,Pezizomycetes,Pezizales,Choiromyces,Yes,Yes,1,1,0,0
+Peziza echinospora,Peziza_echinospora,Ascomycota,Pezizomycetes,Pezizales,Peziza,Yes,Yes,1,1,0,0
+Pyronema domesticum,Pyronema_domesticum,Ascomycota,Pezizomycetes,Pezizales,Pyronema,Yes,Yes,1,1,0,0
+Tuber borchii,Tuber_borchii,Ascomycota,Pezizomycetes,Pezizales,Tuber,Yes,Yes,1,1,0,0
+Tuber brumale,Tuber_brumale,Ascomycota,Pezizomycetes,Pezizales,Tuber,Yes,Yes,1,1,0,0
+Tuber indicum,Tuber_indicum,Ascomycota,Pezizomycetes,Pezizales,Tuber,Yes,Yes,1,1,0,0
+Tuber magnatum,Tuber_magnatum,Ascomycota,Pezizomycetes,Pezizales,Tuber,Yes,Yes,1,1,0,0
+Pneumocystis carinii B80,Pneumocystis_carinii_B80,Ascomycota,Pneumocystidomycetes,Pneumocystidales,Pneumocystis,Yes,Yes,1,1,0,0
+Pneumocystis jirovecii RU7,Pneumocystis_jirovecii_RU7,Ascomycota,Pneumocystidomycetes,Pneumocystidales,Pneumocystis,Yes,Yes,1,1,0,0
+Pneumocystis murina B123,Pneumocystis_murina_B123,Ascomycota,Pneumocystidomycetes,Pneumocystidales,Pneumocystis,Yes,Yes,1,1,0,0
+Coniochaeta hoffmannii,Coniochaeta_hoffmannii,Ascomycota,Sordariomycetes,Coniochaetales,Coniochaeta,Yes,Yes,1,1,0,0
+Coniochaeta ligniaria NRRL 30616,Coniochaeta_ligniaria_NRRL_30616,Ascomycota,Sordariomycetes,Coniochaetales,Coniochaeta,Yes,Yes,1,1,0,0
+Coniella lustricola,Coniella_lustricola,Ascomycota,Sordariomycetes,Diaporthales,Coniella,Yes,Yes,1,1,0,0
+Valsa sordida,Valsa_sordida,Ascomycota,Sordariomycetes,Diaporthales,Valsa,Yes,Yes,1,1,0,0
+Colletotrichum chlorophyti,Colletotrichum_chlorophyti,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,Yes,1,1,0,0
+Colletotrichum graminicola M1.001,Colletotrichum_graminicola_M1.001,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,Yes,1,1,0,0
+Colletotrichum higginsianum IMI 349063,Colletotrichum_higginsianum_IMI_349063,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,Yes,1,1,0,0
+Colletotrichum nymphaeae SA-01,Colletotrichum_nymphaeae_SA-01,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,Yes,1,1,0,0
+Colletotrichum orbiculare MAFF 240422,Colletotrichum_orbiculare_MAFF_240422,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,Yes,1,1,0,0
+Colletotrichum orchidophilum,Colletotrichum_orchidophilum,Ascomycota,Sordariomycetes,Glomerellales,Colletotrichum,Yes,Yes,1,1,0,0
+Plectosphaerella cucumerina,Plectosphaerella_cucumerina,Ascomycota,Sordariomycetes,Glomerellales,Plectosphaerella,Yes,Yes,1,1,0,0
+Sodiomyces alkalinus F11,Sodiomyces_alkalinus_F11,Ascomycota,Sordariomycetes,Glomerellales,Sodiomyces,Yes,Yes,1,1,0,0
+Cordyceps sp. RAO-2017,Cordyceps_sp._RAO-2017,Ascomycota,Sordariomycetes,Hypocreales,Cordyceps,Yes,Yes,1,1,0,0
+Dactylonectria macrodidyma,Dactylonectria_macrodidyma,Ascomycota,Sordariomycetes,Hypocreales,Dactylonectria,Yes,Yes,1,1,0,0
+Fusarium albosuccineum,Fusarium_albosuccineum,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,Yes,1,1,0,0
+Fusarium beomiforme,Fusarium_beomiforme,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,Yes,1,1,0,0
+Fusarium coffeatum,Fusarium_coffeatum,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,Yes,1,1,0,0
+Fusarium longipes,Fusarium_longipes,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,Yes,1,1,0,0
+Fusarium mangiferae,Fusarium_mangiferae,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,Yes,1,1,0,0
+Fusarium proliferatum ET1,Fusarium_proliferatum_ET1,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,Yes,1,1,0,0
+Fusarium pseudograminearum CS3096,Fusarium_pseudograminearum_CS3096,Ascomycota,Sordariomycetes,Hypocreales,Fusarium,Yes,Yes,1,1,0,0
+Geosmithia morbida,Geosmithia_morbida,Ascomycota,Sordariomycetes,Hypocreales,Geosmithia,Yes,Yes,1,1,0,0
+Hirsutella minnesotensis 3608,Hirsutella_minnesotensis_3608,Ascomycota,Sordariomycetes,Hypocreales,Hirsutella,Yes,Yes,1,1,0,0
+Metarhizium acridum CQMa 102,Metarhizium_acridum_CQMa_102,Ascomycota,Sordariomycetes,Hypocreales,Metarhizium,Yes,Yes,1,1,0,0
+Metarhizium album ARSEF 1941,Metarhizium_album_ARSEF_1941,Ascomycota,Sordariomycetes,Hypocreales,Metarhizium,Yes,Yes,1,1,0,0
+Metarhizium rileyi RCEF 4871,Metarhizium_rileyi_RCEF_4871,Ascomycota,Sordariomycetes,Hypocreales,Metarhizium,Yes,Yes,1,1,0,0
+Metarhizium robertsii ARSEF 23,Metarhizium_robertsii_ARSEF_23,Ascomycota,Sordariomycetes,Hypocreales,Metarhizium,Yes,Yes,1,1,0,0
+Moelleriella libera RCEF 2490,Moelleriella_libera_RCEF_2490,Ascomycota,Sordariomycetes,Hypocreales,Moelleriella,Yes,Yes,1,1,0,0
+Neonectria ditissima,Neonectria_ditissima,Ascomycota,Sordariomycetes,Hypocreales,Neonectria,Yes,Yes,1,1,0,0
+Ophiocordyceps australis,Ophiocordyceps_australis,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordyceps,Yes,Yes,1,1,0,0
+Ophiocordyceps unilateralis,Ophiocordyceps_unilateralis,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordyceps,Yes,Yes,1,1,0,0
+Pochonia chlamydosporia 170,Pochonia_chlamydosporia_170,Ascomycota,Sordariomycetes,Hypocreales,Pochonia,Yes,Yes,1,1,0,0
+Sarocladium strictum,Sarocladium_strictum,Ascomycota,Sordariomycetes,Hypocreales,Sarocladium,Yes,Yes,1,1,0,0
+Stachybotrys chartarum IBT 7711,Stachybotrys_chartarum_IBT_7711,Ascomycota,Sordariomycetes,Hypocreales,Stachybotrys,Yes,Yes,1,1,0,0
+Stachybotrys chlorohalonata IBT 40285,Stachybotrys_chlorohalonata_IBT_40285,Ascomycota,Sordariomycetes,Hypocreales,Stachybotrys,Yes,Yes,1,1,0,0
+Tolypocladium capitatum,Tolypocladium_capitatum,Ascomycota,Sordariomycetes,Hypocreales,Tolypocladium,Yes,Yes,1,1,0,0
+Tolypocladium paradoxum,Tolypocladium_paradoxum,Ascomycota,Sordariomycetes,Hypocreales,Tolypocladium,Yes,Yes,1,1,0,0
+Trichoderma atroviride IMI 206040,Trichoderma_atroviride_IMI_206040,Ascomycota,Sordariomycetes,Hypocreales,Trichoderma,Yes,Yes,1,1,0,0
+Trichoderma gamsii,Trichoderma_gamsii,Ascomycota,Sordariomycetes,Hypocreales,Trichoderma,Yes,Yes,1,1,0,0
+Trichothecium roseum,Trichothecium_roseum,Ascomycota,Sordariomycetes,Hypocreales,Trichothecium,Yes,Yes,1,1,0,0
+Ustilaginoidea virens,Ustilaginoidea_virens,Ascomycota,Sordariomycetes,Hypocreales,Ustilaginoidea,Yes,Yes,1,1,0,0
+Gaeumannomyces tritici R3-111a-1,Gaeumannomyces_tritici_R3-111a-1,Ascomycota,Sordariomycetes,Magnaporthales,Gaeumannomyces,Yes,Yes,1,1,0,0
+Magnaporthiopsis poae ATCC 64411,Magnaporthiopsis_poae_ATCC_64411,Ascomycota,Sordariomycetes,Magnaporthales,Magnaporthiopsis,Yes,Yes,1,1,0,0
+Pyricularia pennisetigena,Pyricularia_pennisetigena,Ascomycota,Sordariomycetes,Magnaporthales,Pyricularia,Yes,Yes,1,1,0,0
+Scedosporium apiospermum,Scedosporium_apiospermum,Ascomycota,Sordariomycetes,Microascales,Scedosporium,Yes,Yes,1,1,0,0
+Grosmannia clavigera kw1407,Grosmannia_clavigera_kw1407,Ascomycota,Sordariomycetes,Ophiostomatales,Grosmannia,Yes,Yes,1,1,0,0
+Ophiostoma piceae UAMH 11346,Ophiostoma_piceae_UAMH_11346,Ascomycota,Sordariomycetes,Ophiostomatales,Ophiostoma,Yes,Yes,1,1,0,0
+Sporothrix insectorum RCEF 264,Sporothrix_insectorum_RCEF_264,Ascomycota,Sordariomycetes,Ophiostomatales,Sporothrix,Yes,Yes,1,1,0,0
+Sporothrix schenckii 1099-18,Sporothrix_schenckii_1099-18,Ascomycota,Sordariomycetes,Ophiostomatales,Sporothrix,Yes,Yes,1,1,0,0
+Thermochaetoides thermophila DSM 1495,Thermochaetoides_thermophila_DSM_1495,Ascomycota,Sordariomycetes,Sordariales,Thermochaetoides,Yes,Yes,1,1,0,0
+Thermothelomyces thermophilus ATCC 42464,Thermothelomyces_thermophilus_ATCC_42464,Ascomycota,Sordariomycetes,Sordariales,Thermothelomyces,Yes,Yes,1,1,0,0
+Thermothielavioides terrestris NRRL 8126,Thermothielavioides_terrestris_NRRL_8126,Ascomycota,Sordariomycetes,Sordariales,Thermothielavioides,Yes,Yes,1,1,0,0
+Annulohypoxylon stygium,Annulohypoxylon_stygium,Ascomycota,Sordariomycetes,Xylariales,Annulohypoxylon,Yes,Yes,1,1,0,0
+Daldinia eschscholtzii,Daldinia_eschscholtzii,Ascomycota,Sordariomycetes,Xylariales,Daldinia,Yes,Yes,1,1,0,0
+Hypoxylon sp. CI-4A,Hypoxylon_sp._CI-4A,Ascomycota,Sordariomycetes,Xylariales,Hypoxylon,Yes,Yes,1,1,0,0
+Hypoxylon sp. CO27-5,Hypoxylon_sp._CO27-5,Ascomycota,Sordariomycetes,Xylariales,Hypoxylon,Yes,Yes,1,1,0,0
+Hypoxylon sp. EC38,Hypoxylon_sp._EC38,Ascomycota,Sordariomycetes,Xylariales,Hypoxylon,Yes,Yes,1,1,0,0
+Microdochium bolleyi,Microdochium_bolleyi,Ascomycota,Sordariomycetes,Xylariales,Microdochium,Yes,Yes,1,1,0,0
+Pestalotiopsis fici W106-1,Pestalotiopsis_fici_W106-1,Ascomycota,Sordariomycetes,Xylariales,Pestalotiopsis,Yes,Yes,1,1,0,0
+Pseudomassariella vexata,Pseudomassariella_vexata,Ascomycota,Sordariomycetes,Xylariales,Pseudomassariella,Yes,Yes,1,1,0,0
+Rosellinia necatrix,Rosellinia_necatrix,Ascomycota,Sordariomycetes,Xylariales,Rosellinia,Yes,Yes,1,1,0,0
+Ustulina deusta,Ustulina_deusta,Ascomycota,Sordariomycetes,Xylariales,Ustulina,Yes,Yes,1,1,0,0
+Xylaria acuta,Xylaria_acuta,Ascomycota,Sordariomycetes,Xylariales,Xylaria,Yes,Yes,1,1,0,0
+Xylaria hypoxylon,Xylaria_hypoxylon,Ascomycota,Sordariomycetes,Xylariales,Xylaria,Yes,Yes,1,1,0,0
+Xylaria polymorpha,Xylaria_polymorpha,Ascomycota,Sordariomycetes,Xylariales,Xylaria,Yes,Yes,1,1,0,0
+Cyclocybe aegerita,Cyclocybe_aegerita,Basidiomycota,Agaricomycetes,Agaricales,Cyclocybe,Yes,Yes,1,1,0,0
+Cylindrobasidium torrendii FP15055 ss-10,Cylindrobasidium_torrendii_FP15055_ss-10,Basidiomycota,Agaricomycetes,Agaricales,Cylindrobasidium,Yes,Yes,1,1,0,0
+Hypsizygus marmoreus,Hypsizygus_marmoreus,Basidiomycota,Agaricomycetes,Agaricales,Hypsizygus,Yes,Yes,1,2,0,0.693147181
+Infundibulicybe gibba,Infundibulicybe_gibba,Basidiomycota,Agaricomycetes,Agaricales,Infundibulicybe,Yes,Yes,1,1,0,0
+Macrolepiota fuliginosa MF-IS2,Macrolepiota_fuliginosa_MF-IS2,Basidiomycota,Agaricomycetes,Agaricales,Macrolepiota,Yes,Yes,1,1,0,0
+Tricholomella constricta,Tricholomella_constricta,Basidiomycota,Agaricomycetes,Agaricales,Tricholomella,Yes,Yes,1,1,0,0
+Exidia glandulosa HHB12029,Exidia_glandulosa_HHB12029,Basidiomycota,Agaricomycetes,Auriculariales,Exidia,Yes,Yes,1,1,0,0
+Astraeus odoratus,Astraeus_odoratus,Basidiomycota,Agaricomycetes,Boletales,Astraeus,Yes,Yes,1,1,0,0
+Boletus edulis BED1,Boletus_edulis_BED1,Basidiomycota,Agaricomycetes,Boletales,Boletus,Yes,Yes,1,1,0,0
+Boletus reticuloceps,Boletus_reticuloceps,Basidiomycota,Agaricomycetes,Boletales,Boletus,Yes,Yes,1,1,0,0
+Coniophora puteana RWD-64-598 SS2,Coniophora_puteana_RWD-64-598_SS2,Basidiomycota,Agaricomycetes,Boletales,Coniophora,Yes,Yes,1,1,0,0
+Hydnomerulius pinastri MD-312,Hydnomerulius_pinastri_MD-312,Basidiomycota,Agaricomycetes,Boletales,Hydnomerulius,Yes,Yes,1,1,0,0
+Imleria badia,Imleria_badia,Basidiomycota,Agaricomycetes,Boletales,Imleria,Yes,Yes,1,1,0,0
+Paxillus ammoniavirescens,Paxillus_ammoniavirescens,Basidiomycota,Agaricomycetes,Boletales,Paxillus,Yes,Yes,1,1,0,0
+Scleroderma citrinum Foug A,Scleroderma_citrinum_Foug_A,Basidiomycota,Agaricomycetes,Boletales,Scleroderma,Yes,Yes,1,1,0,0
+Botryobasidium botryosum FD-172 SS1,Botryobasidium_botryosum_FD-172_SS1,Basidiomycota,Agaricomycetes,Cantharellales,Botryobasidium,Yes,Yes,1,1,0,0
+Pyrrhoderma noxium,Pyrrhoderma_noxium,Basidiomycota,Agaricomycetes,Hymenochaetales,Pyrrhoderma,Yes,Yes,1,1,0,0
+Abortiporus biennis,Abortiporus_biennis,Basidiomycota,Agaricomycetes,Polyporales,Abortiporus,Yes,Yes,1,1,0,0
+Daedaleopsis nitida,Daedaleopsis_nitida,Basidiomycota,Agaricomycetes,Polyporales,Daedaleopsis,Yes,Yes,1,1,0,0
+Dichomitus squalens LYAD-421 SS1,Dichomitus_squalens_LYAD-421_SS1,Basidiomycota,Agaricomycetes,Polyporales,Dichomitus,Yes,Yes,1,1,0,0
+Epithele typhae,Epithele_typhae,Basidiomycota,Agaricomycetes,Polyporales,Epithele,Yes,Yes,1,1,0,0
+Fomes fomentarius,Fomes_fomentarius,Basidiomycota,Agaricomycetes,Polyporales,Fomes,Yes,Yes,1,1,0,0
+Fomitopsis betulina,Fomitopsis_betulina,Basidiomycota,Agaricomycetes,Polyporales,Fomitopsis,Yes,Yes,1,1,0,0
+Irpex lacteus,Irpex_lacteus,Basidiomycota,Agaricomycetes,Polyporales,Irpex,Yes,Yes,1,1,0,0
+Irpex rosettiformis,Irpex_rosettiformis,Basidiomycota,Agaricomycetes,Polyporales,Irpex,Yes,Yes,1,1,0,0
+Laetiporus sulphureus 93-53,Laetiporus_sulphureus_93-53,Basidiomycota,Agaricomycetes,Polyporales,Laetiporus,Yes,Yes,1,1,0,0
+Panus rudis PR-1116 ss-1,Panus_rudis_PR-1116_ss-1,Basidiomycota,Agaricomycetes,Polyporales,Panus,Yes,Yes,1,1,0,0
+Phanerochaete carnosa HHB-10118-sp,Phanerochaete_carnosa_HHB-10118-sp,Basidiomycota,Agaricomycetes,Polyporales,Phanerochaete,Yes,Yes,1,1,0,0
+Phanerochaete sordida,Phanerochaete_sordida,Basidiomycota,Agaricomycetes,Polyporales,Phanerochaete,Yes,Yes,1,1,0,0
+Phlebia brevispora,Phlebia_brevispora,Basidiomycota,Agaricomycetes,Polyporales,Phlebia,Yes,Yes,1,1,0,0
+Polyporus brumalis,Polyporus_brumalis,Basidiomycota,Agaricomycetes,Polyporales,Polyporus,Yes,Yes,1,1,0,0
+Postia placenta MAD-698-R-SB12,Postia_placenta_MAD-698-R-SB12,Basidiomycota,Agaricomycetes,Polyporales,Postia,Yes,Yes,1,1,0,0
+Sparassis crispa,Sparassis_crispa,Basidiomycota,Agaricomycetes,Polyporales,Sparassis,Yes,Yes,1,1,0,0
+Trametes cingulata,Trametes_cingulata,Basidiomycota,Agaricomycetes,Polyporales,Trametes,Yes,Yes,1,1,0,0
+Trametes cinnabarina,Trametes_cinnabarina,Basidiomycota,Agaricomycetes,Polyporales,Trametes,Yes,Yes,1,1,0,0
+Trametes coccinea BRFM310,Trametes_coccinea_BRFM310,Basidiomycota,Agaricomycetes,Polyporales,Trametes,Yes,Yes,1,1,0,0
+Trametes cubensis,Trametes_cubensis,Basidiomycota,Agaricomycetes,Polyporales,Trametes,Yes,Yes,1,1,0,0
+Trametes elegans,Trametes_elegans,Basidiomycota,Agaricomycetes,Polyporales,Trametes,Yes,Yes,1,1,0,0
+Trametes gibbosa,Trametes_gibbosa,Basidiomycota,Agaricomycetes,Polyporales,Trametes,Yes,Yes,1,1,0,0
+Trametes maxima,Trametes_maxima,Basidiomycota,Agaricomycetes,Polyporales,Trametes,Yes,Yes,1,1,0,0
+Trametes meyenii,Trametes_meyenii,Basidiomycota,Agaricomycetes,Polyporales,Trametes,Yes,Yes,1,1,0,0
+Trametes versicolor FP-101664 SS1,Trametes_versicolor_FP-101664_SS1,Basidiomycota,Agaricomycetes,Polyporales,Trametes,Yes,Yes,1,1,0,0
+Wolfiporia cocos MD-104 SS10,Wolfiporia_cocos_MD-104_SS10,Basidiomycota,Agaricomycetes,Polyporales,Wolfiporia,Yes,Yes,1,1,0,0
+Bondarzewia mesenterica,Bondarzewia_mesenterica,Basidiomycota,Agaricomycetes,Russulales,Bondarzewia,Yes,Yes,1,1,0,0
+Russula aff. rugulosa BPL654,Russula_aff._rugulosa_BPL654,Basidiomycota,Agaricomycetes,Russulales,Russula,Yes,Yes,1,1,0,0
+Calocera cornea HHB12733,Calocera_cornea_HHB12733,Basidiomycota,Dacrymycetes,Dacrymycetales,Calocera,Yes,Yes,1,1,0,0
+Dacryopinax primogenitus,Dacryopinax_primogenitus,Basidiomycota,Dacrymycetes,Dacrymycetales,Dacryopinax,Yes,Yes,1,1,0,0
+Malassezia globosa CBS 7966,Malassezia_globosa_CBS_7966,Basidiomycota,Malasseziomycetes,Malasseziales,Malassezia,Yes,Yes,1,1,0,0
+Cronartium quercuum f. sp. fusiforme G11,Cronartium_quercuum_f._sp._fusiforme_G11,Basidiomycota,Pucciniomycetes,Pucciniales,Cronartium,Yes,Yes,1,1,0,0
+Melampsora americana,Melampsora_americana,Basidiomycota,Pucciniomycetes,Pucciniales,Melampsora,Yes,Yes,1,1,0,0
+Cryptococcus gattii CA1280,Cryptococcus_gattii_CA1280,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcus,Yes,Yes,1,1,0,0
+Tremella mesenterica DSM 1558,Tremella_mesenterica_DSM_1558,Basidiomycota,Tremellomycetes,Tremellales,Tremella,Yes,Yes,1,1,0,0
+Moesziomyces aphidis,Moesziomyces_aphidis,Basidiomycota,Ustilaginomycetes,Ustilaginales,Moesziomyces,Yes,Yes,1,1,0,0
+Pseudozyma flocculosa PF-1,Pseudozyma_flocculosa_PF-1,Basidiomycota,Ustilaginomycetes,Ustilaginales,Pseudozyma,Yes,Yes,1,1,0,0
+Ustilago maydis 521,Ustilago_maydis_521,Basidiomycota,Ustilaginomycetes,Ustilaginales,Ustilago,Yes,Yes,1,1,0,0
+Ambispora leptoticha,Ambispora_leptoticha,Mucoromycota,Glomeromycetes,Archaeosporales,Ambispora,Yes,Yes,1,1,0,0
+Geosiphon pyriformis,Geosiphon_pyriformis,Mucoromycota,Glomeromycetes,Archaeosporales,Geosiphon,Yes,Yes,1,1,0,0
+Diversispora eburnea,Diversispora_eburnea,Mucoromycota,Glomeromycetes,Diversisporales,Diversispora,Yes,Yes,1,1,0,0
+Funneliformis geosporum,Funneliformis_geosporum,Mucoromycota,Glomeromycetes,Glomerales,Funneliformis,Yes,Yes,1,2,0,0.693147181
+Paraglomus brasilianum,Paraglomus_brasilianum,Mucoromycota,Glomeromycetes,Paraglomerales,Paraglomus,Yes,Yes,1,1,0,0
+Paraglomus occultum,Paraglomus_occultum,Mucoromycota,Glomeromycetes,Paraglomerales,Paraglomus,Yes,Yes,1,1,0,0

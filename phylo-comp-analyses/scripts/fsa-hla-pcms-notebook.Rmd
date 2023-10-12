@@ -1,0 +1,590 @@
+---
+title: "Phylogenetic comparative analysis of\nfungal secondary actins"
+author: "Austin H. Patton"
+date: "`r Sys.Date()`"
+
+output: 
+  html_document:
+    toc: true # table of contents true
+    toc_float: TRUE # Floating table
+    toc_depth: 4  # upto three depths of headings (specified by #, ## and ###)
+    number_sections: true  ## if you want number sections at each table header
+    theme: united  # many options for theme, this one is my favorite.
+    highlight: tango
+    code_folding: hide
+---
+
+```{css, echo=FALSE}
+.scroll-200 {
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = '../')
+```
+
+```{r}
+# Silently load R packages
+#library(phylolm)
+library(phyr)
+library(tidyverse)
+library(ape)
+library(ggtree)
+library(phytools)
+library(corHMM)
+```
+
+## Data loading and preparation
+### FSA/HLA count data
+```{r}
+# Read in the fsa/hla data, again removing the mollusc
+dat <- read_csv('data/hla_fsa_dataset_for_tree_Austin.csv')
+dat <- dat[-which(dat$Species == "Siphonaria sp. JEL0065"),]
+
+# reformat, and also calculate the % Actins that are FSA
+pdat <- data.frame(
+  species = gsub(" ", "_", dat$Species),
+  fsa_count = dat$fsa_count,
+  hla_count = dat$hla_count,
+  fsa_prop = dat$fsa_count / (dat$fsa_count + dat$hla_count),
+  phylum = as.factor(dat$Phylum),
+  phylum_simple = dat$Phylum
+)
+
+# Replace everything other than Ascomycota and Basidiomycota with "other", 
+# since the former two dominate the dataset
+pdat$phylum_simple[-which(pdat$phylum %in% c('Ascomycota', 'Basidiomycota'))] <- 'Other'
+pdat$phylum_simple <- factor(pdat$phylum_simple, levels = c('Other', 'Ascomycota', 'Basidiomycota'))
+pdat$fsa_prop[which(!is.finite(pdat$fsa_prop))] <- 0
+rownames(pdat) <- 
+  gsub(" ", "_", dat$Species)
+```
+
+### Phylogenies
+#### timetree.org
+First, read in the tree from timetree.org, and take a look
+```{r}
+# Read in the cladogram with species we want to retain
+tree <- read.tree('data/tree_for_hla_and_fsa.nwk')
+tree <- drop.tip(tree, "Siphonaria_sp._JEL0065")
+
+# Make sure the tree is ultrametric and fully bifurcating, with no 0-length branches
+tree$edge.length <- tree$edge.length+0.00001
+tree <- multi2di(tree)
+tree <- force.ultrametric(tree, method = 'extend')
+
+# Take a look:
+ggtree(tree)
+```
+
+#### Torda et al. mushroom timetree
+There are some features of the "raw" phylogeny from timetree.org that can cause some problems down the line. Let's see if we can improve the dating slightly by using a more formally time-calibrated phylogeny of mushroom-forming fungal species to "congruify" the timetree.org phylogeny, making the latter's branch-lengths more consistent with that of the former. This tree was obtained from the following dryad repo: https://datadryad.org/stash/dataset/doi:10.5061/dryad.gc2k9r9
+```{r}
+# Read in the time calibrated tree of mushroom forming fungi:
+mush_tt <- read.tree('data/r8s_kohler_etal_calibration_scheme1.tre')
+mush_tt <- force.ultrametric(mush_tt, method = 'extend')
+# rename tips in the mushroom time tree to match the timetree tree more closely:
+corr_tiplabs <- sub("^(.*?_.*?)_.*", "\\1", tree$tip.label)
+keep <- which(mush_tt$tip.label %in% sub("^(.*?_.*?)_.*", "\\1", tree$tip.label))
+newnames <- tree$tip.label[which(sub("^(.*?_.*?)_.*", "\\1", tree$tip.label) %in% mush_tt$tip.label)]
+newnames <- newnames[match(mush_tt$tip.label[keep], sub("^(.*?_.*?)_.*", "\\1", newnames))]
+mush_tt$tip.label[keep] <- replace
+
+# Now, see what congruifying the timetree tree looks like:
+cong_tree <- 
+  geiger::congruify.phylo(reference = mush_tt, target = tree, 
+                          scale = 'treePL', ncores = 7)
+
+# Great. This might be a bit better behaved than the one from timetree. 
+# Use this one instead. 
+tree <- ladderize(cong_tree$phy)
+
+# and again, make sure the tree is ultrametric and fully bifurcating, with no 0-length branches
+tree$edge.length <- tree$edge.length+0.00001
+tree <- multi2di(tree)
+tree <- force.ultrametric(tree, method = 'extend')
+
+# and take another look:
+ggtree(tree)
+```
+
+#### Visualizing phyla
+Let's visualize phyla on our phylogeny. Because phyla other that Basidiomycota and Ascomycota are poorly represented in our data, we collapse these different phyla into an "other" category.
+```{r}
+# Get the common ancestor node for the two large phyla - Basidiomycota and Ascomycota - everything else will be treated in a third group:
+phyla <- unique(pdat$phylum_simple)
+phyla_mrca <- c()
+for(p in 1:length(phyla)){
+  phyla_mrca[p] <- getMRCA(tree, rownames(pdat)[which(pdat$phylum_simple == phyla[p])])
+  names(phyla_mrca)[p] <- as.character(phyla[p])
+}
+
+phyla_tree <- 
+  paintSubTree(ladderize(tree), node = 1, 
+               state = 'Other', 
+               anc.state = 'Other', 
+               stem = T)
+phyla_tree <- 
+  paintSubTree(phyla_tree, node = phyla_mrca[['Ascomycota']], 
+               state = 'Ascomycota', 
+               anc.state = 'Ascomycota')
+phyla_tree <- 
+  paintSubTree(phyla_tree, node = phyla_mrca[['Basidiomycota']], 
+               state = 'Basidiomycota', 
+               anc.state = 'Basidiomycota')
+
+# Now plot to see how this looks
+plotSimmap(phyla_tree, fsize = 0.001)
+```
+
+## Evolution of FSA/HLA count
+Great. We've got our data prepared to analyze. Now let's do some simple evolutionary analysis, beginning with something largely explorative, but still useful in refining our intuition regarding how FSA and HLA copy number evolve.  
+
+### Ancestral gene count reconstruction
+Specifically, we'll first make some simplifying assumptions, fitting a modelof continuout trait evolution to the count data, using this model to infer ancestral HLA/FSA gene counts along the phylogeny. 
+```{r}
+# Begin by simply visualizing the trait on the tree with some inferred ancestral character states
+fsa <- as.numeric(pdat$fsa_count)
+hla <- as.numeric(pdat$hla_count)
+prop <- as.numeric(pdat$fsa_prop)
+names(fsa) <- rownames(pdat)
+names(hla) <- rownames(pdat)
+names(prop) <- rownames(pdat)
+fsa_fit <- phytools::fastAnc(tree, log10(fsa+1))
+hla_fit <- phytools::fastAnc(tree, log10(hla+1))
+prop_fit <- phytools::fastAnc(tree, prop)
+
+# Make a dataframe with trait values at the tips
+td <- 
+  data.frame(
+    node = nodeid(tree, names(fsa)),
+    fsa_count = log10(fsa+1),
+    hla_count = log10(hla+1),
+    prop_fsa = prop)
+
+# Make a dataframe with estimated trait values at the nodes
+nd <- data.frame(node = names(fsa_fit), 
+                 fsa_count = c(fsa_fit),
+                 hla_count = c(hla_fit),
+                 prop_fsa = c(prop_fit))
+
+# Combine these with the tree data for plotting with ggtree
+d <- rbind(td, nd)
+d$node <- as.numeric(d$node)
+
+actin_tree <- full_join(tree, d, by = 'node')
+
+fsa_tree_p <-
+  ggtree(actin_tree, 
+         aes(color = fsa_count), 
+         ladderize = TRUE, continuous = "color", size = 0.5) +
+  scale_color_viridis_c(option = "inferno", 
+                        name = "# FSA Copies", 
+                        breaks = c(0, 0.30103, 0.4771213,
+                                   0.60206, 0.69897),
+                        labels = c(0, 1, 2, 3, 4)) + 
+  theme(legend.position = 'top',
+        legend.text = element_text(size = 12),
+        legend.key.width = unit(0.9,"cm"), 
+        legend.title = element_text(size = 14)) +
+  coord_cartesian(clip="off")
+
+hla_tree_p <-
+  ggtree(actin_tree, 
+         aes(color = hla_count), 
+         ladderize = TRUE, continuous = "color", size = 0.5) +
+  scale_color_viridis_c(option = "inferno", 
+                        name = "# HLA Copies", 
+                        breaks = c(0, 0.30103, 0.4771213,
+                                   0.60206, 0.69897),
+                        labels = c(0, 1, 2, 3, 4)) + 
+  theme(legend.position = 'top',
+        legend.text = element_text(size = 12),
+        legend.key.width = unit(0.9,"cm"), 
+        legend.title = element_text(size = 14)) +
+  coord_cartesian(clip="off")
+prop_fsa_tree_p <-
+  ggtree(actin_tree, 
+         aes(color = prop_fsa), 
+         ladderize = TRUE, continuous = "color", size = 0.5) +
+  scale_color_viridis_c(option = "inferno", 
+                        name = "Prop. Actins FSA") + 
+  theme(legend.position = 'top',
+        legend.text = element_text(size = 12),
+        legend.key.width = unit(0.9,"cm"), 
+        legend.title = element_text(size = 14)) +
+  coord_cartesian(clip="off")
+
+actin_plt <- cowplot::plot_grid(fsa_tree_p, hla_tree_p, prop_fsa_tree_p, nrow = 1)
+
+# Create the plot directory if we haven't already:
+dir.create('plots', showWarnings = F)
+
+# And save this to PDF. 
+ggsave(actin_plt, file = 'plots/fsa_hla_actin_ancestral_reconstructions.pdf',
+       height = 8, width = 12)
+
+# Let's quick visualize below:
+fsa_tree_p
+hla_tree_p
+prop_fsa_tree_p
+```
+
+### (Phylogenetic) linear models
+Great, now formally assess the extent to which FSA counts are predicted by the counts of HLA. We will accomplish this using generalized linear models, and will explore the extent to which accounting for evolutionary non-independence of species and their traits may impact results. 
+
+#### Univariate: FSA ~ HLA
+```{r}
+# First, a simple glm, not accounting for phylogeny
+fit_gaus <- glm(fsa_count ~ hla_count, data = pdat)
+
+# Then, one that explicitly accounts for phylogeny:
+fit_pgaus <- pglmm_compare(fsa_count ~ hla_count, data = pdat, phy = tree)
+
+# Note, we can fit models using either a poisson or binomial distribution. 
+# Poisson is useful for count data, but assumes the mean and variance of the 
+# distribution is the same, something that is not true of our data. 
+# Binomial distributions are useful for binary success/failure type data. 
+fit_ppois <- pglmm_compare(fsa_count ~ hla_count, data = pdat, phy = tree, family = "poisson")
+
+# As you can see, the poisson fits the data more poorly than does the gaussian.
+# Consequently, we just proceed with the gaussian
+summary(fit_pgaus)
+summary(fit_ppois)
+
+# Now plot this, adding both regression 
+# slopes to show the effect of accounting for phylogeny and include 
+# model coefficients and p-values
+
+# Define the intercept, beta (slope), and p-value text for each model
+non_phylo_text <- paste("Non-phylogenetic Model\n",
+                        "Intercept: ", round(fit_gaus$coefficients[1], 4), "\n",
+                        "Beta: ", round(fit_gaus$coefficients[2], 4), "\n",
+                        "p-value: ", round(summary(fit_gaus)$coefficients[2,4], 5))
+
+phylo_text <- paste("Phylogenetic Model\n",
+                    "Intercept: ", round(fit_pgaus$B[1], 4), "\n",
+                    "Beta: ", round(fit_pgaus$B[2], 4), "\n",
+                    "p-value: ", round(fit_pgaus$B.pvalue[2], 5))
+
+fsa_hsa_corrplot <- 
+  ggplot(data = pdat, aes(y = fsa_count, x = hla_count)) + 
+  geom_point(alpha = 0.5, 
+             position = position_jitter(width = 0.1, 
+                                        height = 0.1)) + 
+  geom_abline(aes(intercept = fit_gaus$coefficients[1], slope = fit_gaus$coefficients[2], color='Non-phylogenetic'), size = 1) +
+  geom_abline(aes(intercept = fit_pgaus$B[1], slope = fit_pgaus$B[2], color='Phylogenetic'), size = 1) +
+  scale_color_manual(name='Regression Model',
+                     values=c('Non-phylogenetic'='black', 
+                              'Phylogenetic'='red')) +
+  theme_bw(base_size = 14) + 
+  xlab('# HLA Copies') +
+  ylab('# FSA Copies') +
+  annotate("text", x = min(pdat$hla_count), y = max(pdat$fsa_count), hjust = 0, vjust = 1,
+           label = non_phylo_text, color = "black", size = 3) +
+  annotate("text", x = min(pdat$hla_count), y = max(pdat$fsa_count) - 0.75, hjust = 0, vjust = 1,
+           label = phylo_text, color = "red", size = 3) +
+  theme(legend.position = 'top')
+
+# Save this
+ggsave(fsa_hsa_corrplot, file = 'plots/fsa_hsa_correlation_plt.pdf', height = 7, width = 7)
+
+# And visualize below:
+fsa_hsa_corrplot
+
+# Save fitted models:
+fitted_univar_mods <- 
+  list(nonphy_gaus = fit_gaus,
+       phylog_gaus = fit_pgaus,
+       plylog_pois = fit_ppois)
+saveRDS(fitted_univar_mods, file = "models/glms_univar_count.Rds")
+```
+
+#### Interaction: FSA ~ HSA * Phylum
+Now, what if we account for an effect of phylum on these predictions (i.e.  do species within different phyla experience a different relationship between FSA/HLA counts?). In these models, we allow for an interaction of HLA count and phylum, meaning that the slope and intercept of the fitted regression may differ between phyla. 
+
+Because phyla other that Basidiomycota and Ascomycota are poorly represented in our data, we collapse these different phyla into an "other" category, and set this as our "reference" level. In practical terms, this just means that the estimated slopes and intercepts for Basidiomycota and Ascomycota are relative to those terms estimated for "other". The corresponding P-values thus address whether each significantly differ from the relationship estimated for species in "other."
+```{r}
+# First, a simple glm, not accounting for phylogeny
+fit_gaus_phylum <- glm(fsa_count ~ hla_count * phylum_simple, data = pdat)
+summary(fit_gaus_phylum)
+
+# Again, check to see whether we observe the same pattern with a phylogenetic glm
+fit_pgaus_phylum <- pglmm_compare(fsa_count ~ hla_count * phylum_simple, data = pdat, phy = tree)
+summary(fit_pgaus_phylum)
+
+# So, it does seem to be that phylum plays a role here. Specifically, we see that the relationship is still significant for "other". Although the relationship does not differ between Basidiomycota and Other (still positive), Ascomycota actually has a significantly different relationship than "other", and by association, likely has quite a different relationship as compared to Basidiomycota - the relationship is now negative! Furthermore, this is distinct from what we observe when looking at a non-phylogenetic model!
+
+# Together, this suggests that in Ascomycota (not not other fungal groups), there is a tradeoff between the  counts of HLAs and FSAs
+
+# Again, plot this. 
+other_int <- fit_gaus_phylum$coefficients[1]
+other_slope <- fit_gaus_phylum$coefficients[2]
+other_pint <- fit_pgaus_phylum$B[1]
+other_pslope <- fit_pgaus_phylum$B[2]
+
+fsa_hsa_phylum_corrplot <- 
+  ggplot(data = pdat, aes(y = fsa_count, x = hla_count, color = phylum_simple)) + 
+  geom_point(alpha = 0.5, 
+             position = position_jitter(width = 0.1, 
+                                        height = 0.1)) + 
+  geom_abline(aes(intercept = other_int, slope = other_slope, color='Other', linetype = "Non-phylogenetic"), size = 1) +
+  geom_abline(aes(intercept = other_int+fit_gaus_phylum$coefficients[3], slope = other_slope+fit_gaus_phylum$coefficients[5], color='Ascomycota', linetype = "Non-phylogenetic"), size = 1) +
+  geom_abline(aes(intercept = other_int+fit_gaus_phylum$coefficients[4], slope = other_slope+fit_gaus_phylum$coefficients[5], color='Basidiomycota', linetype = "Non-phylogenetic"), size = 1) +
+  geom_abline(aes(intercept = other_pint[1], slope = other_pslope, color='Other', linetype = "Phylogenetic"), size = 1) +
+  geom_abline(aes(intercept = other_pint+fit_pgaus_phylum$B[3], slope = other_pslope+fit_pgaus_phylum$B[5], color='Ascomycota', linetype = "Phylogenetic"), size = 1) +
+  geom_abline(aes(intercept = other_pint+fit_pgaus_phylum$B[4], slope = other_pslope+fit_pgaus_phylum$B[6], color='Basidiomycota', linetype = "Phylogenetic"), size = 1) +
+  scale_color_manual(name='Phylum',
+                     values=c('Other' = 'black', 
+                              'Ascomycota' = 'red',
+                              "Basidiomycota" = "blue")) +
+  scale_linetype_manual(name='Model type',
+                        values=c('Non-phylogenetic' = 2, 
+                                 'Phylogenetic' = 1)) +
+  theme_bw(base_size = 14) + 
+  xlab('# HLA Copies') +
+  ylab('# FSA Copies') +
+  theme(legend.position = 'top', 
+        legend.box = "vertical", 
+        legend.direction = "horizontal",
+        legend.spacing.y = unit(0.01, "cm"))
+
+# Save this:
+ggsave(fsa_hsa_phylum_corrplot, file = 'plots/fsa_hsa_phylum_correlation_plt.pdf', height = 7, width = 7)
+
+# And again, visualize below:
+fsa_hsa_phylum_corrplot
+
+# Save fitted models:
+fitted_phylum_mods <- 
+  list(nonphy_gaus = fit_gaus_phylum,
+       phylog_gaus = fit_pgaus_phylum)
+saveRDS(fitted_phylum_mods, file = "models/glms_phylum_interaction_count.Rds")
+```
+
+## FSA/HLA Presence absence
+Now let's just model the evolution of FSA and HLA as a binary presence/absence trait. 
+```{r}
+# Prepare the data
+pdat$fsa_binary <- as.factor(pdat$fsa_count > 0)
+pdat$hla_binary <- as.factor(pdat$hla_count > 0)
+pdat$fsa_binary <- 
+  gsub("TRUE", "present", pdat$fsa_binary) |>
+  gsub(pattern = "FALSE", replacement = "absent") |> 
+  as.factor()
+pdat$hla_binary <- 
+  gsub("TRUE", "present", pdat$hla_binary) |>
+  gsub(pattern = "FALSE", replacement = "absent") |> 
+  as.factor()
+fsa_binary <- pdat$fsa_binary
+hla_binary <- pdat$hla_binary
+names(fsa_binary) <- rownames(pdat)
+names(hla_binary) <- rownames(pdat)
+```
+
+### Markov models
+Now, let's explore the use of models of discrete trait evolution - Markov models. These models (like the ones used for nucleotide or amino acid substitution) estimate the rates at which some discrete character transitions from one state to another. We can use these models to infer ancestral character states, and to assess whether discrete characters have correlated evolutionary histories. 
+
+#### Presence/Absence
+First fit models for a simplified character - the presence or absence of FSAs or HLAs.
+```{r}
+# Fit a markov model with two states, binary presence absence for
+# both FSA and HLA. In this model, transitions can occur between 
+# each of the four states (0_0, 0_1, 1_1, 1_0), excluding
+# "double" state transitions (i.e. 0_0 -> 1_1). 
+fsa_hla_mm1 <- 
+  corHMM(phy = ladderize(tree), 
+         data = pdat[c('species', 'fsa_binary', 'hla_binary')],
+         rate.cat = 1, n.cores = 7, model = "ARD")
+
+# And one that allows for hidden/latent states (i.e. unmeasured, 
+# covarying biological features that impact the rates of 
+# character state transitions). 
+fsa_hla_hmm2 <- 
+  corHMM(phy = ladderize(tree), 
+         data = pdat[c('species', 'fsa_binary', 'hla_binary')],
+         rate.cat = 2, n.cores = 7, model = "ARD")
+
+# Check the model fits:
+fsa_hla_mm1$AICc
+fsa_hla_hmm2$AICc
+
+# Clearly the model with hidden states fits much better - this 
+# is not uncommon, as otherwise these markov models attribute
+# all variation in transition rates to the sampled character. 
+# This assumption, while understandable, is not biologically
+# realistic. 
+
+# Now, let's visualize this model, knowing that the character 
+# are as follows (ordered FSA_HLA):
+# 1 = "absent_absent"
+# 2 = "absent_present"
+# 3 = "present_absent"
+# 4 = "present_present"
+corHMM::plotMKmodel(fsa_hla_hmm2)
+
+# Great - now lets visualize the ancestral state reconstructions!
+# Note: this is a huge tree, and so we'll be better off visualizing in a large pdf. 
+corHMM::plotRECON(fsa_hla_hmm2$phy, 
+                  fsa_hla_hmm2$states, 
+                  show.tip.label = F)
+
+# Add observed states to the tips
+# Determine the color of the symbols based on the values in fsa_binary
+fsa_color <- ifelse(fsa_binary == levels(fsa_binary)[1], 'lightgrey', 'black')
+hla_color <- ifelse(hla_binary == levels(hla_binary)[1], 'red', 'blue')
+
+# Add observed states to the tips
+tiplabels(pch = 16, col = fsa_color,
+          cex = 0.25, offset = 10)
+tiplabels(pch = 16, col = hla_color,
+          cex = 0.25, offset = 15)
+
+# Now, let's try corHMMs test of correlated characters, to see
+# whether this approach can detect an association between the 
+# two presence/absence states. 
+fsa_hla_corr_test <- 
+  corHMM::fitCorrelationTest(ladderize(tree),
+                             data = pdat[c('species', 'fsa_binary', 'hla_binary')])
+
+# Let's compare model fits:
+corhmm_res <- data.frame(
+  model = names(fsa_hla_corr_test),
+  n_rate_cats = NA,
+  n_params = NA,
+  neg_log_lik = NA,
+  AIC = NA,
+  AICc = NA
+)
+for(model in 1:length(ls(fsa_hla_corr_test))){
+  mod_name <- names(fsa_hla_corr_test[model])
+  mod_cats <- fsa_hla_corr_test[[model]]$rate.cat
+  mod_nparam <- length(na.omit(c(fsa_hla_corr_test[[model]]$solution)))
+  mod_lik <- round(fsa_hla_corr_test[[model]]$loglik, 2)
+  mod_aic <- round(fsa_hla_corr_test[[model]]$AIC, 2)
+  mod_aicc <- round(fsa_hla_corr_test[[model]]$AICc, 2)
+
+  corhmm_res[model,] <- 
+    c(mod_name, mod_cats, mod_nparam,
+      mod_lik, mod_aic, mod_aicc)
+}
+
+# Lets see!
+corhmm_res
+
+# So, this would suggest that when looking across all species, a model in which the presence/absence of FSA and HLA is independent of each other. This makes some sense - after all, we only found the correlation to exist when looking at count data - simple binary presence/absence may not be the scale at which this "trade-off" presents itself. In other words, it may be gene dosage (copy #), not presence/absence. 
+
+# Let's visualize the best-fit model:
+best_fit <- which(corhmm_res$AICc == min(corhmm_res$AICc))
+
+# First the estimated rate matrix:
+corHMM::plotMKmodel(fsa_hla_corr_test[[best_fit]])
+
+# Great - now lets visualize the ancestral state reconstructions!
+# Note: this is a huge tree, and so we'll be better off visualizing in a large pdf. 
+#Legend
+#                1                 2                 3                 4 
+#  "absent_absent"  "absent_present"  "present_absent" "present_present" 
+corHMM::plotRECON(fsa_hla_corr_test[[best_fit]]$phy, 
+                  fsa_hla_corr_test[[best_fit]]$states, 
+                  show.tip.label = F)
+# Add observed states to the tips
+# Determine the color of the symbols based on the values in fsa_binary
+fsa_color <- ifelse(fsa_binary == levels(fsa_binary)[1], 'lightgrey', 'black')
+hla_color <- ifelse(hla_binary == levels(hla_binary)[1], 'red', 'blue')
+
+# Add observed states to the tips
+tiplabels(pch = 16, col = fsa_color,
+          cex = 0.25, offset = 10)
+tiplabels(pch = 16, col = hla_color,
+          cex = 0.25, offset = 15)
+
+# and do this again, saving this out to a PDF
+pdf('plots/fsa_hla_binary_ancstate_recon.pdf',
+    height = 17, width = 12)
+  corHMM::plotRECON(fsa_hla_corr_test[[best_fit]]$phy, 
+                    fsa_hla_corr_test[[best_fit]]$states, 
+                    show.tip.label = F)
+  fsa_color <- ifelse(fsa_binary == levels(fsa_binary)[1], 'lightgrey', 'black')
+  hla_color <- ifelse(hla_binary == levels(hla_binary)[1], 'red', 'blue')
+  tiplabels(pch = 16, col = fsa_color,
+            cex = 0.25, offset = 10)
+  tiplabels(pch = 16, col = hla_color,
+            cex = 0.25, offset = 15)
+  legend(x = 'top', horiz = T, 
+         c("FSA: Absent", "FSA: Present", 
+           "HLA: Absent", "HLA: Present"), 
+         col = c("lightgrey", "black", "red", "blue"),
+         cex = 0.8, pch = 16, pt.cex = 0.5)
+dev.off()
+# Save the fitted models and summary table out to file, since that took a fair bit of time to generate. 
+saveRDS(fsa_hla_corr_test, file = 'models/fsa_hla_binary_corrtest_fitted_models.Rds')
+write.table(corhmm_res, file = 'models/fsa_hla_binary_model_fits.tsv', sep = "\t", col.names = T, row.names = F, quote = F)
+```
+
+#### Absent/single-/multi-copy
+Now, fit a more complex model, wherein species fall in one of three character states for FSA/HLA. That is FSA/HLA is either absent, single-copy, or multi-copy in each species. This framing should ideally capture greater complexity and nuance in the evolutionary history of these traits, while simplifying the model space. Modelling raw counts can become prohibitively complex, as the number of possible state transitions becomes vast.
+```{r}
+pdat2 <- pdat
+pdat2$fsa_levels <- pdat2$fsa_count
+pdat2$hla_levels <- pdat2$hla_count
+pdat2$fsa_levels[which(pdat2$fsa_levels > 1)] <- 2
+pdat2$hla_levels[which(pdat2$hla_levels > 1)] <- 2
+
+# let's try corHMMs test of correlated characters, to see
+# whether this approach can detect an association between the 
+# two presence/absence states. 
+
+# Note, this function fits multiple models - rather than 
+# fitting them individually as before, we'll just use this
+# to identify and visualize the best-fit model. 
+fsa_hla_level_corr_test <- 
+  corHMM::fitCorrelationTest(ladderize(tree),
+                             data = pdat2[c('species', 'fsa_levels', 'hla_levels')])
+
+# Let's compare model fits:
+corhmm_level_res <- data.frame(
+  model = names(fsa_hla_level_corr_test),
+  n_rate_cats = NA,
+  n_params = NA,
+  neg_log_lik = NA,
+  AIC = NA,
+  AICc = NA
+)
+for(model in 1:length(ls(fsa_hla_level_corr_test))){
+  mod_name <- names(fsa_hla_level_corr_test[model])
+  mod_cats <- fsa_hla_level_corr_test[[model]]$rate.cat
+  mod_nparam <- length(na.omit(c(fsa_hla_level_corr_test[[model]]$solution)))
+  mod_lik <- round(fsa_hla_level_corr_test[[model]]$loglik, 2)
+  mod_aic <- round(fsa_hla_level_corr_test[[model]]$AIC, 2)
+  mod_aicc <- round(fsa_hla_level_corr_test[[model]]$AICc, 2)
+
+  corhmm_level_res[model,] <- 
+    c(mod_name, mod_cats, mod_nparam,
+      mod_lik, mod_aic, mod_aicc)
+}
+
+# Lets see!
+corhmm_level_res
+
+# And there it is! Here, the correlated model (fourth model below) is the best-fit. Again, this supports the hypothesis that FSA and HLA gene count (rather than presence/absence) are evolutionarily correlated, with the rates of evolutionary change in one predicting that of the other. These results are consistent with what we observe when we fitted linear models. 
+
+# Lastly, visualize and save these models out to file.
+# First the estimated rate matrix:
+best_fit <- which(corhmm_level_res$AICc == min(corhmm_level_res$AICc))
+pdf(file = 'plots/fsa_hla_countlevel_corrtest_modfit.pdf',
+    height = 10, width = 10)
+corHMM::plotMKmodel(fsa_hla_level_corr_test[[best_fit]],
+                    display = 'square')
+dev.off()
+
+# Great - now, visualizing ancestral state reconstructions here will not be very productive since there are so many states that we won't easily have enough colors to visualize. Don't worry about this for now.
+
+# Save the fitted models and summary table out to file, since that took a fair bit of time to generate. 
+saveRDS(fsa_hla_level_corr_test, file = 'models/fsa_hla_countlevel_corrtest_fitted_models.Rds')
+write.table(corhmm_level_res, file = 'models/fsa_hla_countlevel_model_fits.tsv', sep = "\t", col.names = T, row.names = F, quote = F)
+```
