@@ -24,12 +24,10 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_knit$set(root.dir = '../')
 ```
 
-```{r}
+```{r, results = FALSE}
 # Silently load R packages
-#library(phylolm)
 library(phyr)
 library(tidyverse)
 library(ape)
@@ -42,7 +40,7 @@ library(corHMM)
 ### FSA/HLA count data
 ```{r}
 # Read in the fsa/hla data, again removing the mollusc
-dat <- read_csv('data/hla_fsa_dataset_for_tree_Austin.csv')
+dat <- read_csv('../data/hla_fsa_dataset_for_tree_Austin.csv')
 dat <- dat[-which(dat$Species == "Siphonaria sp. JEL0065"),]
 
 # reformat, and also calculate the % Actins that are FSA
@@ -69,7 +67,7 @@ rownames(pdat) <-
 First, read in the tree from timetree.org, and take a look
 ```{r}
 # Read in the cladogram with species we want to retain
-tree <- read.tree('data/tree_for_hla_and_fsa.nwk')
+tree <- read.tree('../data/tree_for_hla_and_fsa.nwk')
 tree <- drop.tip(tree, "Siphonaria_sp._JEL0065")
 
 # Make sure the tree is ultrametric and fully bifurcating, with no 0-length branches
@@ -85,14 +83,14 @@ ggtree(tree)
 There are some features of the "raw" phylogeny from timetree.org that can cause some problems down the line. Let's see if we can improve the dating slightly by using a more formally time-calibrated phylogeny of mushroom-forming fungal species to "congruify" the timetree.org phylogeny, making the latter's branch-lengths more consistent with that of the former. This tree was obtained from the following dryad repo: https://datadryad.org/stash/dataset/doi:10.5061/dryad.gc2k9r9
 ```{r}
 # Read in the time calibrated tree of mushroom forming fungi:
-mush_tt <- read.tree('data/r8s_kohler_etal_calibration_scheme1.tre')
+mush_tt <- read.tree('../data/r8s_kohler_etal_calibration_scheme1.tre')
 mush_tt <- force.ultrametric(mush_tt, method = 'extend')
 # rename tips in the mushroom time tree to match the timetree tree more closely:
 corr_tiplabs <- sub("^(.*?_.*?)_.*", "\\1", tree$tip.label)
 keep <- which(mush_tt$tip.label %in% sub("^(.*?_.*?)_.*", "\\1", tree$tip.label))
 newnames <- tree$tip.label[which(sub("^(.*?_.*?)_.*", "\\1", tree$tip.label) %in% mush_tt$tip.label)]
 newnames <- newnames[match(mush_tt$tip.label[keep], sub("^(.*?_.*?)_.*", "\\1", newnames))]
-mush_tt$tip.label[keep] <- replace
+mush_tt$tip.label[keep] <- newnames
 
 # Now, see what congruifying the timetree tree looks like:
 cong_tree <- 
@@ -145,7 +143,7 @@ plotSimmap(phyla_tree, fsize = 0.001)
 Great. We've got our data prepared to analyze. Now let's do some simple evolutionary analysis, beginning with something largely explorative, but still useful in refining our intuition regarding how FSA and HLA copy number evolve.  
 
 ### Ancestral gene count reconstruction
-Specifically, we'll first make some simplifying assumptions, fitting a modelof continuout trait evolution to the count data, using this model to infer ancestral HLA/FSA gene counts along the phylogeny. 
+Specifically, we'll first make some simplifying assumptions, fitting a model of continuous trait evolution to the count data, using this model to infer ancestral HLA/FSA gene counts along the phylogeny. 
 ```{r}
 # Begin by simply visualizing the trait on the tree with some inferred ancestral character states
 fsa <- as.numeric(pdat$fsa_count)
@@ -225,7 +223,7 @@ actin_plt <- cowplot::plot_grid(fsa_tree_p, hla_tree_p, prop_fsa_tree_p, nrow = 
 dir.create('plots', showWarnings = F)
 
 # And save this to PDF. 
-ggsave(actin_plt, file = 'plots/fsa_hla_actin_ancestral_reconstructions.pdf',
+ggsave(actin_plt, file = '../plots/fsa_hla_actin_ancestral_reconstructions.pdf',
        height = 8, width = 12)
 
 # Let's quick visualize below:
@@ -291,7 +289,7 @@ fsa_hsa_corrplot <-
   theme(legend.position = 'top')
 
 # Save this
-ggsave(fsa_hsa_corrplot, file = 'plots/fsa_hsa_correlation_plt.pdf', height = 7, width = 7)
+ggsave(fsa_hsa_corrplot, file = '../plots/fsa_hsa_correlation_plt.pdf', height = 7, width = 7)
 
 # And visualize below:
 fsa_hsa_corrplot
@@ -301,7 +299,7 @@ fitted_univar_mods <-
   list(nonphy_gaus = fit_gaus,
        phylog_gaus = fit_pgaus,
        plylog_pois = fit_ppois)
-saveRDS(fitted_univar_mods, file = "models/glms_univar_count.Rds")
+saveRDS(fitted_univar_mods, file = "../models/glms_univar_count.Rds")
 ```
 
 #### Interaction: FSA ~ HSA * Phylum
@@ -354,7 +352,7 @@ fsa_hsa_phylum_corrplot <-
         legend.spacing.y = unit(0.01, "cm"))
 
 # Save this:
-ggsave(fsa_hsa_phylum_corrplot, file = 'plots/fsa_hsa_phylum_correlation_plt.pdf', height = 7, width = 7)
+ggsave(fsa_hsa_phylum_corrplot, file = '../plots/fsa_hsa_phylum_correlation_plt.pdf', height = 7, width = 7)
 
 # And again, visualize below:
 fsa_hsa_phylum_corrplot
@@ -363,7 +361,7 @@ fsa_hsa_phylum_corrplot
 fitted_phylum_mods <- 
   list(nonphy_gaus = fit_gaus_phylum,
        phylog_gaus = fit_pgaus_phylum)
-saveRDS(fitted_phylum_mods, file = "models/glms_phylum_interaction_count.Rds")
+saveRDS(fitted_phylum_mods, file = "../models/glms_phylum_interaction_count.Rds")
 ```
 
 ## FSA/HLA Presence absence
@@ -504,7 +502,7 @@ tiplabels(pch = 16, col = hla_color,
           cex = 0.25, offset = 15)
 
 # and do this again, saving this out to a PDF
-pdf('plots/fsa_hla_binary_ancstate_recon.pdf',
+pdf('../plots/fsa_hla_binary_ancstate_recon.pdf',
     height = 17, width = 12)
   corHMM::plotRECON(fsa_hla_corr_test[[best_fit]]$phy, 
                     fsa_hla_corr_test[[best_fit]]$states, 
@@ -522,8 +520,8 @@ pdf('plots/fsa_hla_binary_ancstate_recon.pdf',
          cex = 0.8, pch = 16, pt.cex = 0.5)
 dev.off()
 # Save the fitted models and summary table out to file, since that took a fair bit of time to generate. 
-saveRDS(fsa_hla_corr_test, file = 'models/fsa_hla_binary_corrtest_fitted_models.Rds')
-write.table(corhmm_res, file = 'models/fsa_hla_binary_model_fits.tsv', sep = "\t", col.names = T, row.names = F, quote = F)
+saveRDS(fsa_hla_corr_test, file = '../models/fsa_hla_binary_corrtest_fitted_models.Rds')
+write.table(corhmm_res, file = '../models/fsa_hla_binary_model_fits.tsv', sep = "\t", col.names = T, row.names = F, quote = F)
 ```
 
 #### Absent/single-/multi-copy
@@ -576,7 +574,7 @@ corhmm_level_res
 # Lastly, visualize and save these models out to file.
 # First the estimated rate matrix:
 best_fit <- which(corhmm_level_res$AICc == min(corhmm_level_res$AICc))
-pdf(file = 'plots/fsa_hla_countlevel_corrtest_modfit.pdf',
+pdf(file = '../plots/fsa_hla_countlevel_corrtest_modfit.pdf',
     height = 10, width = 10)
 corHMM::plotMKmodel(fsa_hla_level_corr_test[[best_fit]],
                     display = 'square')
@@ -585,6 +583,6 @@ dev.off()
 # Great - now, visualizing ancestral state reconstructions here will not be very productive since there are so many states that we won't easily have enough colors to visualize. Don't worry about this for now.
 
 # Save the fitted models and summary table out to file, since that took a fair bit of time to generate. 
-saveRDS(fsa_hla_level_corr_test, file = 'models/fsa_hla_countlevel_corrtest_fitted_models.Rds')
-write.table(corhmm_level_res, file = 'models/fsa_hla_countlevel_model_fits.tsv', sep = "\t", col.names = T, row.names = F, quote = F)
+saveRDS(fsa_hla_level_corr_test, file = '../models/fsa_hla_countlevel_corrtest_fitted_models.Rds')
+write.table(corhmm_level_res, file = '../models/fsa_hla_countlevel_model_fits.tsv', sep = "\t", col.names = T, row.names = F, quote = F)
 ```
