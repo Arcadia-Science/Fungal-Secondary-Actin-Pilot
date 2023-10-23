@@ -1,0 +1,211 @@
+,tip.label,FSA,acidPhosphatase_count,alphaGlucosidase15_count,alphaGlucosidase31_count,alphaManNAase76_count,aminoAcidPermease_count,ammoniumTransporter_count,amylase88_count,auxinResponsivePromoter_count,betaGlucanSynthase_count,betaGlucosidase1_count,betaXylosidase43_count,cellobiohydrolase6_count,cellobiohydrolase7_count,chitinase_count,chitosanase8_count,coldShockProtein_count,crystalineCellulaseAA9_count,endoglucanase12_count,endoglucanase9_count,fungalLigninPeroxidase_count,glucosidase81_count,glycopeptidase85_count,glycoproteinSynthesis92_count,heatShockProtein_count,invertase32_count,melanin_count,nitrateTransporter_count,phosphateTransporter_count,RNAHelicase_count,RNApolymerase_count,trehalase_count,ascoma_development,ascoma_type,ascus_dehiscence,sterol_type,trophic_mode_fg,guild_fg,growth_form_fg
+2,Paxillus_involutus,No,22,4,5,0,0,2,2,27,3,4,0,0,0,13,0,0,5,0,6,0,0,1,4,7,0,14,1,0,19,31,3,NA,NA,NA,Ergosterol,Symbiotroph,Ectomycorrhizal,Agaricoid
+3,Amanita_muscaria,Yes,8,2,5,0,0,1,1,0,2,0,2,0,0,13,0,0,2,0,1,0,1,1,4,16,0,3,0,0,21,26,2,NA,NA,NA,NA,Symbiotroph,Ectomycorrhizal,Agaricoid
+4,Mycena_pura,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Saprotroph,Litter Saprotroph,Agaricoid
+5,Pluteus_cervinus,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Saprotroph,Leaf Saprotroph-Wood Saprotroph,Agaricoid
+6,Pleurotus_ostreatus,Yes,13,3,8,2,1,3,5,0,2,5,8,2,17,11,0,0,29,2,1,9,0,1,6,12,1,4,0,1,19,30,3,NA,NA,NA,NA,Pathotroph-Saprotroph,Endophyte-Plant Pathogen-Wood Saprotroph,Agaricoid
+8,Hygrophoropsis_aurantiaca,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Saprotroph,Wood Saprotroph,Agaricoid
+10,Armillaria_ostoyae,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Pathotroph-Saprotroph,Plant Pathogen-Undefined Saprotroph,Agaricoid
+11,Mycena_sanguinolenta,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Saprotroph,Leaf Saprotroph,Agaricoid
+12,Galerina_marginata,Yes,10,3,4,2,1,4,5,2,4,9,4,3,12,16,0,0,18,4,1,23,0,1,7,9,1,4,2,0,17,27,2,NA,NA,NA,NA,Saprotroph,Undefined Saprotroph,Agaricoid
+13,Armillaria_mellea,Yes,11,5,5,1,0,4,3,0,2,10,5,2,4,12,0,0,21,4,2,10,0,1,4,10,0,12,0,1,17,19,3,NA,NA,NA,NA,Pathotroph-Saprotroph,Plant Pathogen-Wood Saprotroph,Agaricoid
+14,Schizophyllum_commune,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Pathotroph-Saprotroph,Animal Pathogen-Endophyte-Wood Saprotroph,Agaricoid
+15,Armillaria_gallica,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Pathotroph-Saprotroph,Wood Saprotroph,Agaricoid
+17,Tolypocladium_ophioglossoides,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ascohymenial,Ostiolar,Poricidal,NA,Pathotroph,Fungal Parasite,Cordyceptoid
+18,Claviceps_purpurea,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ascohymenial,Ostiolar,Poricidal,NA,Symbiotroph,Plant Pathogen,Ergot
+19,Ustilago_maydis,Yes,15,1,3,1,0,2,2,0,1,0,2,0,0,2,1,0,0,0,2,0,0,1,3,1,2,1,0,1,18,24,2,NA,NA,NA,NA,Pathotroph,Plant Pathogen,Facultative Yeast
+20,Zygosaccharomyces_rouxii,No,1,1,2,2,6,2,0,0,2,1,0,0,0,2,0,0,0,0,1,0,1,1,0,6,1,0,0,0,18,26,1,NA,NA,NA,NA,Saprotroph,Undefined Saprotroph,Facultative Yeast
+22,Tremella_mesenterica,No,8,2,2,0,0,1,1,0,1,1,0,0,0,3,0,0,0,0,1,0,0,0,1,0,0,0,0,0,19,21,2,NA,NA,NA,NA,Pathotroph,Fungal Parasite,Facultative Yeast
+23,Penicillium_chrysogenum,No,12,4,12,7,3,3,2,0,1,4,11,1,2,11,0,0,4,4,1,0,1,0,4,6,6,6,1,3,18,27,1,NA,NA,NA,NA,Pathotroph,Plant Pathogen,Facultative Yeast
+26,Aspergillus_flavus,Yes,17,3,10,10,3,3,5,0,1,3,17,1,3,16,0,0,7,5,0,0,1,0,6,4,4,10,1,4,19,24,1,NA,NA,NA,NA,Pathotroph-Saprotroph,Animal Pathogen-Plant Pathogen-Wood Saprotroph,Microfungus
+27,Aspergillus_niger,Yes,17,2,7,11,3,3,3,0,1,4,10,2,2,15,0,0,7,4,0,0,1,0,5,4,4,8,1,1,19,27,1,NA,NA,NA,NA,Pathotroph-Saprotroph,Plant Pathogen-Wood Saprotroph,Microfungus
+28,Aspergillus_ruber,No,9,3,5,8,2,3,2,0,1,5,7,0,2,8,0,0,5,2,0,0,1,0,2,2,4,3,1,1,19,26,1,NA,NA,NA,NA,Pathotroph,Animal Pathogen,Microfungus
+29,Botrytis_cinerea,No,11,4,6,9,1,1,2,0,1,6,5,1,3,7,0,0,9,4,0,0,2,0,5,2,2,9,1,1,18,26,1,NA,NA,NA,NA,Pathotroph,Plant Pathogen,Microfungus
+30,Aspergillus_fumigatus,Yes,12,5,7,7,2,3,4,0,1,9,16,1,4,16,0,0,7,4,0,0,1,0,4,4,4,3,2,3,20,26,1,NA,NA,NA,NA,Pathotroph-Saprotroph,Animal Pathogen-Undefined Saprotroph,Microfungus
+31,Colletotrichum_higginsianum,Yes,13,5,7,11,1,4,8,0,1,1,17,2,8,20,0,0,22,10,1,6,2,0,5,3,0,21,1,6,18,29,3,NA,NA,NA,NA,Pathotroph,Plant Pathogen,Microfungus
+32,Macrophomina_phaseolina,No,13,2,11,9,2,3,5,0,2,8,20,0,3,10,0,0,10,3,0,3,3,0,6,4,5,11,0,2,15,27,2,NA,NA,NA,NA,Pathotroph-Symbiotroph,Endophyte-Plant Pathogen,Microfungus
+33,Aspergillus_terreus,No,13,2,11,9,2,3,2,0,1,4,17,2,4,20,0,0,12,6,0,0,1,0,6,4,6,4,1,3,18,22,1,NA,NA,NA,NA,Pathotroph-Saprotroph,Animal Pathogen-Wood Saprotroph,Microfungus
+34,Aspergillus_clavatus,Yes,14,6,5,8,2,3,3,0,1,5,12,2,4,13,0,1,7,3,1,0,1,0,3,2,1,4,1,3,20,26,1,NA,NA,NA,NA,Pathotroph,Animal Pathogen,Microfungus
+35,Colletotrichum_graminicola,No,15,3,6,9,2,4,5,0,1,3,14,1,6,21,0,0,26,6,0,5,2,0,4,2,3,13,1,4,18,28,2,NA,NA,NA,NA,Pathotroph,Plant Pathogen,Microfungus
+36,Colletotrichum_gloeosporioides,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ascohymenial,Ostiolar,Poricidal,NA,Pathotroph-Symbiotroph,Endophyte-Plant Pathogen,Microfungus
+37,Monilinia_laxa,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ascohymenial,Exposed hymenium,Poricidal,NA,Pathotroph,Plant Pathogen,Microfungus
+38,Cryphonectria_parasitica,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ascohymenial,Ostiolar,Poricidal,NA,Saprotroph,Wood Saprotroph,Microfungus
+39,Botryosphaeria_dothidea,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ascolocular,Ostiolar,Fissitunicate,NA,Pathotroph,Plant Pathogen,Microfungus
+43,Cadophora_sp.,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Symbiotroph,Endophyte,Microfungus
+44,Blumeria_graminis,No,8,1,1,7,1,1,0,0,1,1,0,0,0,8,0,0,1,0,0,0,1,0,2,17,0,3,0,0,18,29,1,Ascohymenial,Enclosed,Poricidal,Ergosta-5,Pathotroph,Plant Pathogen,Microfungus
+45,Aspergillus_nidulans,Yes,11,2,10,7,1,3,5,0,1,4,14,1,3,19,0,0,10,1,2,0,1,0,5,5,2,9,2,4,19,26,1,Ascohymenial,Enclosed,Deliquescent,NA,Saprotroph,Undefined Saprotroph,Microfungus
+48,Fistulina_hepatica,Yes,8,3,5,2,0,1,6,0,2,1,2,0,4,13,0,0,5,2,0,0,4,1,7,9,0,3,0,0,19,27,2,NA,NA,NA,NA,NA,NA,NA
+49,Fomitopsis_betulina,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+51,Laetiporus_sulphureus,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52,Calocera_viscosa,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+54,Imleria_badia,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+57,Boletus_edulis,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+58,Mycena_galericulata,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+59,Scleroderma_citrinum,Yes,19,2,1,0,0,3,6,25,3,4,0,0,0,7,0,0,3,1,1,0,0,1,3,9,0,2,3,0,18,31,2,NA,NA,NA,Ergosterol,NA,NA,NA
+62,Coniophora_puteana,Yes,22,2,12,4,0,2,3,18,3,3,6,0,2,14,0,0,10,4,1,0,1,1,4,10,1,1,0,0,18,25,4,NA,NA,NA,NA,NA,NA,NA
+63,Thelephora_terrestris,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+64,Trametes_versicolor,Yes,16,4,5,0,0,2,3,0,2,2,3,1,4,11,0,0,18,5,1,26,0,1,4,11,3,6,0,0,17,30,2,NA,NA,NA,NA,NA,NA,NA
+66,Punctularia_strigosozonata,Yes,13,4,9,3,0,2,8,0,2,2,7,1,5,10,0,0,13,2,2,11,0,1,4,8,1,3,1,0,18,26,3,NA,NA,NA,NA,NA,NA,NA
+68,Gloeophyllum_trabeum,Yes,14,2,5,4,0,2,7,0,3,7,5,0,0,9,0,0,4,2,2,0,1,1,4,14,1,2,1,0,17,27,3,NA,NA,NA,Ergosterol,NA,NA,NA
+69,Serpula_lacrymans,No,13,2,5,1,0,2,5,1,2,4,1,0,0,8,0,0,5,1,1,0,0,1,3,5,0,4,1,0,13,24,3,NA,NA,NA,NA,NA,NA,NA
+70,Cyclocybe_aegerita,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+72,Pisolithus_microcarpus,No,12,2,1,0,0,3,1,19,2,4,1,0,0,6,0,0,4,0,1,0,0,1,1,14,0,5,1,0,18,33,3,NA,NA,NA,NA,NA,NA,NA
+73,Laccaria_bicolor,Yes,11,2,7,0,0,7,4,5,2,1,0,0,0,11,0,0,6,3,1,1,0,1,2,12,0,3,1,0,22,26,2,NA,NA,NA,NA,NA,NA,NA
+74,Aspergillus_carbonarius,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+76,Wolfiporia_cocos,Yes,12,2,5,0,0,2,2,0,2,1,0,0,0,9,0,0,2,2,1,1,0,1,3,9,0,3,1,0,17,27,4,NA,NA,NA,NA,NA,NA,NA
+77,Postia_placenta,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+78,Lentinula_edodes,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+79,Cenococcum_geophilum,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+80,Kazachstania_africana,No,1,1,1,3,14,2,0,0,3,4,0,0,0,3,0,0,0,0,0,0,1,0,0,3,0,0,0,0,20,26,1,NA,NA,NA,NA,NA,NA,NA
+83,Schizosaccharomyces_octosporus,No,4,2,4,4,1,3,0,0,4,2,0,0,0,1,0,0,0,0,0,0,2,0,0,8,1,0,0,0,17,27,1,NA,NA,NA,NA,NA,NA,NA
+84,Schizosaccharomyces_cryophilus,No,4,2,3,4,0,3,0,0,4,2,0,0,0,1,0,0,0,0,0,0,3,0,0,16,1,0,0,0,18,27,1,NA,NA,NA,NA,NA,NA,NA
+85,Spathaspora_passalidarum,No,5,1,3,4,5,2,0,0,3,1,0,0,0,5,0,0,0,0,0,0,3,0,0,2,0,0,0,1,18,27,1,NA,NA,NA,NA,NA,NA,NA
+87,Trichoderma_reesei,No,6,0,4,8,2,2,1,0,1,2,2,1,2,19,0,0,2,2,0,0,2,0,0,3,0,3,0,1,0,26,2,NA,NA,NA,NA,NA,NA,NA
+88,Pyronema_omphalodes,No,6,2,5,7,1,3,2,0,1,6,5,1,2,5,0,0,9,1,0,1,1,1,1,5,1,13,1,1,19,27,1,NA,NA,NA,NA,NA,NA,NA
+91,Dactylellina_haptotyla,Yes,8,4,5,6,3,3,2,0,1,5,8,1,5,8,0,0,27,1,0,0,1,1,0,3,0,29,1,2,19,26,1,NA,NA,NA,NA,NA,NA,NA
+92,Verticillium_alfalfae,No,8,4,8,7,0,2,5,0,1,8,17,2,6,12,0,0,20,5,0,3,2,0,3,1,3,7,0,5,16,22,3,NA,NA,NA,NA,NA,NA,NA
+93,Serendipita_indica,Yes,9,5,8,0,0,2,6,0,1,2,5,1,1,4,0,0,23,1,3,0,1,0,0,5,1,7,0,1,22,25,2,NA,NA,NA,NA,NA,NA,NA
+94,Uncinocarpus_reesii,Yes,9,1,1,3,2,2,0,0,1,2,1,0,0,13,0,0,0,0,0,0,1,0,2,2,0,5,0,2,19,21,1,NA,NA,NA,NA,NA,NA,NA
+95,Moesziomyces_antarcticus,Yes,9,1,4,1,0,2,3,0,1,1,3,0,0,2,1,0,0,0,1,0,0,1,3,1,2,2,0,1,19,27,2,NA,NA,NA,NA,NA,NA,NA
+96,Volvariella_volvacea,Yes,10,3,6,0,0,4,6,1,2,4,13,4,11,13,0,0,30,2,1,7,0,3,4,9,0,4,1,1,19,23,2,NA,NA,NA,NA,NA,NA,NA
+97,Dothistroma_septosporum,Yes,10,2,9,7,2,4,3,0,1,3,9,0,1,9,0,0,2,3,1,1,1,0,7,2,2,9,1,1,15,28,1,NA,NA,NA,NA,NA,NA,NA
+98,Neofusicoccum_parvum,Yes,10,2,11,7,1,3,5,0,2,8,16,0,2,11,0,0,12,4,0,4,1,0,6,3,4,12,1,2,18,27,3,NA,NA,NA,NA,NA,NA,NA
+99,Cylindrobasidium_torrendii,Yes,11,3,7,3,0,3,9,0,2,1,15,3,5,22,0,0,24,4,1,0,0,1,3,8,0,6,0,1,18,27,2,NA,NA,NA,NA,NA,NA,NA
+100,Plicaturopsis_crispa,Yes,11,5,4,2,1,2,6,0,2,4,3,2,1,8,0,0,9,2,2,7,0,1,5,9,0,8,0,0,18,27,1,NA,NA,NA,NA,NA,NA,NA
+101,Sphaerulina_musiva,Yes,11,3,9,7,2,3,4,0,1,1,5,0,0,5,0,0,2,2,1,1,1,0,5,2,2,13,2,2,17,27,1,NA,NA,NA,NA,NA,NA,NA
+103,Grosmannia_clavigera,Yes,12,2,1,9,2,4,1,0,1,2,6,0,3,11,0,1,2,5,0,1,1,0,2,2,0,9,1,1,18,25,3,NA,NA,NA,NA,NA,NA,NA
+104,Auricularia_subglabra,Yes,12,2,10,7,0,3,14,0,4,2,27,2,6,29,0,0,19,2,1,19,5,1,7,13,2,10,1,1,17,29,4,NA,NA,NA,NA,NA,NA,NA
+105,Parastagonospora_nodorum,No,13,3,10,6,1,3,3,0,1,3,11,3,5,13,0,0,26,3,0,3,1,1,7,3,4,10,1,3,17,25,2,NA,NA,NA,NA,NA,NA,NA
+106,Phanerochaete_carnosa,Yes,13,2,8,0,0,2,4,0,2,2,4,1,5,10,0,0,11,3,1,11,0,1,4,7,0,2,1,0,19,25,2,NA,NA,NA,NA,NA,NA,NA
+107,Glarea_lozoyensis,No,13,3,4,12,4,3,3,0,1,5,12,3,5,14,0,0,24,2,0,5,1,0,3,6,3,17,2,2,17,24,1,NA,NA,NA,NA,NA,NA,NA
+108,Fusarium_fujikuroi,No,13,3,8,9,2,4,6,0,1,5,23,1,3,16,0,0,13,4,1,1,3,0,0,3,6,14,1,4,18,26,2,NA,NA,NA,NA,NA,NA,NA
+110,Aspergillus_fischeri,No,14,5,8,9,2,3,4,0,1,9,18,2,5,20,0,0,8,5,0,0,1,0,5,4,4,5,2,5,20,25,1,NA,NA,NA,NA,NA,NA,NA
+111,Phlebiopsis_gigantea,Yes,15,2,6,0,0,2,3,0,2,2,5,1,5,11,0,0,14,3,1,9,0,1,4,4,0,3,0,0,16,26,2,NA,NA,NA,NA,NA,NA,NA
+112,Sphaerobolus_stellatus,Yes,16,3,11,2,0,3,2,2,2,5,11,0,11,19,0,0,35,5,1,67,0,1,7,15,1,13,0,0,15,30,4,NA,NA,NA,NA,NA,NA,NA
+113,Metarhizium_acridum,Yes,16,2,6,13,0,2,2,0,1,3,1,0,0,18,0,1,1,1,0,2,1,0,4,5,2,5,1,4,20,23,2,NA,NA,NA,NA,NA,NA,NA
+114,Jaapia_argillacea,Yes,18,2,5,0,0,2,4,0,4,4,2,2,5,8,0,0,14,8,1,1,1,1,1,8,0,4,1,0,19,27,3,NA,NA,NA,NA,NA,NA,NA
+115,Phlebia_brevispora,Yes,18,4,5,0,0,2,4,0,11,2,1,1,4,19,0,0,12,2,2,17,0,3,4,10,0,9,1,0,16,31,3,NA,NA,NA,NA,NA,NA,NA
+116,Hydnomerulius_pinastri,Yes,22,2,6,6,0,2,3,14,3,4,2,0,4,11,0,0,14,3,1,0,0,1,3,5,0,6,1,0,18,29,3,NA,NA,NA,NA,NA,NA,NA
+117,Dichomitus_squalens,No,22,2,6,1,0,2,3,0,2,5,7,1,4,14,0,0,14,3,0,12,0,1,5,14,2,3,0,0,19,25,3,NA,NA,NA,NA,NA,NA,NA
+118,Metschnikowia_bicuspidata,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Absent,Absent,Deliquescent,NA,NA,NA,NA
+119,Naumovozyma_castellii,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Absent,Absent,Deliquescent,NA,NA,NA,NA
+121,Tolypocladium_capitatum,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ascohymenial,Ostiolar,Poricidal,NA,NA,NA,NA
+122,Lasallia_pustulata,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ascohymenial,Exposed hymenium,Rostrate,NA,NA,NA,NA
+123,Alyxoria_varia,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ascohymenial,Exposed hymenium,Fissitunicate,NA,NA,NA,NA
+127,Myriangium_duriaei,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ascolocular,Ostiolar,Fissitunicate,NA,NA,NA,NA
+130,Earliella_scabrosa,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+131,Purpureocillium_lilacinum,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+132,Exophiala_sideris,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+134,Dactylonectria_macrodidyma,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+136,Metarhizium_anisopliae,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+137,Alternaria_metachromatica,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+141,Saitoella_complicata,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+148,Daedalea_quercina,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ergosterol,NA,NA,NA
+149,Erysiphe_necator,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ergosta-5,NA,NA,NA
+153,Tuber_brumale,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Brassicosterol/Ergosterol,NA,NA,NA
+157,Auriscalpium_vulgare,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+158,Gymnopilus_junonius,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+159,Mycena_maculata,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+161,Abortiporus_biennis,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+163,Lentinus_tigrinus,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+164,Cerioporus_squamosus,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+165,Pleurotus_djamor,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+166,Ophiocordyceps_sinensis,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+169,Eremothecium_gossypii,No,1,0,1,5,9,2,0,0,3,1,0,0,0,1,0,0,0,0,0,0,2,1,0,6,1,0,0,0,17,NA,1,Absent,Absent,Deliquescent,NA,NA,NA,NA
+170,Tuber_melanosporum,Yes,5,1,5,0,1,2,0,0,1,3,1,0,0,4,0,0,2,1,0,0,2,1,1,3,1,4,1,1,15,31,0,NA,NA,NA,Brassicasterol/Ergosterol,NA,NA,NA
+171,Rhizophagus_irregularis,No,7,1,2,0,0,3,0,0,1,4,0,0,0,1,0,6,0,0,4,0,0,0,0,13,0,5,1,2,27,35,1,NA,NA,NA,NA,NA,NA,NA
+172,Neurospora_tetrasperma,No,9,2,5,9,3,3,1,0,1,4,5,3,5,10,0,0,14,1,0,0,1,0,2,3,1,7,1,1,19,26,2,NA,NA,NA,NA,NA,NA,NA
+173,Cordyceps_militaris,No,9,2,4,10,2,2,0,0,1,2,1,0,0,20,0,0,1,1,0,0,1,0,4,2,1,7,1,3,17,25,2,NA,NA,NA,NA,NA,NA,NA
+174,Oidiodendron_maius,Yes,10,4,13,13,3,5,8,0,2,17,14,2,8,27,0,0,8,8,0,0,2,0,9,5,4,7,1,2,19,25,1,NA,NA,NA,NA,NA,NA,NA
+175,Serendipita_vermifera,Yes,11,2,4,0,0,2,4,0,1,2,3,2,5,4,0,0,32,1,1,0,2,0,0,7,1,16,1,3,21,26,4,NA,NA,NA,NA,NA,NA,NA
+176,Phaeoacremonium_minimum,Yes,11,3,11,9,2,6,1,0,1,5,6,3,6,9,0,0,13,2,1,2,2,0,2,2,2,9,1,3,19,23,2,Ascohymenial,Ostiolar,Poricidal,NA,NA,NA,NA
+177,Fomes_fomentarius,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+179,Ilyonectria_robusta,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+183,Penicillium_solitum,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+187,Hymenopellis_radicata,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+188,Lactarius_deliciosus,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+189,Russula_ochroleuca,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+190,Suillus_bovinus,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ergosterol,NA,NA,NA
+192,Gigaspora_margarita,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24-Ethyl,NA,NA,NA
+193,Armillaria_borealis,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+194,Agaricus_bisporus,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+195,Gymnopus_androsaceus,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+196,Mycena_epipterygia,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+197,Marasmius_oreades,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+198,Tricholoma_matsutake,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+199,Pleurotus_eryngii,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+200,Pleurotus_cornucopiae,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+201,Pleurotus_pulmonarius,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+202,Mycena_rosella,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+203,Ogataea_polymorpha,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+204,Bipolaris_sorokiniana,No,12,2,9,7,1,4,5,0,1,5,14,2,7,18,0,0,23,3,0,4,2,1,4,5,5,12,1,3,19,27,2,Ascolocular,Ostiolar,Fissitunicate,NA,Pathotroph,Plant Pathogen,NA
+205,Paecilomyces_variotii,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Pathotroph,Animal Pathogen,NA
+206,Stereum_hirsutum,Yes,16,3,8,4,0,2,5,0,2,5,10,1,3,13,0,0,16,5,1,6,2,1,6,5,1,8,1,0,16,26,2,NA,NA,NA,NA,Saprotroph,Wood Saprotroph,NA
+207,Fomitiporia_mediterranea,Yes,12,1,5,0,0,2,6,0,2,5,7,1,2,12,0,0,13,3,1,17,0,1,4,7,0,2,0,0,18,28,3,NA,NA,NA,NA,Pathotroph-Saprotroph,Plant Pathogen-Undefined Saprotroph,NA
+208,Pneumocystis_jirovecii,Yes,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,2,0,0,0,17,25,1,NA,NA,NA,NA,Pathotroph,Animal Pathogen,NA
+209,Rozella_allomycis,No,2,0,2,0,0,0,0,0,0,2,0,0,0,3,0,0,0,0,0,0,0,1,0,5,0,5,0,0,26,24,2,NA,NA,NA,NA,Symbiotroph,Fungal Parasite,NA
+210,Torulaspora_delbrueckii,No,5,1,1,2,9,2,0,0,2,1,0,0,0,2,0,0,0,0,0,0,2,0,0,2,2,0,0,1,18,26,1,NA,NA,NA,NA,Pathotroph,Animal Pathogen,NA
+212,Tilletiaria_anomala,Yes,6,2,2,0,0,2,1,0,0,1,1,0,0,5,1,0,0,0,1,0,0,1,0,2,2,0,0,1,16,28,1,NA,NA,NA,NA,Pathotroph,Plant Pathogen,NA
+213,Trichophyton_verrucosum,Yes,7,1,2,3,2,1,0,0,1,1,1,0,0,13,0,0,0,0,0,0,1,0,2,1,0,1,0,2,22,21,1,NA,NA,NA,NA,Pathotroph,Animal Pathogen,NA
+214,Coprinopsis_cinerea,Yes,7,4,4,0,0,4,6,0,2,3,4,4,6,9,0,0,33,1,1,1,0,2,3,8,0,20,1,3,21,25,2,NA,NA,NA,NA,Saprotroph,Undefined Saprotroph,NA
+215,Conidiobolus_coronatus,No,7,1,4,0,0,1,0,0,2,6,0,0,0,20,0,0,0,0,1,0,1,0,0,15,0,49,0,2,20,27,2,NA,NA,NA,NA,Pathotroph-Saprotroph,Animal Pathogen-Undefined Saprotroph,NA
+216,Microsporum_canis,Yes,8,1,2,3,3,1,0,0,1,3,1,0,0,20,0,0,0,0,0,0,1,0,2,1,0,1,0,1,20,26,1,NA,NA,NA,NA,Pathotroph,Animal Pathogen,NA
+217,Trichophyton_rubrum,No,8,1,2,3,3,1,0,0,1,2,1,0,0,13,0,0,0,0,0,0,1,0,2,1,0,1,0,2,21,26,1,NA,NA,NA,NA,Pathotroph,Animal Pathogen,NA
+220,Paracoccidioides_brasiliensis,No,8,1,2,5,2,1,0,0,1,4,1,0,0,4,0,0,0,0,0,0,1,0,2,1,0,6,1,1,18,24,2,NA,NA,NA,NA,Pathotroph,Animal Pathogen,NA
+221,Malassezia_globosa,Yes,8,0,2,0,0,1,1,0,2,1,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,16,22,1,NA,NA,NA,NA,Pathotroph,Animal Pathogen,NA
+222,Coccidioides_immitis,Yes,9,1,2,3,3,2,0,0,1,2,1,0,0,8,0,0,0,0,1,0,1,0,1,2,0,3,0,1,22,26,1,NA,NA,NA,NA,Pathotroph-Saprotroph,Animal Pathogen-Soil Saprotroph,NA
+223,Histoplasma_capsulatum,No,9,1,3,3,1,1,0,0,1,3,2,0,0,7,0,0,0,0,0,0,1,0,1,2,0,8,0,1,16,23,2,NA,NA,NA,NA,Pathotroph-Saprotroph,Animal Pathogen-Dung Saprotroph,NA
+224,Penicillium_digitatum,No,9,2,6,6,2,2,1,0,1,5,3,1,2,7,0,0,1,2,0,0,1,0,4,3,3,1,0,1,20,26,1,NA,NA,NA,NA,Pathotroph,Plant Pathogen,NA
+225,Verticillium_dahliae,Yes,9,4,9,8,1,3,6,0,1,8,18,2,6,18,0,0,24,6,0,2,2,0,3,2,3,6,1,7,15,24,3,NA,NA,NA,NA,Pathotroph,Plant Pathogen,NA
+227,Beauveria_bassiana,No,11,2,6,8,2,2,1,0,1,1,2,0,0,18,0,0,1,1,0,0,1,0,4,3,1,8,1,3,21,26,2,NA,NA,NA,NA,Pathotroph,Animal Pathogen,NA
+229,Penicillium_oxalicum,No,12,3,6,8,3,2,1,0,1,6,13,1,3,14,0,0,4,3,0,0,1,0,4,4,2,3,1,3,20,27,1,NA,NA,NA,NA,Pathotroph,Plant Pathogen,NA
+230,Pyrenophora_teres,No,12,2,8,6,0,4,4,0,1,4,13,1,3,10,0,0,24,2,0,3,2,1,6,2,3,11,1,2,19,28,2,NA,NA,NA,NA,Pathotroph,Plant Pathogen,NA
+231,Bipolaris_oryzae,Yes,12,2,10,8,1,4,5,0,1,5,14,2,7,14,0,0,24,3,0,5,2,1,5,3,3,12,1,3,18,27,2,NA,NA,NA,NA,Pathotroph,Plant Pathogen,NA
+232,Bipolaris_zeicola,No,13,2,10,8,1,4,5,0,1,5,16,2,7,14,0,0,23,3,0,5,2,1,4,3,3,12,1,3,18,26,2,NA,NA,NA,NA,Pathotroph,Plant Pathogen,NA
+233,Bipolaris_victoriae,No,13,2,10,8,1,4,4,0,1,5,17,2,7,16,0,0,23,3,0,5,2,1,5,3,3,14,1,3,18,27,2,NA,NA,NA,NA,Pathotroph,Plant Pathogen,NA
+234,Metarhizium_robertsii,No,14,2,6,14,1,2,4,0,1,3,1,0,0,26,0,1,1,1,0,1,1,0,5,4,1,8,0,4,20,25,2,NA,NA,NA,NA,Symbiotroph,Endophyte,NA
+235,Clavispora_lusitaniae,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Absent,Absent,Deliquescent,NA,Pathotroph,Animal Pathogen,NA
+236,Pneumocystis_carinii,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Absent,Absent,NA,NA,Pathotroph,Animal Pathogen,NA
+237,Ceratocystis_fimbriata,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ascohymenial,Ostiolar,Deliquescent,NA,Pathotroph,Plant Pathogen,NA
+239,Trichoglossum_hirsutum,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ascohymenial,Exposed hymenium,Poricidal,NA,Saprotroph,Undefined Saprotroph,NA
+240,Venturia_inaequalis,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ascolocular,Ostiolar,Fissitunicate,NA,Pathotroph,Plant Pathogen,NA
+241,Trichothecium_roseum,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Pathotroph,Plant Pathogen,NA
+242,Exophiala_xenobiotica,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Pathotroph,Animal Pathogen,NA
+243,Blastomyces_dermatitidis,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Pathotroph-Saprotroph,Animal Pathogen-Undefined Saprotroph,NA
+246,Talaromyces_pinophilus,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Pathotroph,Animal Pathogen,NA
+247,Trichoderma_asperellum,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Symbiotroph,Endophyte,NA
+248,Clonostachys_rosea,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Symbiotroph,Endophyte,NA
+250,Phycomyces_blakesleeanus,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ergosterol/Episterol,Saprotroph,Dung Saprotroph-Undefined Saprotroph,NA
+254,Spiromyces_aspiralis,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22-Dihydroergosterol,Saprotroph,Undefined Saprotroph,NA
+255,Grifola_frondosa,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Pathotroph-Saprotroph,Plant Pathogen-Wood Saprotroph,NA
+256,Exophiala_spinifera,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Pathotroph,Animal Pathogen,NA
+257,Epicoccum_nigrum,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Pathotroph-Symbiotroph,Endophyte-Plant Pathogen,NA
+260,Chaetomium_globosum,No,8,2,6,10,1,2,1,0,1,2,15,3,8,17,0,0,36,4,0,0,1,0,2,3,3,15,0,2,17,25,2,NA,NA,NA,NA,Pathotroph-Saprotroph-Symbiotroph,Dung Saprotroph-Endophyte-Wood Saprotroph,NA
+261,Neurospora_crassa,No,10,2,6,9,2,3,2,0,1,5,5,3,5,9,0,0,14,2,0,0,1,0,2,3,1,9,1,2,18,28,2,Ascohymenial,Ostiolar,Poricidal,Ergosterol,Pathotroph-Saprotroph,Endophyte-Plant Pathogen-Undefined Saprotroph,NA
+263,Pyrenophora_tritici-repentis,Yes,10,0,8,6,1,4,4,0,1,5,12,1,3,9,0,0,15,2,0,4,2,1,0,2,3,12,1,2,0,22,2,Ascolocular,Ostiolar,Fissitunicate,NA,Pathotroph,Plant Pathogen,NA
+264,Trichoderma_virens,No,11,2,5,8,2,2,5,0,1,4,3,1,2,30,0,0,3,4,0,0,2,0,7,6,1,4,0,1,19,27,2,NA,NA,NA,NA,Symbiotroph,Endophyte,NA
+265,Sclerotinia_sclerotiorum,Yes,11,4,6,11,4,3,1,0,1,4,5,0,3,12,0,0,9,5,2,0,1,0,5,2,1,4,1,1,19,24,1,Ascohymenial,Exposed hymenium,Poricidal,NA,Pathotroph,Plant Pathogen,NA
+266,Aureobasidium_pullulans,Yes,11,3,9,9,3,3,3,0,1,7,28,1,1,7,0,0,6,3,2,3,1,1,1,3,5,4,1,3,21,27,2,NA,NA,NA,Ergosterol,Pathotroph-Symbiotroph,Animal Pathogen-Endophyte-Epiphyte-Plant Pathogen,NA
+267,Fusarium_solani,No,11,0,9,8,2,4,8,0,2,7,26,1,3,23,0,0,9,6,0,1,1,0,0,4,6,7,1,4,0,22,2,Ascohymenial,Ostiolar,Poricidal,NA,Pathotroph-Saprotroph-Symbiotroph,Animal Pathogen-Endophyte-Plant Pathogen-Wood Saprotroph,NA
+268,Bipolaris_maydis,No,12,2,9,8,1,4,5,0,1,5,15,2,6,15,0,0,23,3,0,5,3,1,5,3,3,12,1,3,18,27,2,Ascolocular,Ostiolar,Fissitunicate,NA,Pathotroph,Plant Pathogen,NA
+269,Pyricularia_grisea,Yes,16,2,6,7,1,3,3,0,1,5,16,3,6,13,0,0,19,3,0,2,2,0,6,3,4,16,1,3,17,28,2,Ascohymenial,Ostiolar,Poricidal,NA,Pathotroph,Plant Pathogen,NA
+270,Fusarium_oxysporum,Yes,19,3,8,11,1,4,5,0,1,7,26,1,3,28,0,0,16,4,1,1,1,0,0,17,14,11,1,4,17,23,2,NA,NA,NA,NA,Pathotroph-Saprotroph-Symbiotroph,Endophyte-Plant Pathogen-Wood Saprotroph,NA
+271,Umbelopsis_ramanniana,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Saprotroph,Undefined Saprotroph,NA
+272,Fusarium_culmorum,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Pathotroph,Plant Pathogen,NA
+273,Rhizopus_stolonifer,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ergosterol,Pathotroph-Symbiotroph,Endophyte-Plant Pathogen,NA
+274,Trichoderma_harzianum,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Pathotroph,Endophyte-Fungal Parasite-Plant Pathogen,NA
+275,Microdochium_bolleyi,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Pathotroph,Plant Pathogen,NA
+276,Rhizophlyctis_rosea,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Cholesterol,Saprotroph,Undefined Saprotroph,NA
+278,Cyberlindnera_jadinii,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Pathotroph,Animal Pathogen,NA
+279,Paraglomus_occultum,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Symbiotroph,Arbuscular Mycorrhizal,NA
+283,Puccinia_striiformis,Yes,8,3,5,4,1,1,2,0,1,1,1,0,8,17,0,1,0,2,0,0,1,1,0,5,2,4,0,0,15,32,2,NA,NA,NA,Stigmast-7-enol,Pathotroph,Plant Pathogen,Rust
+285,Xylaria_acuta,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ascohymenial,Exposed hymenium,Rostrate,NA,Saprotroph,Undefined Saprotroph,Xylarioid
+286,Xylaria_hypoxylon,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ascohymenial,Ostiolar,Poricidal,NA,Pathotroph-Saprotroph,Endophyte-Wood Saprotroph,Xylarioid
+287,Scheffersomyces_stipitis,No,3,0,3,5,8,3,0,0,3,0,0,0,0,4,0,0,0,0,0,0,3,0,0,1,0,0,0,1,0,26,1,NA,NA,NA,NA,Saprotroph-Symbiotroph,Animal Endosymbiont-Undefined Saprotroph,Yeast
+288,Debaryomyces_hansenii,No,4,1,3,4,9,3,6,0,2,1,0,0,0,5,0,0,0,0,0,0,2,0,1,0,1,0,0,1,19,28,2,Absent,Absent,Deliquescent,NA,Saprotroph,Undefined Saprotroph,Yeast
+289,Yarrowia_lipolytica,No,4,1,1,6,8,5,0,0,2,0,0,0,0,3,0,0,0,0,0,0,4,0,0,3,1,0,0,1,19,27,1,Absent,Absent,Deliquescent,NA,Saprotroph,Undefined Saprotroph,Yeast
+290,Saccharomyces_cerevisiae,No,6,1,1,2,17,3,0,0,3,2,0,1,0,2,0,0,0,0,1,0,2,0,0,2,1,0,0,1,21,26,2,Absent,Absent,Deliquescent,NA,Saprotroph,Undefined Saprotroph,Yeast
+291,Schizosaccharomyces_pombe,No,5,2,4,4,1,2,0,0,4,1,0,0,0,1,0,0,0,0,0,0,2,0,0,2,2,0,0,0,19,27,1,Absent,Absent,Deliquescent,Ergosterol,Saprotroph,Undefined Saprotroph,Yeast
+292,Cryptococcus_neoformans,Yes,6,2,3,0,2,2,2,0,1,0,0,0,0,3,0,0,1,0,2,0,0,0,1,0,1,0,0,1,18,25,2,NA,NA,NA,NA,Pathotroph,Animal Pathogen,Yeast
+293,Kluyveromyces_lactis,No,7,1,1,2,9,3,0,0,3,0,0,0,0,2,0,0,0,0,0,0,2,0,1,2,1,0,0,1,19,26,1,Absent,Absent,Deliquescent,NA,Saprotroph,Undefined Saprotroph,Yeast
+294,Kluyveromyces_marxianus,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Symbiotroph,Endophyte,Yeast
