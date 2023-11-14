@@ -1,0 +1,5 @@
+model	n_rate_cats	n_params	neg_log_lik	AIC	AICc
+independent_model_fit	1	8	-62.75	133.5	134.18
+hidden_Markov_independent_model_fit	2	24	-59.74	139.49	143.64
+correlated_model_fit	1	8	-62.31	140.62	143.24
+hidden_Markov_correlated_model_fit	2	24	-59.35	154.7	169.9
