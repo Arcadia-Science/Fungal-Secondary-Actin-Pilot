@@ -1,0 +1,854 @@
+,Organism_uniprot,n_prot,species_name,species_short,kingdom,phylum,class,order,family,genus,FDA
+1,[Candida] intermedia,10617,[Candida] intermedia,Candida intermedia,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Metschnikowiaceae,Candida,No
+2,[Torrubiella] hemipterigena,11065,[Torrubiella] hemipterigena,Torrubiella hemipterigena,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Torrubiella,Yes
+3,Aaosphaeria arxii CBS 175.79,13815,Aaosphaeria arxii CBS 175.79,Aaosphaeria arxii,Fungi,Ascomycota,Dothideomycetes,Pleosporales,NA,Aaosphaeria,No
+4,Absidia glauca (Pin mould),14217,Absidia glauca ,Absidia glauca,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Cunninghamellaceae,Absidia,Yes
+5,Absidia repens,14353,Absidia repens,Absidia repens,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Cunninghamellaceae,Absidia,Yes
+6,Acaromyces ingoldii,7585,Acaromyces ingoldii,Acaromyces ingoldii,Fungi,Basidiomycota,Exobasidiomycetes,Exobasidiales,Cryptobasidiaceae,Acaromyces,No
+7,Acidomyces richmondensis BFW,10856,Acidomyces richmondensis BFW,Acidomyces richmondensis,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Teratosphaeriaceae,Acidomyces,No
+8,Agaricus bisporus var. burnettii (strain JB137-S8 / ATCC MYA-4627 / FGSC 10392) (White button mushroom),10948,Agaricus bisporus var. burnettii ,Agaricus bisporus,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Agaricaceae,Agaricus,No
+9,Ajellomyces capsulatus (strain G186AR / H82 / ATCC MYA-2454 / RMSCC 2432) (Darling's disease fungus) (Histoplasma capsulatum),9199,Ajellomyces capsulatus ,Ajellomyces capsulatus,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ajellomycetaceae,Ajellomyces ,Yes
+10,Ajellomyces capsulatus (strain H143) (Darling's disease fungus) (Histoplasma capsulatum),9314,Ajellomyces capsulatus ,Ajellomyces capsulatus,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ajellomycetaceae,Ajellomyces ,Yes
+11,Ajellomyces capsulatus (strain H88) (Darling's disease fungus) (Histoplasma capsulatum),9125,Ajellomyces capsulatus ,Ajellomyces capsulatus,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ajellomycetaceae,Ajellomyces ,No
+12,Ajellomyces capsulatus (strain NAm1 / WU24) (Darling's disease fungus) (Histoplasma capsulatum),8963,Ajellomyces capsulatus ,Ajellomyces capsulatus,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ajellomycetaceae,Ajellomyces ,No
+13,Ajellomyces dermatitidis (strain ATCC 18188 / CBS 674.68) (Blastomyces dermatitidis),10368,Ajellomyces dermatitidis ,Ajellomyces dermatitidis,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ajellomycetaceae,Blastomyces,No
+14,Ajellomyces dermatitidis (strain ER-3 / ATCC MYA-2586) (Blastomyces dermatitidis),10074,Ajellomyces dermatitidis ,Ajellomyces dermatitidis,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ajellomycetaceae,Blastomyces,No
+15,Akanthomyces lecanii RCEF 1005,10646,Akanthomyces lecanii RCEF 1005,Akanthomyces lecanii,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Akanthomyces,No
+16,Allomyces macrogynus (strain ATCC 38327) (Allomyces javanicus var. macrogynus),18388,Allomyces macrogynus ,Allomyces macrogynus,Fungi,Blastocladiomycota,Blastocladiomycetes,Blastocladiales,Blastocladiaceae,Allomyces,Yes
+17,Alternaria alternata (Alternaria rot fungus) (Torula alternata),23853,Alternaria alternata ,Alternaria alternata,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,Yes
+18,Alternaria arborescens,12610,Alternaria arborescens,Alternaria arborescens,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,No
+19,Alternaria tenuissima,28377,Alternaria tenuissima,Alternaria tenuissima,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,No
+20,Amanita muscaria (strain Koide BX008),17633,Amanita muscaria ,Amanita muscaria,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Amanitaceae,Amanita,Yes
+21,Amanita thiersii Skay4041,10068,Amanita thiersii Skay4041,Amanita thiersii,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Amanitaceae,Amanita,Yes
+22,Amniculicola lignicola CBS 123094,15156,Amniculicola lignicola CBS 123094,Amniculicola lignicola,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Amniculicolaceae,Amniculicola,Yes
+23,Amorphotheca resinae ATCC 22711,9357,Amorphotheca resinae ATCC 22711,Amorphotheca resinae,Fungi,Ascomycota,Leotiomycetes,Helotiales,Amorphothecaceae,Amorphotheca,No
+24,Ampelomyces quisqualis (Powdery mildew agent),10893,Ampelomyces quisqualis ,Ampelomyces quisqualis,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Leptosphaeriaceae,Ampelomyces,Yes
+25,Anaeromyces robustus,11854,Anaeromyces robustus,Anaeromyces robustus,Fungi,Chytridiomycota,Neocallimastigomycetes,Neocallimastigales,Neocallimastigaceae,Anaeromyces,Yes
+26,Antrodiella citrinella,8912,Antrodiella citrinella,Antrodiella citrinella,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Steccherinaceae,Antrodiella,No
+27,Apiotrichum porosum,8817,Apiotrichum porosum,Apiotrichum porosum,Fungi,Basidiomycota,Tremellomycetes,Trichosporonales,Trichosporonaceae,Apiotrichum,No
+28,Aplosporella prunicola CBS 121167,12153,Aplosporella prunicola CBS 121167,Aplosporella prunicola,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Aplosporellaceae,Aplosporella,No
+29,Armillaria gallica (Bulbous honey fungus) (Armillaria bulbosa),25337,Armillaria gallica ,Armillaria gallica,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Physalacriaceae,Armillaria,Yes
+30,Armillaria ostoyae (Armillaria root rot fungus),21642,Armillaria ostoyae ,Armillaria ostoyae,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Physalacriaceae,Armillaria,Yes
+31,Armillaria solidipes,20453,Armillaria solidipes,Armillaria solidipes,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Physalacriaceae,Armillaria,Yes
+32,Arthrobotrys flagrans,9927,Arthrobotrys flagrans,Arthrobotrys flagrans,Fungi,Ascomycota,Orbiliomycetes,Orbiliales,Orbiliaceae,Arthrobotrys,Yes
+33,Arthrobotrys oligospora (strain ATCC 24927 / CBS 115.81 / DSM 1491) (Nematode-trapping fungus) (Didymozoophaga oligospora),10989,Arthrobotrys oligospora ,Arthrobotrys oligospora,Fungi,Ascomycota,Leotiomycetes,Helotiales,Orbiliaceae,Arthrobotrys,Yes
+34,Arthroderma benhamiae (strain ATCC MYA-4681 / CBS 112371) (Trichophyton mentagrophytes),7692,Arthroderma benhamiae ,Arthroderma benhamiae,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Trichophyton,Yes
+35,Arthroderma gypseum (strain ATCC MYA-4604 / CBS 118893) (Microsporum gypseum),8604,Arthroderma gypseum ,Arthroderma gypseum,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Nannizzia,Yes
+36,Arthroderma otae (strain ATCC MYA-4605 / CBS 113480) (Microsporum canis),8454,Arthroderma otae ,Arthroderma otae,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Microsporum,Yes
+37,Ascobolus immersus RN42,17317,Ascobolus immersus RN42,Ascobolus immersus,Fungi,Ascomycota,Pezizomycetes,Pezizales,Ascobolaceae,Ascobolus,Yes
+38,Ascodesmis nigricans,9344,Ascodesmis nigricans,Ascodesmis nigricans,Fungi,Ascomycota,Pezizomycetes,Pezizales,Ascodesmidaceae,Ascodesmis,Yes
+39,Ascoidea rubescens DSM 1968,6424,Ascoidea rubescens DSM 1968,Ascoidea rubescens,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Ascoideaceae,Ascoidea,Yes
+40,Ascosphaera apis ARSEF 7405,6116,Ascosphaera apis ARSEF 7405,Ascosphaera apis,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ascosphaeraceae,Ascosphaera,No
+41,Aspergillus aculeatus (strain ATCC 16872 / CBS 172.66 / WB 5094),10454,Aspergillus aculeatus ,Aspergillus aculeatus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+42,Aspergillus arachidicola,21803,Aspergillus arachidicola,Aspergillus arachidicola,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+43,Aspergillus avenaceus,10924,Aspergillus avenaceus,Aspergillus avenaceus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+44,Aspergillus awamori (Black koji mold),10648,Aspergillus awamori ,Aspergillus awamori,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+45,Aspergillus bertholletiae,12575,Aspergillus bertholletiae,Aspergillus bertholletiae,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+46,Aspergillus bombycis,11858,Aspergillus bombycis,Aspergillus bombycis,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+47,Aspergillus brasiliensis (strain CBS 101740 / IMI 381727 / IBT 21946),12541,Aspergillus brasiliensis ,Aspergillus brasiliensis,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+48,Aspergillus caelatus,13571,Aspergillus caelatus,Aspergillus caelatus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+49,Aspergillus calidoustus,15037,Aspergillus calidoustus,Aspergillus calidoustus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+50,Aspergillus campestris (strain IBT 28561),9327,Aspergillus campestris ,Aspergillus campestris,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+51,Aspergillus candidus,9331,Aspergillus candidus,Aspergillus candidus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+52,Aspergillus carbonarius (strain ITEM 5010),10715,Aspergillus carbonarius ,Aspergillus carbonarius,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+53,Aspergillus chevalieri (Eurotium chevalieri),9994,Aspergillus chevalieri ,Aspergillus chevalieri,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+54,Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 / DSM 816 / NCTC 3887 / NRRL 1 / QM 1276 / 107),8832,Aspergillus clavatus ,Aspergillus clavatus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+55,Aspergillus coremiiformis,8761,Aspergillus coremiiformis,Aspergillus coremiiformis,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+56,Aspergillus cristatus (Chinese Fuzhuan brick tea-fermentation fungus) (Eurotium cristatum),9814,Aspergillus cristatus ,Aspergillus cristatus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+57,Aspergillus ellipticus CBS 707.79,12464,Aspergillus ellipticus CBS 707.79,Aspergillus ellipticus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+58,Aspergillus eucalypticola (strain CBS 122712 / IBT 29274),11461,Aspergillus eucalypticola ,Aspergillus eucalypticola,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+59,Aspergillus flavus,31013,Aspergillus flavus,Aspergillus flavus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+60,Aspergillus flavus (strain ATCC 200026 / FGSC A1120 / IAM 13836 / NRRL 3357 / JCM 12722 / SRRC 167),19456,Aspergillus flavus ,Aspergillus flavus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+61,Aspergillus flavus (strain ATCC MYA-384 / AF70),12783,Aspergillus flavus ,Aspergillus flavus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+62,Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af293) (Neosartorya fumigata),9392,Aspergillus fumigatus ,Aspergillus fumigatus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+63,Aspergillus fumigatus (strain CBS 144.89 / FGSC A1163 / CEA10) (Neosartorya fumigata),9622,Aspergillus fumigatus ,Aspergillus fumigatus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+64,Aspergillus fumigatus Z5,9180,Aspergillus fumigatus Z5,Aspergillus fumigatus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+65,Aspergillus glaucus CBS 516.65,10903,Aspergillus glaucus CBS 516.65,Aspergillus glaucus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+66,Aspergillus heteromorphus CBS 117.55,10467,Aspergillus heteromorphus CBS 117.55,Aspergillus heteromorphus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+67,Aspergillus homomorphus (strain CBS 101889),10961,Aspergillus homomorphus ,Aspergillus homomorphus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+68,Aspergillus ibericus CBS 121593,11292,Aspergillus ibericus CBS 121593,Aspergillus ibericus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+69,Aspergillus indologenus CBS 114.80,11739,Aspergillus indologenus CBS 114.80,Aspergillus indologenus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+70,Aspergillus kawachii (strain NBRC 4308) (White koji mold) (Aspergillus awamori var. kawachi),11094,Aspergillus kawachii ,Aspergillus kawachii,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+71,Aspergillus kawachii (White koji mold) (Aspergillus awamori var. kawachi),21605,Aspergillus kawachii ,Aspergillus kawachii,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+72,Aspergillus lacticoffeatus (strain CBS 101883),12634,Aspergillus lacticoffeatus ,Aspergillus lacticoffeatus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+73,Aspergillus leporis,12359,Aspergillus leporis,Aspergillus leporis,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+74,Aspergillus luchuensis (strain CBS 106.47),13031,Aspergillus luchuensis ,Aspergillus luchuensis,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+75,Aspergillus minisclerotigenes,13066,Aspergillus minisclerotigenes,Aspergillus minisclerotigenes,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+76,Aspergillus mulundensis,11152,Aspergillus mulundensis,Aspergillus mulundensis,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+77,Aspergillus neoniger (strain CBS 115656),11506,Aspergillus neoniger ,Aspergillus neoniger,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+78,Aspergillus niger,22534,Aspergillus niger,Aspergillus niger,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+79,Aspergillus niger (strain ATCC 1015 / CBS 113.46 / FGSC A1144 / LSHB Ac4 / NCTC 3858a / NRRL 328 / USDA 3528.7),10565,Aspergillus niger ,Aspergillus niger,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+80,Aspergillus niger (strain ATCC MYA-4892 / CBS 513.88 / FGSC A1513),13590,Aspergillus niger ,Aspergillus niger,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+81,Aspergillus niger ATCC 13496,11483,Aspergillus niger ATCC 13496,Aspergillus niger,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+82,Aspergillus nomiae NRRL 13137,11474,Aspergillus nomiae NRRL 13137,Aspergillus nomiae,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+83,Aspergillus novofumigatus (strain IBT 16806),11132,Aspergillus novofumigatus ,Aspergillus novofumigatus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+84,Aspergillus novoparasiticus,13815,Aspergillus novoparasiticus,Aspergillus novoparasiticus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+85,Aspergillus ochraceoroseus,7519,Aspergillus ochraceoroseus,Aspergillus ochraceoroseus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+86,Aspergillus ochraceoroseus IBT 24754,8528,Aspergillus ochraceoroseus IBT 24754,Aspergillus ochraceoroseus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+87,Aspergillus oryzae (strain 3.042) (Yellow koji mold),11079,Aspergillus oryzae ,Aspergillus oryzae,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+88,Aspergillus oryzae (strain ATCC 42149 / RIB 40) (Yellow koji mold),11793,Aspergillus oryzae ,Aspergillus oryzae,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+89,Aspergillus oryzae (Yellow koji mold),11366,Aspergillus oryzae ,Aspergillus oryzae,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+90,Aspergillus parasiticus,13605,Aspergillus parasiticus,Aspergillus parasiticus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+91,Aspergillus parasiticus (strain ATCC 56775 / NRRL 5862 / SRRC 143 / SU-1),8346,Aspergillus parasiticus ,Aspergillus parasiticus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+92,Aspergillus phoenicis ATCC 13157,11232,Aspergillus phoenicis ATCC 13157,Aspergillus phoenicis,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+93,Aspergillus pseudocaelatus,13514,Aspergillus pseudocaelatus,Aspergillus pseudocaelatus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+94,Aspergillus pseudonomiae,18589,Aspergillus pseudonomiae,Aspergillus pseudonomiae,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+95,Aspergillus pseudotamarii,13056,Aspergillus pseudotamarii,Aspergillus pseudotamarii,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+96,Aspergillus puulaauensis,13240,Aspergillus puulaauensis,Aspergillus puulaauensis,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+97,Aspergillus rambellii,7407,Aspergillus rambellii,Aspergillus rambellii,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+98,Aspergillus ruber (strain CBS 135680),9736,Aspergillus ruber ,Aspergillus ruber,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+99,Aspergillus saccharolyticus JOP 1030-1,9694,Aspergillus saccharolyticus JOP 1030-1,Aspergillus saccharolyticus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+100,Aspergillus sclerotialis,11028,Aspergillus sclerotialis,Aspergillus sclerotialis,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+101,Aspergillus sclerotiicarbonarius (strain CBS 121057 / IBT 28362),12126,Aspergillus sclerotiicarbonarius ,Aspergillus sclerotiicarbonarius,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+102,Aspergillus sclerotioniger CBS 115572,11887,Aspergillus sclerotioniger CBS 115572,Aspergillus sclerotioniger,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+103,Aspergillus sergii,13325,Aspergillus sergii,Aspergillus sergii,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+104,Aspergillus sp. HF37,8646,Aspergillus sp. HF37,Aspergillus sp.,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+105,Aspergillus steynii IBT 23096,12525,Aspergillus steynii IBT 23096,Aspergillus steynii,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+106,Aspergillus sydowii CBS 593.65,12978,Aspergillus sydowii CBS 593.65,Aspergillus sydowii,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+107,Aspergillus taichungensis,9352,Aspergillus taichungensis,Aspergillus taichungensis,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+108,Aspergillus tamarii,13030,Aspergillus tamarii,Aspergillus tamarii,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+109,Aspergillus tanneri,20111,Aspergillus tanneri,Aspergillus tanneri,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+110,Aspergillus terreus (strain NIH 2624 / FGSC A1156),10061,Aspergillus terreus ,Aspergillus terreus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+111,Aspergillus thermomutatus,9319,Aspergillus thermomutatus,Aspergillus thermomutatus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+112,Aspergillus transmontanensis,13823,Aspergillus transmontanensis,Aspergillus transmontanensis,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+113,Aspergillus tubingensis (strain CBS 134.48),11871,Aspergillus tubingensis ,Aspergillus tubingensis,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+114,Aspergillus turcosus,13241,Aspergillus turcosus,Aspergillus turcosus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+115,Aspergillus uvarum CBS 121591,11606,Aspergillus uvarum CBS 121591,Aspergillus uvarum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+116,Aspergillus vadensis (strain CBS 113365 / IMI 142717 / IBT 24658),11704,Aspergillus vadensis ,Aspergillus vadensis,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+117,Aspergillus versicolor CBS 583.65,12776,Aspergillus versicolor CBS 583.65,Aspergillus versicolor,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+118,Aspergillus violaceofuscus (strain CBS 115571),11646,Aspergillus violaceofuscus ,Aspergillus violaceofuscus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+119,Aspergillus welwitschiae,13352,Aspergillus welwitschiae,Aspergillus welwitschiae,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+120,Aspergillus wentii DTO 134E9,12000,Aspergillus wentii DTO 134E9,Aspergillus wentii,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+121,Aulographum hederae CBS 113979,11729,Aulographum hederae CBS 113979,Aulographum hederae,Fungi,Ascomycota,Dothideomycetes,Aulographales,Aulographaceae,Aulographum,Yes
+122,Aureobasidium melanogenum CBS 110374,10334,Aureobasidium melanogenum CBS 110374,Aureobasidium melanogenum,Fungi,Ascomycota,Dothideomycetes,Dothideales,Saccotheciaceae,Aureobasidium,No
+123,Aureobasidium namibiae CBS 147.97,10003,Aureobasidium namibiae CBS 147.97,Aureobasidium namibiae,Fungi,Ascomycota,Dothideomycetes,Dothideales,Saccotheciaceae,Aureobasidium,Yes
+124,Aureobasidium pullulans (Black yeast) (Pullularia pullulans),281168,Aureobasidium pullulans ,Aureobasidium pullulans,Fungi,Ascomycota,Dothideomycetes,Dothideales,Saccotheciaceae,Aureobasidium,Yes
+125,Aureobasidium pullulans EXF-150,11530,Aureobasidium pullulans EXF-150,Aureobasidium pullulans,Fungi,Ascomycota,Dothideomycetes,Dothideales,Saccotheciaceae,Aureobasidium,No
+126,Aureobasidium subglaciale (strain EXF-2481) (Aureobasidium pullulans var. subglaciale),10488,Aureobasidium subglaciale ,Aureobasidium subglaciale,Fungi,Ascomycota,Dothideomycetes,Dothideales,Saccotheciaceae,Aureobasidium,Yes
+127,Auriculariopsis ampla,15066,Auriculariopsis ampla,Auriculariopsis ampla,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Schizophyllaceae,Auriculariopsis,Yes
+128,Babjeviella inositovora NRRL Y-12698,6230,Babjeviella inositovora NRRL Y-12698,Babjeviella inositovora,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,NA,Babjeviella,No
+129,Basidiobolus meristosporus CBS 931.73,15202,Basidiobolus meristosporus CBS 931.73,Basidiobolus meristosporus,Fungi,Zoopagomycota,Basidiobolomycetes,Basidiobolales,Basidiobolaceae,Basidiobolus,Yes
+130,Batrachochytrium dendrobatidis (strain JAM81 / FGSC 10211) (Frog chytrid fungus),8329,Batrachochytrium dendrobatidis ,Batrachochytrium dendrobatidis,Fungi,Chytridiomycota,Chytridiomycetes,Rhizophydiales,NA,Batrachochytrium,Yes
+131,Batrachochytrium dendrobatidis (strain JEL423),9126,Batrachochytrium dendrobatidis ,Batrachochytrium dendrobatidis,Fungi,Chytridiomycota,Chytridiomycetes,Rhizophydiales,NA,Batrachochytrium,No
+132,Batrachochytrium salamandrivorans,11433,Batrachochytrium salamandrivorans,Batrachochytrium salamandrivorans,Fungi,Chytridiomycota,Chytridiomycetes,Rhizophydiales,NA,Batrachochytrium,Yes
+133,Baudoinia panamericana (strain UAMH 10762) (Angels' share fungus) (Baudoinia compniacensis (strain UAMH 10762)),10232,Baudoinia panamericana ,Baudoinia panamericana,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Teratosphaeriaceae,Baudoinia,Yes
+134,Beauveria bassiana (strain ARSEF 2860) (White muscardine disease fungus) (Tritirachium shiotae),9979,Beauveria bassiana ,Beauveria bassiana,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Beauveria,No
+135,Beauveria bassiana (White muscardine disease fungus) (Tritirachium shiotae),20600,Beauveria bassiana ,Beauveria bassiana,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Beauveria,No
+136,Beauveria bassiana D1-5,11395,Beauveria bassiana D1-5,Beauveria bassiana,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Beauveria,No
+137,Beauveria brongniartii RCEF 3172,9259,Beauveria brongniartii RCEF 3172,Beauveria brongniartii,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Beauveria,No
+138,Bimuria novae-zelandiae CBS 107.79,16209,Bimuria novae-zelandiae CBS 107.79,Bimuria novae-zelandiae,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymosphaeriaceae,Bimuria,Yes
+139,Bionectria ochroleuca (Gliocladium roseum),13324,Bionectria ochroleuca ,Bionectria ochroleuca,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Bionectriaceae,Clonostachys,No
+140,Bipolaris oryzae ATCC 44560,11655,Bipolaris oryzae ATCC 44560,Bipolaris oryzae,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,Yes
+141,Bipolaris victoriae (strain FI3) (Victoria blight of oats agent) (Cochliobolus victoriae),12512,Bipolaris victoriae ,Bipolaris victoriae,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,No
+142,Blastomyces dermatitidis ATCC 26199,9565,Blastomyces dermatitidis ATCC 26199,Blastomyces dermatitidis,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ajellomycetaceae,Blastomyces,No
+143,Blastomyces gilchristii (strain SLH14081) (Blastomyces dermatitidis),9974,Blastomyces gilchristii ,Blastomyces gilchristii,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ajellomycetaceae,Blastomyces,No
+144,Blastomyces parvus,7892,Blastomyces parvus,Blastomyces parvus,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ajellomycetaceae,Blastomyces,No
+145,Blastomyces percursus,10003,Blastomyces percursus,Blastomyces percursus,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ajellomycetaceae,Blastomyces,No
+146,Blastomyces silverae,8307,Blastomyces silverae,Blastomyces silverae,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ajellomycetaceae,Blastomyces,No
+147,Blumeria graminis f. sp. hordei (strain DH14) (Barley powdery mildew) (Oidium monilioides f. sp. hordei),6245,Blumeria graminis f. sp. hordei ,Blumeria graminis,Fungi,Ascomycota,Leotiomycetes,Erysiphales,Erysiphaceae,Blumeria,Yes
+148,Blumeria graminis f. sp. tritici 96224,7783,Blumeria graminis f. sp. tritici 96224,Blumeria graminis,Fungi,Ascomycota,Leotiomycetes,Erysiphales,Erysiphaceae,Blumeria,No
+149,Blyttiomyces helicus,11942,Blyttiomyces helicus,Blyttiomyces helicus,Fungi,Chytridiomycota,Chytridiomycetes,NA,NA,Blyttiomyces,Yes
+150,Bondarzewia mesenterica,8789,Bondarzewia mesenterica,Bondarzewia mesenterica,Fungi,Basidiomycota,Agaricomycetes,Russulales,Bondarzewiaceae,Bondarzewia,Yes
+151,Botryobasidium botryosum FD-172 SS1,16140,Botryobasidium botryosum FD-172 SS1,Botryobasidium botryosum,Fungi,Basidiomycota,Agaricomycetes,Cantharellales,Botryobasidiaceae,Botryobasidium,Yes
+152,Botryosphaeria parva (strain UCR-NP2) (Grapevine canker fungus) (Neofusicoccum parvum),10168,Botryosphaeria parva ,Botryosphaeria parva,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Neofusicoccum,Yes
+153,Botryotinia calthae,11920,Botryotinia calthae,Botryotinia calthae,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botryotinia,No
+154,Botryotinia convoluta,12047,Botryotinia convoluta,Botryotinia convoluta,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botryotinia,No
+155,Botryotinia fuckeliana (strain B05.10) (Noble rot fungus) (Botrytis cinerea),12706,Botryotinia fuckeliana ,Botryotinia fuckeliana,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botrytis,Yes
+156,Botryotinia fuckeliana (strain BcDW1) (Noble rot fungus) (Botrytis cinerea),10597,Botryotinia fuckeliana ,Botryotinia fuckeliana,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botrytis,Yes
+157,Botryotinia fuckeliana (strain T4) (Noble rot fungus) (Botrytis cinerea),15999,Botryotinia fuckeliana ,Botryotinia fuckeliana,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botrytis,No
+158,Botryotinia narcissicola,11902,Botryotinia narcissicola,Botryotinia narcissicola,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botryotinia,Yes
+159,Botrytis elliptica,12153,Botrytis elliptica,Botrytis elliptica,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botrytis,No
+160,Botrytis galanthina,11975,Botrytis galanthina,Botrytis galanthina,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botrytis,No
+161,Botrytis hyacinthi,11738,Botrytis hyacinthi,Botrytis hyacinthi,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botrytis,No
+162,Botrytis paeoniae,11666,Botrytis paeoniae,Botrytis paeoniae,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botrytis,No
+163,Botrytis porri,11540,Botrytis porri,Botrytis porri,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botrytis,Yes
+164,Botrytis tulipae,12171,Botrytis tulipae,Botrytis tulipae,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botrytis,No
+165,Byssochlamys spectabilis (Paecilomyces variotii),9023,Byssochlamys spectabilis ,Byssochlamys spectabilis,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Thermoascaceae,Paecilomyces,No
+166,Byssochlamys spectabilis (strain No. 5 / NBRC 109023) (Paecilomyces variotii),8460,Byssochlamys spectabilis ,Byssochlamys spectabilis,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Thermoascaceae,Paecilomyces,Yes
+167,Byssothecium circinans,15212,Byssothecium circinans,Byssothecium circinans,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Massarinaceae,Byssothecium,Yes
+168,Cadophora sp. DSE1049,22305,Cadophora sp. DSE1049,Cadophora sp.,Fungi,Ascomycota,Leotiomycetes,Helotiales,NA,Cadophora,Yes
+169,Calocera cornea HHB12733,12812,Calocera cornea HHB12733,Calocera cornea,Fungi,Basidiomycota,Dacrymycetes,Dacrymycetales,Dacrymycetaceae,Calocera,Yes
+170,Calocera viscosa (strain TUFC12733),12067,Calocera viscosa ,Calocera viscosa,Fungi,Basidiomycota,Dacrymycetes,Dacrymycetales,Dacrymycetaceae,Calocera,Yes
+171,Candida auris (Yeast),11215,Candida auris ,Candida auris,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Metschnikowiaceae,Candida/Metschnikowiaceae,No
+172,Candida tropicalis (strain ATCC MYA-3404 / T1) (Yeast),6029,Candida tropicalis ,Candida tropicalis,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida,No
+173,Candida viswanathii,10226,Candida viswanathii,Candida viswanathii,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida,Yes
+174,Candolleomyces aberdarensis,12980,Candolleomyces aberdarensis,Candolleomyces aberdarensis,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Psathyrellaceae,Candolleomyces,No
+175,Capronia coronata CBS 617.96,8920,Capronia coronata CBS 617.96,Capronia coronata,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Capronia,Yes
+176,Capronia epimyces CBS 606.96,10152,Capronia epimyces CBS 606.96,Capronia epimyces,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Capronia,Yes
+177,Catenaria anguillulae PL171,12314,Catenaria anguillulae PL171,Catenaria anguillulae,Fungi,Blastocladiomycota,Blastocladiomycetes,Blastocladiales,Catenariaceae,Catenaria,Yes
+178,Caulochytrium protostelioides,8090,Caulochytrium protostelioides,Caulochytrium protostelioides,Fungi,Chytridiomycota,Chytridiomycetes,Caulochytriales,Caulochytriaceae,Caulochytrium,Yes
+179,Ceraceosorus bombacis,7457,Ceraceosorus bombacis,Ceraceosorus bombacis,Fungi,Basidiomycota,Exobasidiomycetes,Ceraceosorales,Ceraceosoraceae,Ceraceosorus,Yes
+180,Ceraceosorus guamensis,7354,Ceraceosorus guamensis,Ceraceosorus guamensis,Fungi,Basidiomycota,Exobasidiomycetes,Ceraceosorales,Ceraceosoraceae,Ceraceosorus,No
+181,Ceratobasidium theobromae,8457,Ceratobasidium theobromae,Ceratobasidium theobromae,Fungi,Basidiomycota,Agaricomycetes,Cantharellales,Ceratobasidiaceae,Ceratobasidium,Yes
+182,Ceratocystis fimbriata CBS 114723,6896,Ceratocystis fimbriata CBS 114723,Ceratocystis fimbriata,Fungi,Ascomycota,Sordariomycetes,Microascales,Ceratocystidaceae,Ceratocystis,No
+183,Cercospora berteroae,11509,Cercospora berteroae,Cercospora berteroae,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Cercospora,Yes
+184,Cercospora beticola (Sugarbeet leaf spot fungus),12279,Cercospora beticola ,Cercospora beticola,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Cercospora,No
+185,Cercospora zeae-maydis SCOH1-5,11728,Cercospora zeae-maydis SCOH1-5,Cercospora zeae-maydis,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Cercospora,Yes
+186,Ceriporiopsis subvermispora (strain B) (White-rot fungus) (Gelatoporia subvermispora),11765,Ceriporiopsis subvermispora ,Ceriporiopsis subvermispora,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Gelatoporiaceae,Gelatoporia,Yes
+187,Chaetomium globosum (strain ATCC 6205 / CBS 148.51 / DSM 1962 / NBRC 6347 / NRRL 1970) (Soil fungus),10573,Chaetomium globosum ,Chaetomium globosum,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,No
+188,Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719) (Thermochaetoides thermophila),6830,Chaetomium thermophilum ,Chaetomium thermophilum,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Thermochaetoides,No
+189,Chaetothyriales sp. CBS 134916,6279,Chaetothyriales sp. CBS 134916,Chaetothyriales sp.,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,NA,NA,No
+190,Choanephora cucurbitarum,11045,Choanephora cucurbitarum,Choanephora cucurbitarum,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Choanephoraceae,Choanephora,Yes
+191,Choiromyces venosus 120613-1,17447,Choiromyces venosus 120613-1,Choiromyces venosus,Fungi,Ascomycota,Pezizomycetes,Pezizales,Tuberaceae,Choiromyces,Yes
+192,Chytriomyces confervae,10026,Chytriomyces confervae,Chytriomyces confervae,Fungi,Chytridiomycota,Chytridiomycetes,Chytridiales,Chytriomycetaceae,Chytriomyces,Yes
+193,Cladophialophora bantiana CBS 173.52,12411,Cladophialophora bantiana CBS 173.52,Cladophialophora bantiana,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Cladophialophora,No
+194,Cladophialophora carrionii,11218,Cladophialophora carrionii,Cladophialophora carrionii,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Cladophialophora,Yes
+195,Cladophialophora carrionii CBS 160.54,10066,Cladophialophora carrionii CBS 160.54,Cladophialophora carrionii,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Cladophialophora,No
+196,Cladophialophora immunda,13194,Cladophialophora immunda,Cladophialophora immunda,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Cladophialophora,No
+197,Cladophialophora psammophila CBS 110553,13082,Cladophialophora psammophila CBS 110553,Cladophialophora psammophila,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Cladophialophora,Yes
+198,Cladophialophora yegresii CBS 114405,9829,Cladophialophora yegresii CBS 114405,Cladophialophora yegresii,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Cladophialophora,Yes
+199,Clathrospora elynae,13208,Clathrospora elynae,Clathrospora elynae,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Diademaceae,Clathrospora,Yes
+200,Claviceps purpurea (strain 20.1) (Ergot fungus) (Sphacelia segetum),8502,Claviceps purpurea ,Claviceps purpurea,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Claviceps,No
+201,Clohesyomyces aquaticus,15404,Clohesyomyces aquaticus,Clohesyomyces aquaticus,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Lindgomycetaceae,Clohesyomyces,Yes
+202,Coccidioides immitis (strain RS) (Valley fever fungus),9434,Coccidioides immitis ,Coccidioides immitis,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Onygenaceae,Coccidioides,Yes
+203,Coccidioides immitis H538.4,10429,Coccidioides immitis H538.4,Coccidioides immitis,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Onygenaceae,Coccidioides,Yes
+204,Coccidioides immitis RMSCC 2394,10144,Coccidioides immitis RMSCC 2394,Coccidioides immitis,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Onygenaceae,Coccidioides,No
+205,Coccidioides immitis RMSCC 3703,10323,Coccidioides immitis RMSCC 3703,Coccidioides immitis,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Onygenaceae,Coccidioides,Yes
+206,Coccidioides posadasii (strain C735) (Valley fever fungus),6933,Coccidioides posadasii ,Coccidioides posadasii,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Onygenaceae,Coccidioides,No
+207,Coccidioides posadasii RMSCC 3488,9690,Coccidioides posadasii RMSCC 3488,Coccidioides posadasii,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Onygenaceae,Coccidioides,No
+208,Cochliobolus carbonum (strain 26-R-13) (Maize leaf spot fungus) (Bipolaris zeicola),12477,Cochliobolus carbonum ,Cochliobolus carbonum,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,No
+209,Cochliobolus heterostrophus (strain C4 / ATCC 48331 / race T) (Southern corn leaf blight fungus) (Bipolaris maydis),12341,Cochliobolus heterostrophus ,Cochliobolus heterostrophus,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,Yes
+210,Cochliobolus heterostrophus (strain C5 / ATCC 48332 / race O) (Southern corn leaf blight fungus) (Bipolaris maydis),12526,Cochliobolus heterostrophus ,Cochliobolus heterostrophus,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,No
+211,Cochliobolus sativus (strain ND90Pr / ATCC 201652) (Common root rot and spot blotch fungus) (Bipolaris sorokiniana),11821,Cochliobolus sativus ,Cochliobolus sativus,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,Yes
+212,Coemansia reversa (strain ATCC 12441 / NRRL 1564),7150,Coemansia reversa ,Coemansia reversa,Fungi,Zoopagomycota,Kickxellomycetes,Kickxellales,Kickxellaceae,Coemansia,Yes
+213,Coleophoma crateriformis,12807,Coleophoma crateriformis,Coleophoma crateriformis,Fungi,Ascomycota,Leotiomycetes,Helotiales,Dermateaceae,Coleophoma,No
+214,Coleophoma cylindrospora,13702,Coleophoma cylindrospora,Coleophoma cylindrospora,Fungi,Ascomycota,Leotiomycetes,Helotiales,Dermateaceae,Coleophoma,Yes
+215,Colletotrichum chlorophyti,9908,Colletotrichum chlorophyti,Colletotrichum chlorophyti,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+216,Colletotrichum fioriniae PJ7,13267,Colletotrichum fioriniae PJ7,Colletotrichum fioriniae,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+217,Colletotrichum fructicola (strain Nara gc5) (Anthracnose fungus) (Colletotrichum gloeosporioides (strain Nara gc5)),24283,Colletotrichum fructicola ,Colletotrichum fructicola,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+218,Colletotrichum gloeosporioides (strain Cg-14) (Anthracnose fungus) (Glomerella cingulata),15677,Colletotrichum gloeosporioides ,Colletotrichum gloeosporioides,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+219,Colletotrichum graminicola (strain M1.001 / M2 / FGSC 10212) (Maize anthracnose fungus) (Glomerella graminicola),11652,Colletotrichum graminicola ,Colletotrichum graminicola,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+220,Colletotrichum higginsianum,12553,Colletotrichum higginsianum,Colletotrichum higginsianum,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+221,Colletotrichum higginsianum (strain IMI 349063) (Crucifer anthracnose fungus),17640,Colletotrichum higginsianum ,Colletotrichum higginsianum,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+222,Colletotrichum incanum,19573,Colletotrichum incanum,Colletotrichum incanum,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+223,Colletotrichum nymphaeae SA-01,13932,Colletotrichum nymphaeae SA-01,Colletotrichum nymphaeae,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+224,Colletotrichum orbiculare (strain 104-T / ATCC 96160 / CBS 514.97 / LARS 414 / MAFF 240422) (Cucumber anthracnose fungus) (Colletotrichum lagenarium),12812,Colletotrichum orbiculare ,Colletotrichum orbiculare,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+225,Colletotrichum orchidophilum,14101,Colletotrichum orchidophilum,Colletotrichum orchidophilum,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+226,Colletotrichum salicis,13349,Colletotrichum salicis,Colletotrichum salicis,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+227,Colletotrichum shisoi,11437,Colletotrichum shisoi,Colletotrichum shisoi,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+228,Colletotrichum sidae,12101,Colletotrichum sidae,Colletotrichum sidae,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+229,Colletotrichum simmondsii,13379,Colletotrichum simmondsii,Colletotrichum simmondsii,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+230,Colletotrichum spinosum,12173,Colletotrichum spinosum,Colletotrichum spinosum,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+231,Colletotrichum sublineola (Sorghum anthracnose fungus),12257,Colletotrichum sublineola ,Colletotrichum sublineola,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+232,Colletotrichum tanaceti,11726,Colletotrichum tanaceti,Colletotrichum tanaceti,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+233,Colletotrichum tofieldiae,12087,Colletotrichum tofieldiae,Colletotrichum tofieldiae,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+234,Colletotrichum trifolii,11900,Colletotrichum trifolii,Colletotrichum trifolii,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,No
+235,Collybiopsis luxurians FD-317 M1,14366,Collybiopsis luxurians FD-317 M1,Collybiopsis luxurians,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Omphalotaceae,Collybiopsis,No
+236,Conidiobolus coronatus (strain ATCC 28846 / CBS 209.66 / NRRL 28638) (Delacroixia coronata),10426,Conidiobolus coronatus ,Conidiobolus coronatus,Fungi,Zoopagomycota,Entomophthoromycetes,Entomophthorales,Ancylistaceae,Conidiobolus,Yes
+237,Coniella lustricola,10965,Coniella lustricola,Coniella lustricola,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Schizoparmaceae,Coniella,No
+238,Coniochaeta ligniaria NRRL 30616,13285,Coniochaeta ligniaria NRRL 30616,Coniochaeta ligniaria,Fungi,Ascomycota,Sordariomycetes,Coniochaetales,Coniochaetaceae,Coniochaeta,No
+239,Coniochaeta pulveracea,9627,Coniochaeta pulveracea,Coniochaeta pulveracea,Fungi,Ascomycota,Sordariomycetes,Coniochaetales,Coniochaetaceae,Coniochaeta,No
+240,Coniochaeta sp. 2T2.1,23790,Coniochaeta sp. 2T2.1,Coniochaeta sp.,Fungi,Ascomycota,Sordariomycetes,Coniochaetales,Coniochaetaceae,Coniochaeta,No
+241,Coniophora puteana (strain RWD-64-598) (Brown rot fungus),13393,Coniophora puteana ,Coniophora puteana,Fungi,Basidiomycota,Agaricomycetes,Boletales,Coniophoraceae,Coniophora,Yes
+242,Coniosporium apollinis (strain CBS 100218) (Rock-inhabiting black yeast),9003,Coniosporium apollinis ,Coniosporium apollinis,Fungi,Ascomycota,Dothideomycetes,NA,NA,Coniosporium,Yes
+243,Coprinellus micaceus (Glistening ink-cap mushroom) (Coprinus micaceus),22203,Coprinellus micaceus ,Coprinellus micaceus,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Psathyrellaceae,Coprinellus,Yes
+244,Coprinopsis cinerea (strain Okayama-7 / 130 / ATCC MYA-4618 / FGSC 9003) (Inky cap fungus) (Hormographiella aspergillata),12927,Coprinopsis cinerea ,Coprinopsis cinerea,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Psathyrellaceae,Coprinopsis,No
+245,Coprinopsis marcescibilis (Agaric fungus) (Psathyrella marcescibilis),14095,Coprinopsis marcescibilis ,Coprinopsis marcescibilis,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Psathyrellaceae,Coprinopsis,Yes
+246,Cordyceps confragosa (Lecanicillium lecanii),7768,Cordyceps confragosa ,Cordyceps confragosa,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Akanthomyces,No
+247,Cordyceps fumosorosea (strain ARSEF 2679) (Isaria fumosorosea),9706,Cordyceps fumosorosea ,Cordyceps fumosorosea,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Cordyceps,No
+248,Cordyceps javanica,11078,Cordyceps javanica,Cordyceps javanica,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Cordyceps,No
+249,Cordyceps militaris (Caterpillar fungus) (Clavaria militaris),9075,Cordyceps militaris ,Cordyceps militaris,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Cordyceps,No
+250,Cordyceps militaris (strain CM01) (Caterpillar fungus),9275,Cordyceps militaris ,Cordyceps militaris,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Cordyceps,No
+251,Cordyceps sp. RAO-2017,10955,Cordyceps sp. RAO-2017,Cordyceps sp.,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Cordyceps,No
+252,Corynespora cassiicola Philippines,16733,Corynespora cassiicola Philippines,Corynespora cassiicola,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Corynesporascaceae,Corynespora,Yes
+253,Crucibulum laeve,13829,Crucibulum laeve,Crucibulum laeve,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Nidulariaceae,Crucibulum,Yes
+254,Cryomyces minteri,12885,Cryomyces minteri,Cryomyces minteri,Fungi,Ascomycota,Dothideomycetes,NA,NA,Cryomyces,Yes
+255,Cryptococcus amylolentus CBS 6039,9493,Cryptococcus amylolentus CBS 6039,Cryptococcus amylolentus,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus,Yes
+256,Cryptococcus amylolentus CBS 6273,7851,Cryptococcus amylolentus CBS 6273,Cryptococcus amylolentus,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus,Yes
+257,Cryptococcus depauperatus CBS 7841,6265,Cryptococcus depauperatus CBS 7841,Cryptococcus depauperatus,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus,Yes
+258,Cryptococcus depauperatus CBS 7855,6101,Cryptococcus depauperatus CBS 7855,Cryptococcus depauperatus,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus,Yes
+259,Cryptococcus floricola,7856,Cryptococcus floricola,Cryptococcus floricola,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus,Yes
+260,Cryptococcus gattii CA1280,6401,Cryptococcus gattii CA1280,Cryptococcus gattii,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus,Yes
+261,Cryptococcus gattii EJB2,6485,Cryptococcus gattii EJB2,Cryptococcus gattii,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus,No
+262,Cryptococcus gattii serotype B (strain WM276 / ATCC MYA-4071) (Filobasidiella gattii) (Cryptococcus bacillisporus),6276,Cryptococcus gattii serotype B ,Cryptococcus gattii,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus,Yes
+263,Cryptococcus gattii VGII Ram5,6215,Cryptococcus gattii VGII Ram5,Cryptococcus gattii,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus,No
+264,Cryptococcus gattii VGIV IND107,6428,Cryptococcus gattii VGIV IND107,Cryptococcus gattii,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus,No
+265,Cryptococcus neoformans var. grubii c45,6589,Cryptococcus neoformans var. grubii c45,Cryptococcus neoformans,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus,No
+266,Cryptococcus neoformans var. grubii serotype A (strain H99 / ATCC 208821 / CBS 10515 / FGSC 9487) (Filobasidiella neoformans var. grubii),7103,Cryptococcus neoformans var. grubii serotype A ,Cryptococcus neoformans,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus,Yes
+267,Cryptococcus neoformans var. grubii Tu259-1,6621,Cryptococcus neoformans var. grubii Tu259-1,Cryptococcus neoformans,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus,No
+268,Cryptococcus neoformans var. neoformans serotype D (strain B-3501A) (Filobasidiella neoformans),6281,Cryptococcus neoformans var. neoformans serotype D ,Cryptococcus neoformans,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus,Yes
+269,Cryptococcus neoformans var. neoformans serotype D (strain JEC21 / ATCC MYA-565) (Filobasidiella neoformans),6434,Cryptococcus neoformans var. neoformans serotype D ,Cryptococcus neoformans,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus,Yes
+270,Cryptococcus wingfieldii CBS 7118,7763,Cryptococcus wingfieldii CBS 7118,Cryptococcus wingfieldii,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus,Yes
+271,Cutaneotrichosporon oleaginosum,8063,Cutaneotrichosporon oleaginosum,Cutaneotrichosporon oleaginosum,Fungi,Basidiomycota,Tremellomycetes,Trichosporonales,Trichosporonaceae,Cutaneotrichosporon,Yes
+272,Cyberlindnera fabianii (Yeast) (Hansenula fabianii),9295,Cyberlindnera fabianii ,Cyberlindnera fabianii,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Phaffomycetaceae,Cyberlindnera,Yes
+273,Cyberlindnera jadinii (strain ATCC 18201 / CBS 1600 / BCRC 20928 / JCM 3617 / NBRC 0987 / NRRL Y-1542) (Torula yeast) (Candida utilis),9414,Cyberlindnera jadinii ,Cyberlindnera jadinii,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Phaffomycetaceae,Cyberlindnera,No
+274,Cylindrobasidium torrendii FP15055 ss-10,13624,Cylindrobasidium torrendii FP15055 ss-10,Cylindrobasidium torrendii,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Physalacriaceae,Cylindrobasidium,Yes
+275,Cyphellophora europaea CBS 101466,10780,Cyphellophora europaea CBS 101466,Cyphellophora europaea,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Cyphellophoraceae,Cyphellophora,Yes
+276,Cytospora leucostoma,9750,Cytospora leucostoma,Cytospora leucostoma,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Cytospora,No
+277,Dacryopinax primogenitus (strain DJM 731) (Brown rot fungus),10008,Dacryopinax primogenitus ,Dacryopinax primogenitus,Fungi,Basidiomycota,Dacrymycetes,Dacrymycetales,Dacrymycetaceae,Dacryopinax,No
+278,Dactylellina haptotyla (strain CBS 200.50) (Nematode-trapping fungus) (Monacrosporium haptotylum),10451,Dactylellina haptotyla ,Dactylellina haptotyla,Fungi,Ascomycota,Orbiliomycetes,Orbiliales,Orbiliaceae,Dactylellina,Yes
+279,Daedalea quercina L-15889,11897,Daedalea quercina L-15889,Daedalea quercina,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Fomitopsidaceae,Daedalea,No
+280,Daldinia sp. EC12,10815,Daldinia sp. EC12,Daldinia sp.,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Daldinia,No
+281,Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / BCRC 21394 / JCM 1990 / NBRC 0083 / IGC 2968) (Yeast) (Torulaspora hansenii),6101,Debaryomyces hansenii ,Debaryomyces hansenii,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Debaryomyces,Yes
+282,Decorospora gaudefroyi,11455,Decorospora gaudefroyi,Decorospora gaudefroyi,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Decorospora,Yes
+283,Dendrothele bispora (strain CBS 962.96),32551,Dendrothele bispora ,Dendrothele bispora,Fungi,Basidiomycota,Agaricomycetes,Agaricales,NA,Dendrothele,Yes
+284,Dentipellis fragilis,9798,Dentipellis fragilis,Dentipellis fragilis,Fungi,Basidiomycota,Agaricomycetes,Russulales,Hericiaceae,Dentipellis,Yes
+285,Dentipellis sp. KUC8613,13995,Dentipellis sp. KUC8613,Dentipellis sp.,Fungi,Basidiomycota,Agaricomycetes,Russulales,Hericiaceae,Dentipellis,Yes
+286,Diaporthe ampelina,10511,Diaporthe ampelina,Diaporthe ampelina,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,No
+287,Diaporthe helianthi,12729,Diaporthe helianthi,Diaporthe helianthi,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,No
+288,Dichomitus squalens,35398,Dichomitus squalens,Dichomitus squalens,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Polyporaceae,Dichomitus,No
+289,Dichomitus squalens (strain LYAD-421) (Western red white-rot fungus),7039,Dichomitus squalens ,Dichomitus squalens,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Polyporaceae,Dichomitus,No
+290,Didymella exigua CBS 183.55,12027,Didymella exigua CBS 183.55,Didymella exigua,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Didymella,No
+291,Didymella rabiei (Chickpea ascochyta blight fungus) (Mycosphaerella rabiei),10151,Didymella rabiei ,Didymella rabiei,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Ascochyta,No
+292,Dimargaris cristalligena,7239,Dimargaris cristalligena,Dimargaris cristalligena,Fungi,Zoopagomycota,Dimargaritomycetes,Dimargaritales,Dimargaritaceae,Dimargaris,Yes
+293,Diplodia corticola,10422,Diplodia corticola,Diplodia corticola,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Diplodia,No
+294,Diplodia seriata,16137,Diplodia seriata,Diplodia seriata,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Diplodia,Yes
+295,Dissoconium aciculare CBS 342.82,9967,Dissoconium aciculare CBS 342.82,Dissoconium aciculare,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Dissoconiaceae,Dissoconium,Yes
+296,Diversispora epigaea,26529,Diversispora epigaea,Diversispora epigaea,Fungi,Mucoromycota,Glomeromycetes,Diversisporales,Diversisporaceae,Diversispora,Yes
+297,Dothidotthia symphoricarpi CBS 119687,11443,Dothidotthia symphoricarpi CBS 119687,Dothidotthia symphoricarpi,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Dothidotthiaceae,Dothidotthia,No
+298,Dothistroma septosporum (strain NZE10 / CBS 128990) (Red band needle blight fungus) (Mycosphaerella pini),12131,Dothistroma septosporum ,Dothistroma septosporum,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Dothistroma,Yes
+299,Drechmeria coniospora,7851,Drechmeria coniospora,Drechmeria coniospora,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Drechmeria,No
+300,Elaphomyces granulatus,6821,Elaphomyces granulatus,Elaphomyces granulatus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Elaphomycetaceae,Elaphomyces,Yes
+301,Elsinoe ampelina,9919,Elsinoe ampelina,Elsinoe ampelina,Fungi,Ascomycota,Dothideomycetes,Myriangiales,Elsinoaceae,Elsinoe,Yes
+302,Elsinoe australis,17598,Elsinoe australis,Elsinoe australis,Fungi,Ascomycota,Dothideomycetes,Myriangiales,Elsinoaceae,Elsinoe,Yes
+303,Emergomyces africanus,8492,Emergomyces africanus,Emergomyces africanus,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ajellomycetaceae,Emergomyces,Yes
+304,Emergomyces pasteurianus Ep9510,8636,Emergomyces pasteurianus Ep9510,Emergomyces pasteurianus,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ajellomycetaceae,Emergomyces,Yes
+305,Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) (Aspergillus nidulans),18472,Emericella nidulans ,Emericella nidulans,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+306,Emmonsia crescens,8592,Emmonsia crescens,Emmonsia crescens,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ajellomycetaceae,Emmonsia,No
+307,Emmonsia crescens UAMH 3008,9140,Emmonsia crescens UAMH 3008,Emmonsia crescens,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ajellomycetaceae,Emmonsia,Yes
+308,Endocarpon pusillum (strain Z07020 / HMAS-L-300199) (Lichen-forming fungus),8781,Endocarpon pusillum ,Endocarpon pusillum,Fungi,Ascomycota,Eurotiomycetes,Verrucariales,Verrucariaceae,Endocarpon,Yes
+309,Endogone sp. FLAS-F59071,9100,Endogone sp. FLAS-F59071,Endogone sp.,Fungi,Mucoromycota,Endogonomycetes,Endogonales,Endogonaceae,Endogone,Yes
+310,Epicoccum nigrum (Soil fungus) (Epicoccum purpurascens),11729,Epicoccum nigrum ,Epicoccum nigrum,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Epicoccum,No
+311,Erysiphe neolycopersici,6613,Erysiphe neolycopersici,Erysiphe neolycopersici,Fungi,Ascomycota,Leotiomycetes,Erysiphales,Erysiphaceae,Erysiphe,Yes
+312,Erysiphe pulchra,6609,Erysiphe pulchra,Erysiphe pulchra,Fungi,Ascomycota,Leotiomycetes,Erysiphales,Erysiphaceae,Erysiphe,Yes
+313,Escovopsis weberi,6682,Escovopsis weberi,Escovopsis weberi,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Escovopsis,No
+314,Eutypa lata (strain UCR-EL1) (Grapevine dieback disease fungus) (Eutypa armeniacae),11462,Eutypa lata ,Eutypa lata,Fungi,Ascomycota,Sordariomycetes,Xylariales,Diatrypaceae,Eutypa,No
+315,Exidia glandulosa HHB12029,25941,Exidia glandulosa HHB12029,Exidia glandulosa,Fungi,Basidiomycota,Agaricomycetes,Auriculariales,Exidiaceae,Exidia,Yes
+316,Exophiala aquamarina CBS 119918,12788,Exophiala aquamarina CBS 119918,Exophiala aquamarina,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Exophiala,Yes
+317,Exophiala dermatitidis (strain ATCC 34100 / CBS 525.76 / NIH/UT8656) (Black yeast) (Wangiella dermatitidis),9065,Exophiala dermatitidis ,Exophiala dermatitidis,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Exophiala,Yes
+318,Exophiala mesophila (Black yeast),19341,Exophiala mesophila ,Exophiala mesophila,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Exophiala,Yes
+319,Exophiala oligosperma,12466,Exophiala oligosperma,Exophiala oligosperma,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Exophiala,Yes
+320,Exophiala sideris,10516,Exophiala sideris,Exophiala sideris,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Exophiala,Yes
+321,Exophiala spinifera,11746,Exophiala spinifera,Exophiala spinifera,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Exophiala,Yes
+322,Exophiala xenobiotica,12412,Exophiala xenobiotica,Exophiala xenobiotica,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Exophiala,Yes
+323,Exserohilum turcicum (strain 28A) (Northern leaf blight fungus) (Setosphaeria turcica),11338,Exserohilum turcicum ,Exserohilum turcicum,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Exserohilum,Yes
+324,Fibroporia radiculosa,8901,Fibroporia radiculosa,Fibroporia radiculosa,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Fibroporiaceae,Fibroporia,Yes
+325,Fibularhizoctonia sp. CBS 109695,31395,Fibularhizoctonia sp. CBS 109695,Fibularhizoctonia sp.,Fungi,Basidiomycota,Agaricomycetes,Atheliales,Atheliaceae,Fibularhizoctonia,Yes
+326,Fistulina hepatica ATCC 64428,9127,Fistulina hepatica ATCC 64428,Fistulina hepatica,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Fistulinaceae,Fistulina,Yes
+327,Fomitopsis schrenkii (Brown rot fungus),13488,Fomitopsis schrenkii ,Fomitopsis schrenkii,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Fomitopsidaceae,Fomitopsis,No
+328,Fonsecaea erecta,11734,Fonsecaea erecta,Fonsecaea erecta,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Fonsecaea,Yes
+329,Fonsecaea monophora,11627,Fonsecaea monophora,Fonsecaea monophora,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Fonsecaea,No
+330,Fonsecaea multimorphosa,11424,Fonsecaea multimorphosa,Fonsecaea multimorphosa,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Fonsecaea,No
+331,Fonsecaea multimorphosa CBS 102226,12027,Fonsecaea multimorphosa CBS 102226,Fonsecaea multimorphosa,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Fonsecaea,No
+332,Fonsecaea nubica,11315,Fonsecaea nubica,Fonsecaea nubica,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Fonsecaea,No
+333,Fonsecaea pedrosoi CBS 271.37,12509,Fonsecaea pedrosoi CBS 271.37,Fonsecaea pedrosoi,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Fonsecaea,Yes
+334,Friedmanniomyces endolithicus,17242,Friedmanniomyces endolithicus,Friedmanniomyces endolithicus,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Teratosphaeriaceae,Friedmanniomyces,Yes
+335,Friedmanniomyces simplex,13239,Friedmanniomyces simplex,Friedmanniomyces simplex,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Teratosphaeriaceae,Friedmanniomyces,Yes
+336,Fungal sp. (strain No.11243),9452,Fungal sp. ,Fungal sp.,Fungi,NA,NA,NA,NA,NA,Yes
+337,Furculomyces boomerangus,6282,Furculomyces boomerangus,Furculomyces boomerangus,Fungi,Zoopagomycota,Harpellomycetes,Harpellales,Harpellaceae,Furculomyces,No
+338,Fusarium ambrosium,16835,Fusarium ambrosium,Fusarium ambrosium,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+339,Fusarium coffeatum,11335,Fusarium coffeatum,Fusarium coffeatum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+340,Fusarium culmorum,18638,Fusarium culmorum,Fusarium culmorum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+341,Fusarium duplospermum,15820,Fusarium duplospermum,Fusarium duplospermum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+342,Fusarium euwallaceae,17188,Fusarium euwallaceae,Fusarium euwallaceae,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+343,Fusarium flagelliforme,12557,Fusarium flagelliforme,Fusarium flagelliforme,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+344,Fusarium floridanum,16318,Fusarium floridanum,Fusarium floridanum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+345,Fusarium kuroshium,16069,Fusarium kuroshium,Fusarium kuroshium,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+346,Fusarium langsethiae,11490,Fusarium langsethiae,Fusarium langsethiae,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+347,Fusarium longipes,11012,Fusarium longipes,Fusarium longipes,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+348,Fusarium mangiferae (Mango malformation disease fungus),15381,Fusarium mangiferae ,Fusarium mangiferae,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+349,Fusarium odoratissimum NRRL 54006,19221,Fusarium odoratissimum NRRL 54006,Fusarium odoratissimum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+350,Fusarium oligoseptatum,17367,Fusarium oligoseptatum,Fusarium oligoseptatum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+351,Fusarium oxysporum (Fusarium vascular wilt),63162,Fusarium oxysporum ,Fusarium oxysporum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+352,Fusarium oxysporum (strain Fo5176) (Fusarium vascular wilt),30262,Fusarium oxysporum ,Fusarium oxysporum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+353,Fusarium oxysporum f. sp. cepae,18355,Fusarium oxysporum f. sp. cepae,Fusarium oxysporum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+354,Fusarium oxysporum f. sp. conglutinans race 2 54008,22679,Fusarium oxysporum f. sp. conglutinans race 2 54008,Fusarium oxysporum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+355,Fusarium oxysporum f. sp. cubense,30537,Fusarium oxysporum f. sp. cubense,Fusarium oxysporum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+356,Fusarium oxysporum f. sp. cubense (strain race 1) (Panama disease fungus),14981,Fusarium oxysporum f. sp. cubense ,Fusarium oxysporum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+357,Fusarium oxysporum f. sp. cubense (strain race 4) (Panama disease fungus),13793,Fusarium oxysporum f. sp. cubense ,Fusarium oxysporum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+358,Fusarium oxysporum f. sp. lycopersici (strain 4287 / CBS 123668 / FGSC 9935 / NRRL 34936) (Fusarium vascular wilt of tomato),14143,Fusarium oxysporum f. sp. lycopersici ,Fusarium oxysporum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+359,Fusarium oxysporum f. sp. melonis 26406,22698,Fusarium oxysporum f. sp. melonis 26406,Fusarium oxysporum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+360,Fusarium oxysporum f. sp. narcissi,20106,Fusarium oxysporum f. sp. narcissi,Fusarium oxysporum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+361,Fusarium oxysporum f. sp. pisi HDV247,22625,Fusarium oxysporum f. sp. pisi HDV247,Fusarium oxysporum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+362,Fusarium oxysporum f. sp. radicis-cucumerinum,16481,Fusarium oxysporum f. sp. radicis-cucumerinum,Fusarium oxysporum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+363,Fusarium oxysporum f. sp. raphani 54005,22139,Fusarium oxysporum f. sp. raphani 54005,Fusarium oxysporum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+364,Fusarium oxysporum f. sp. vasinfectum 25433,21652,Fusarium oxysporum f. sp. vasinfectum 25433,Fusarium oxysporum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+365,Fusarium oxysporum Fo47,26068,Fusarium oxysporum Fo47,Fusarium oxysporum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+366,Fusarium oxysporum NRRL 32931,20156,Fusarium oxysporum NRRL 32931,Fusarium oxysporum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+367,Fusarium poae,13657,Fusarium poae,Fusarium poae,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+368,Fusarium proliferatum (strain ET1) (Orchid endophyte fungus),15648,Fusarium proliferatum ,Fusarium proliferatum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+369,Fusarium pseudograminearum (strain CS3096) (Wheat and barley crown-rot fungus),12026,Fusarium pseudograminearum ,Fusarium pseudograminearum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+370,Fusarium pseudograminearum (Wheat and barley crown-rot fungus),11045,Fusarium pseudograminearum ,Fusarium pseudograminearum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+371,Fusarium sp. AF-6,14869,Fusarium sp. AF-6,Fusarium sp.,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+372,Fusarium sporotrichioides,11769,Fusarium sporotrichioides,Fusarium sporotrichioides,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+373,Fusarium vanettenii (strain ATCC MYA-4622 / CBS 123669 / FGSC 9596 / NRRL 45880 / 77-13-4) (Fusarium solani subsp. pisi),15303,Fusarium vanettenii ,Fusarium vanettenii,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+374,Fusarium venenatum,13591,Fusarium venenatum,Fusarium venenatum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+375,Gaeumannomyces tritici (strain R3-111a-1) (Wheat and barley take-all root rot fungus) (Gaeumannomyces graminis var. tritici),14161,Gaeumannomyces tritici ,Gaeumannomyces tritici,Fungi,Ascomycota,Sordariomycetes,Magnaporthales,Magnaporthaceae,Gaeumannomyces,No
+376,Galerina marginata (strain CBS 339.88),20902,Galerina marginata ,Galerina marginata,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Strophariaceae,Galerina,Yes
+377,Ganoderma sinense ZZ0214-1,15006,Ganoderma sinense ZZ0214-1,Ganoderma sinense,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Polyporaceae,Ganoderma,No
+378,Geotrichum candidum (Oospora lactis) (Dipodascus geotrichum),6601,Geotrichum candidum ,Geotrichum candidum,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Dipodascaceae,Geotrichum,Yes
+379,Gibberella fujikuroi (Bakanae and foot rot disease fungus) (Fusarium fujikuroi),10010,Gibberella fujikuroi ,Gibberella fujikuroi,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+380,Gibberella fujikuroi (strain CBS 195.34 / IMI 58289 / NRRL A-6831) (Bakanae and foot rot disease fungus) (Fusarium fujikuroi),14341,Gibberella fujikuroi ,Gibberella fujikuroi,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+381,Gibberella intermedia (Bulb rot disease fungus) (Fusarium proliferatum),27067,Gibberella intermedia ,Gibberella intermedia,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+382,Gibberella moniliformis (Maize ear and stalk rot fungus) (Fusarium verticillioides),22179,Gibberella moniliformis ,Gibberella moniliformis,NA,NA,NA,NA,NA,NA,No
+383,Gibberella moniliformis (strain M3125 / FGSC 7600) (Maize ear and stalk rot fungus) (Fusarium verticillioides),17349,Gibberella moniliformis ,Gibberella moniliformis,NA,NA,NA,NA,NA,NA,No
+384,Gibberella nygamai (Bean root rot disease fungus) (Fusarium nygamai),15747,Gibberella nygamai ,Gibberella nygamai,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+385,Gibberella zeae (strain ATCC MYA-4620 / CBS 123657 / FGSC 9075 / NRRL 31084 / PH-1) (Wheat head blight fungus) (Fusarium graminearum),15911,Gibberella zeae ,Gibberella zeae,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,No
+386,Gigaspora rosea,30703,Gigaspora rosea,Gigaspora rosea,Fungi,Mucoromycota,Glomeromycetes,Diversisporales,Gigasporaceae,Gigaspora,No
+387,Glarea lozoyensis (strain ATCC 20868 / MF5171),12641,Glarea lozoyensis ,Glarea lozoyensis,Fungi,Ascomycota,Leotiomycetes,Helotiales,Helotiaceae,Glarea,Yes
+388,Glarea lozoyensis (strain ATCC 74030 / MF5533),7756,Glarea lozoyensis ,Glarea lozoyensis,Fungi,Ascomycota,Leotiomycetes,Helotiales,Helotiaceae,Glarea,No
+389,Gloeophyllum trabeum (strain ATCC 11539 / FP-39264 / Madison 617) (Brown rot fungus),11461,Gloeophyllum trabeum ,Gloeophyllum trabeum,Fungi,Basidiomycota,Agaricomycetes,Gloeophyllales,Gloeophyllaceae,Gloeophyllum,Yes
+390,Glomus cerebriforme,19805,Glomus cerebriforme,Glomus cerebriforme,Fungi,Mucoromycota,Glomeromycetes,Glomerales,Glomeraceae,Glomus,Yes
+391,Golovinomyces cichoracearum,18834,Golovinomyces cichoracearum,Golovinomyces cichoracearum,Fungi,Ascomycota,Leotiomycetes,Erysiphales,Erysiphaceae,Golovinomyces,Yes
+392,Gonapodya prolifera (strain JEL478) (Monoblepharis prolifera),13347,Gonapodya prolifera ,Gonapodya prolifera,Fungi,Chytridiomycota,Monoblepharidomycetes,Monoblepharidales,Gonapodyaceae,Gonapodya,Yes
+393,Grifola frondosa (Maitake) (Polyporus frondosus),14764,Grifola frondosa ,Grifola frondosa,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Grifolaceae,Grifola,No
+394,Grosmannia clavigera (strain kw1407 / UAMH 11150) (Blue stain fungus) (Graphiocladiella clavigera),7873,Grosmannia clavigera ,Grosmannia clavigera,Fungi,Ascomycota,Sordariomycetes,Ophiostomatales,Ophiostomataceae,Leptographium,No
+395,Gymnopilus dilepis,15448,Gymnopilus dilepis,Gymnopilus dilepis,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Hymenogastraceae,Gymnopilus,Yes
+396,Gymnopus androsaceus JB14,28763,Gymnopus androsaceus JB14,Gymnopus androsaceus,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Omphalotaceae,Gymnopus,Yes
+397,Hamiltosporidium magnivora,8125,Hamiltosporidium magnivora,Hamiltosporidium magnivora,Fungi,Microsporidia,NA,NA,Dubosqiidae,Hamiltosporidium,No
+398,Hamiltosporidium tvaerminnensis,8973,Hamiltosporidium tvaerminnensis,Hamiltosporidium tvaerminnensis,Fungi,Microsporidia,NA,NA,Dubosqiidae,Hamiltosporidium,No
+399,Hapsidospora chrysogenum (strain ATCC 11550 / CBS 779.69 / DSM 880 / IAM 14645 / JCM 23072 / IMI 49137) (Acremonium chrysogenum),8581,Hapsidospora chrysogenum ,Hapsidospora chrysogenum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,,Hapsidospora,No
+400,Hebeloma cylindrosporum h7,14988,Hebeloma cylindrosporum h7,Hebeloma cylindrosporum,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Hymenogastraceae,Hebeloma,Yes
+401,Helicocarpus griseus UAMH5409,9854,Helicocarpus griseus UAMH5409,Helicocarpus griseus,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Ajellomycetaceae,Helicocarpus,Yes
+402,Heliocybe sulcata,12279,Heliocybe sulcata,Heliocybe sulcata,Fungi,Basidiomycota,Agaricomycetes,Gloeophyllales,Gloeophyllaceae,Heliocybe,Yes
+403,Hericium alpestre,9631,Hericium alpestre,Hericium alpestre,Fungi,Basidiomycota,Agaricomycetes,Russulales,Hericiaceae,Hericium,Yes
+404,Hermanssonia centrifuga,21075,Hermanssonia centrifuga,Hermanssonia centrifuga,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Meruliaceae,Hermanssonia,No
+405,Hesseltinella vesiculosa,10793,Hesseltinella vesiculosa,Hesseltinella vesiculosa,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Cunninghamellaceae,Hesseltinella,Yes
+406,Heterobasidion irregulare (strain TC 32-1),12887,Heterobasidion irregulare ,Heterobasidion irregulare,Fungi,Basidiomycota,Agaricomycetes,Russulales,Bondarzewiaceae,Heterobasidion,Yes
+407,Hirsutella minnesotensis 3608,8672,Hirsutella minnesotensis 3608,Hirsutella minnesotensis,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Hirsutella,No
+408,Hortaea werneckii,126311,Hortaea werneckii,Hortaea werneckii,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Teratosphaeriaceae,Hortaea,Yes
+409,Hortaea werneckii EXF-2000,14841,Hortaea werneckii EXF-2000,Hortaea werneckii,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Teratosphaeriaceae,Hortaea,No
+410,Hyaloscypha bicolor E,18179,Hyaloscypha bicolor E,Hyaloscypha bicolor,Fungi,Ascomycota,Leotiomycetes,Helotiales,Hyaloscyphaceae,Hyaloscypha,No
+411,Hyaloscypha hepaticicola,16397,Hyaloscypha hepaticicola,Hyaloscypha hepaticicola,Fungi,Ascomycota,Leotiomycetes,Helotiales,Hyaloscyphaceae,Hyaloscypha,Yes
+412,Hyaloscypha variabilis F,19892,Hyaloscypha variabilis F,Hyaloscypha variabilis,Fungi,Ascomycota,Leotiomycetes,Helotiales,Hyaloscyphaceae,Hyaloscypha,Yes
+413,Hydnomerulius pinastri MD-312,7619,Hydnomerulius pinastri MD-312,Hydnomerulius pinastri,Fungi,Basidiomycota,Agaricomycetes,Boletales,Paxillaceae,Hydnomerulius,No
+414,Hypholoma sublateritium (strain FD-334 SS-4),16802,Hypholoma sublateritium ,Hypholoma sublateritium,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Strophariaceae,Hypholoma,Yes
+415,Hypocrea atroviridis (strain ATCC 20476 / IMI 206040) (Trichoderma atroviride),11444,Hypocrea atroviridis ,Hypocrea atroviridis,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,No
+416,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),9521,Hypocrea jecorina ,Hypocrea jecorina,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,No
+417,Hypocrea jecorina (strain QM6a) (Trichoderma reesei),8800,Hypocrea jecorina ,Hypocrea jecorina,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,No
+418,Hypocrea virens (strain Gv29-8 / FGSC 10586) (Gliocladium virens) (Trichoderma virens),11986,Hypocrea virens ,Hypocrea virens,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,No
+419,Hypoxylon sp. CI-4A,11366,Hypoxylon sp. CI-4A,Hypoxylon sp.,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Hypoxylon,No
+420,Hypoxylon sp. CO27-5,11892,Hypoxylon sp. CO27-5,Hypoxylon sp.,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Hypoxylon,No
+421,Hypoxylon sp. EC38,12171,Hypoxylon sp. EC38,Hypoxylon sp.,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Hypoxylon,No
+422,Hypsizygus marmoreus (White beech mushroom) (Agaricus marmoreus),15866,Hypsizygus marmoreus ,Hypsizygus marmoreus,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Lyophyllaceae,Hypsizygus,Yes
+423,Jaapia argillacea MUCL 33604,15994,Jaapia argillacea MUCL 33604,Jaapia argillacea,Fungi,Basidiomycota,Agaricomycetes,Jaapiales,Jaapiaceae,Jaapia,Yes
+424,Jaminaea rosea,6442,Jaminaea rosea,Jaminaea rosea,Fungi,Basidiomycota,Exobasidiomycetes,Microstromatales,NA,Jaminaea,No
+425,Jimgerdemannia flammicorona,25663,Jimgerdemannia flammicorona,Jimgerdemannia flammicorona,Fungi,Mucoromycota,Endogonomycetes,Endogonales,Endogonaceae,Jimgerdemannia,No
+426,Kockovaella imperatae,7139,Kockovaella imperatae,Kockovaella imperatae,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cuniculitremaceae,Kockovaella,No
+427,Kwoniella bestiolae CBS 10118,8793,Kwoniella bestiolae CBS 10118,Kwoniella bestiolae,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Kwoniella,No
+428,Kwoniella dejecticola CBS 10117,8242,Kwoniella dejecticola CBS 10117,Kwoniella dejecticola,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Kwoniella,Yes
+429,Kwoniella heveanensis BCC8398,7548,Kwoniella heveanensis BCC8398,Kwoniella heveanensis,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Kwoniella,No
+430,Kwoniella heveanensis CBS 569,7496,Kwoniella heveanensis CBS 569,Kwoniella heveanensis,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Kwoniella,No
+431,Kwoniella mangroviensis CBS 10435,8093,Kwoniella mangroviensis CBS 10435,Kwoniella mangroviensis,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Kwoniella,No
+432,Kwoniella pini CBS 10737,7490,Kwoniella pini CBS 10737,Kwoniella pini,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Kwoniella,Yes
+433,Kwoniella shandongensis,7080,Kwoniella shandongensis,Kwoniella shandongensis,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Kwoniella,No
+434,Laccaria amethystina LaAM-08-1,20559,Laccaria amethystina LaAM-08-1,Laccaria amethystina,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Hydnangiaceae,Laccaria,No
+435,Laccaria bicolor (strain S238N-H82 / ATCC MYA-4686) (Bicoloured deceiver) (Laccaria laccata var. bicolor),17500,Laccaria bicolor ,Laccaria bicolor,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Hydnangiaceae,Laccaria,Yes
+436,Lachnellula cervina,9081,Lachnellula cervina,Lachnellula cervina,Fungi,Ascomycota,Leotiomycetes,Helotiales,Lachnaceae,Lachnellula,Yes
+437,Lachnellula willkommii,8682,Lachnellula willkommii,Lachnellula willkommii,Fungi,Ascomycota,Leotiomycetes,Helotiales,Lachnaceae,Lachnellula,No
+438,Laetiporus sulphureus 93-53,13415,Laetiporus sulphureus 93-53,Laetiporus sulphureus,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Laetiporaceae,Laetiporus,No
+439,Lasallia pustulata,16432,Lasallia pustulata,Lasallia pustulata,Fungi,Ascomycota,Lecanoromycetes,Umbilicariales,Umbilicariaceae,Lasallia,Yes
+440,Lasiodiplodia theobromae,12771,Lasiodiplodia theobromae,Lasiodiplodia theobromae,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Lasiodiplodia,No
+441,Lentinula edodes (Shiitake mushroom) (Lentinus edodes),12156,Lentinula edodes ,Lentinula edodes,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Omphalotaceae,Lentinula,No
+442,Lentinus tigrinus ALCF2SS1-6,15213,Lentinus tigrinus ALCF2SS1-6,Lentinus tigrinus,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Polyporaceae,Lentinus,Yes
+443,Lentinus tigrinus ALCF2SS1-7,15011,Lentinus tigrinus ALCF2SS1-7,Lentinus tigrinus,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Polyporaceae,Lentinus,No
+444,Lentithecium fluviatile CBS 122367,16318,Lentithecium fluviatile CBS 122367,Lentithecium fluviatile,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Lentitheciaceae,Lentithecium,Yes
+445,Leptosphaeria maculans (strain JN3 / isolate v23.1.3 / race Av1-4-5-6-7-8) (Blackleg fungus) (Phoma lingam),12196,Leptosphaeria maculans ,Leptosphaeria maculans,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Leptosphaeriaceae,Plenodomus,Yes
+446,Leucoagaricus sp. SymC.cos,12236,Leucoagaricus sp. SymC.cos,Leucoagaricus sp.,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Agaricaceae,Leucoagaricus,Yes
+447,Leucosporidium creatinivorum,9559,Leucosporidium creatinivorum,Leucosporidium creatinivorum,Fungi,Basidiomycota,Microbotryomycetes,Leucosporidiales,Leucosporidiaceae,Leucosporidium,Yes
+448,Lichtheimia corymbifera JMRC:FSU:9682,12856,Lichtheimia corymbifera JMRC:FSU:9682,Lichtheimia corymbifera,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Lichtheimiaceae,Lichtheimia,Yes
+449,Lichtheimia ramosa,11215,Lichtheimia ramosa,Lichtheimia ramosa,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Lichtheimiaceae,Lichtheimia,No
+450,Linderina pennispora,9060,Linderina pennispora,Linderina pennispora,Fungi,Zoopagomycota,Kickxellomycetes,Kickxellales,Kickxellaceae,Linderina,No
+451,Lineolata rhizophorae,9914,Lineolata rhizophorae,Lineolata rhizophorae,Fungi,Ascomycota,Dothideomycetes,Lineolatales,Lineolataceae,Lineolata,Yes
+452,Linnemannia elongata AG-77,14269,Linnemannia elongata AG-77,Linnemannia elongata,Fungi,Mucoromycota,Mortierellomycetes,Mortierellales,Mortierellaceae,Linnemannia,No
+453,Lipomyces starkeyi NRRL Y-11557,7948,Lipomyces starkeyi NRRL Y-11557,Lipomyces starkeyi,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Lipomycetaceae,Lipomyces,Yes
+454,Lobosporangium transversale,11138,Lobosporangium transversale,Lobosporangium transversale,Fungi,Mucoromycota,Mortierellomycetes,Mortierellales,Mortierellaceae,Lobosporangium,No
+455,Lomentospora prolificans,8217,Lomentospora prolificans,Lomentospora prolificans,Fungi,Ascomycota,Sordariomycetes,Microascales,Microascaceae,Lomentospora,No
+456,Lophiostoma macrostomum CBS 122681,15772,Lophiostoma macrostomum CBS 122681,Lophiostoma macrostomum,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Lophiostomataceae,Lophiostoma,Yes
+457,Lophiotrema nucula,17704,Lophiotrema nucula,Lophiotrema nucula,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Lophiotremataceae,Lophiotrema,Yes
+458,Lophium mytilinum,14767,Lophium mytilinum,Lophium mytilinum,Fungi,Ascomycota,Dothideomycetes,Mytilinidiales,Mytilinidiaceae,Lophium,No
+459,Macrophomina phaseolina (strain MS6) (Charcoal rot fungus),13386,Macrophomina phaseolina ,Macrophomina phaseolina,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Macrophomina,No
+460,Madurella mycetomatis,9594,Madurella mycetomatis,Madurella mycetomatis,Fungi,Ascomycota,Sordariomycetes,Sordariales,NA,Madurella,No
+461,Magnaporthe grisea (Crabgrass-specific blast fungus) (Pyricularia grisea),12452,Magnaporthe grisea ,Magnaporthe grisea,Fungi,Ascomycota,Sordariomycetes,Magnaporthales,Pyriculariaceae,Pyricularia,No
+462,Magnaporthe oryzae (Rice blast fungus) (Pyricularia oryzae),13601,Magnaporthe oryzae ,Magnaporthe oryzae,Fungi,Ascomycota,Sordariomycetes,Magnaporthales,Pyriculariaceae,Pyricularia,No
+463,Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) (Rice blast fungus) (Pyricularia oryzae),12974,Magnaporthe oryzae ,Magnaporthe oryzae,Fungi,Ascomycota,Sordariomycetes,Magnaporthales,Pyriculariaceae,Pyricularia,No
+464,Magnaporthe oryzae (strain P131) (Rice blast fungus) (Pyricularia oryzae),12270,Magnaporthe oryzae ,Magnaporthe oryzae,Fungi,Ascomycota,Sordariomycetes,Magnaporthales,Pyriculariaceae,Pyricularia,No
+465,Magnaporthiopsis poae (strain ATCC 64411 / 73-15) (Kentucky bluegrass fungus) (Magnaporthe poae),11902,Magnaporthiopsis poae ,Magnaporthiopsis poae,Fungi,Ascomycota,Sordariomycetes,Magnaporthales,Magnaporthaceae,Magnaporthiopsis,No
+466,Malassezia sympodialis (strain ATCC 42132) (Atopic eczema-associated yeast),6321,Malassezia sympodialis ,Malassezia sympodialis,Fungi,Basidiomycota,Malasseziomycetes,Malasseziales,Malasseziaceae,Malassezia,Yes
+467,Marssonina brunnea f. sp. multigermtubi (strain MB_m1) (Marssonina leaf spot fungus),9631,Marssonina brunnea f. sp. multigermtubi ,Marssonina brunnea,Fungi,Ascomycota,Leotiomycetes,Helotiales,Drepanopezizaceae,Drepanopeziza,No
+468,Marssonina coronariae,9019,Marssonina coronariae,Marssonina coronariae,Fungi,Ascomycota,Leotiomycetes,Helotiales,Dermateaceae,Marssonina,No
+469,Massarina eburnea CBS 473.64,12592,Massarina eburnea CBS 473.64,Massarina eburnea,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Massarinaceae,Massarina,Yes
+470,Massariosphaeria phaeospora,13665,Massariosphaeria phaeospora,Massariosphaeria phaeospora,Fungi,Ascomycota,Dothideomycetes,Pleosporales,NA,Massariosphaeria,Yes
+471,Meira miltonrushii,7135,Meira miltonrushii,Meira miltonrushii,Fungi,Basidiomycota,Exobasidiomycetes,Exobasidiales,Brachybasidiaceae,Meira,No
+472,Melampsora larici-populina (strain 98AG31 / pathotype 3-4-7) (Poplar leaf rust fungus),15997,Melampsora larici-populina ,Melampsora larici-populina,NA,NA,NA,NA,NA,NA,Yes
+473,Melanomma pulvis-pyrius CBS 109.77,15417,Melanomma pulvis-pyrius CBS 109.77,Melanomma pulvis-pyrius,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Melanommataceae,Melanomma,Yes
+474,Metarhizium acridum (strain CQMa 102),9491,Metarhizium acridum ,Metarhizium acridum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Metarhizium,No
+475,Metarhizium album (strain ARSEF 1941),8078,Metarhizium album ,Metarhizium album,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Metarhizium,No
+476,Metarhizium anisopliae (strain ARSEF 549),10458,Metarhizium anisopliae ,Metarhizium anisopliae,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Metarhizium,No
+477,Metarhizium anisopliae BRIP 53293,10988,Metarhizium anisopliae BRIP 53293,Metarhizium anisopliae,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Metarhizium,No
+478,Metarhizium brunneum,11135,Metarhizium brunneum,Metarhizium brunneum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Metarhizium,No
+479,Metarhizium guizhouense (strain ARSEF 977),11286,Metarhizium guizhouense ,Metarhizium guizhouense,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Metarhizium,No
+480,Metarhizium majus (strain ARSEF 297),11010,Metarhizium majus ,Metarhizium majus,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Metarhizium,No
+481,Metarhizium rileyi,8599,Metarhizium rileyi,Metarhizium rileyi,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Metarhizium,No
+482,Metarhizium rileyi (strain RCEF 4871) (Nomuraea rileyi),8415,Metarhizium rileyi ,Metarhizium rileyi,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Metarhizium,No
+483,Metarhizium robertsii,12132,Metarhizium robertsii,Metarhizium robertsii,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Metarhizium,No
+484,Metarhizium robertsii (strain ARSEF 23 / ATCC MYA-3075) (Metarhizium anisopliae (strain ARSEF 23)),11262,Metarhizium robertsii ,Metarhizium robertsii,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Metarhizium,No
+485,Metschnikowia sp. JCM 33374,6424,Metschnikowia sp. JCM 33374,Metschnikowia sp.,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Metschnikowiaceae,Metschnikowia,No
+486,Microbotryum intermedium,7525,Microbotryum intermedium,Microbotryum intermedium,Fungi,Basidiomycota,Microbotryomycetes,Microbotryales,Microbotryaceae,Microbotryum,Yes
+487,Microbotryum lychnidis-dioicae (strain p1A1 Lamole / MvSl-1064) (Anther smut fungus),7266,Microbotryum lychnidis-dioicae ,Microbotryum lychnidis-dioicae,Fungi,Basidiomycota,Microbotryomycetes,Microbotryales,Microbotryaceae,Microbotryum,Yes
+488,Microbotryum saponariae,9665,Microbotryum saponariae,Microbotryum saponariae,Fungi,Basidiomycota,Microbotryomycetes,Microbotryales,Microbotryaceae,Microbotryum,No
+489,Microbotryum silenes-dioicae,11616,Microbotryum silenes-dioicae,Microbotryum silenes-dioicae,Fungi,Basidiomycota,Microbotryomycetes,Microbotryales,Microbotryaceae,Microbotryum,Yes
+490,Microdochium bolleyi,12871,Microdochium bolleyi,Microdochium bolleyi,Fungi,Ascomycota,Sordariomycetes,Xylariales,Microdochiaceae,Microdochium,No
+491,Microthyrium microscopicum,12196,Microthyrium microscopicum,Microthyrium microscopicum,Fungi,Ascomycota,Dothideomycetes,Microthyriales,Microthyriaceae,Microthyrium,No
+492,Mixia osmundae (strain CBS 9802 / IAM 14324 / JCM 22182 / KY 12970),6371,Mixia osmundae ,Mixia osmundae,Fungi,Basidiomycota,Mixiomycetes,Mixiales,Mixiaceae,Mixia,Yes
+493,Moelleriella libera RCEF 2490,8145,Moelleriella libera RCEF 2490,Moelleriella libera,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Moelleriella,No
+494,Mollisia scopiformis (Conifer needle endophyte fungus) (Phialocephala scopiformis),18149,Mollisia scopiformis ,Mollisia scopiformis,Fungi,Ascomycota,Leotiomycetes,Helotiales,Mollisiaceae,Mollisia,Yes
+495,Monascus purpureus (Red mold) (Monascus anka),7853,Monascus purpureus ,Monascus purpureus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Monascus,Yes
+496,Monilinia fructicola (Brown rot fungus) (Ciboria fructicola),13595,Monilinia fructicola ,Monilinia fructicola,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Monilinia,Yes
+497,Monilinia fructigena,10479,Monilinia fructigena,Monilinia fructigena,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Monilinia,No
+498,Monilinia laxa (Brown rot fungus) (Sclerotinia laxa),12169,Monilinia laxa ,Monilinia laxa,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Monilinia,No
+499,Monilinia vaccinii-corymbosi,9031,Monilinia vaccinii-corymbosi,Monilinia vaccinii-corymbosi,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Monilinia,Yes
+500,Moniliophthora perniciosa (strain FA553 / isolate CP02) (Witches'-broom disease fungus) (Marasmius perniciosus),12901,Moniliophthora perniciosa ,Moniliophthora perniciosa,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Marasmiaceae,Moniliophthora,No
+501,Moniliophthora roreri,19155,Moniliophthora roreri,Moniliophthora roreri,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Marasmiaceae,Moniliophthora,Yes
+502,Moniliophthora roreri (strain MCA 2997) (Cocoa frosty pod rot fungus) (Crinipellis roreri),17628,Moniliophthora roreri ,Moniliophthora roreri,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Marasmiaceae,Moniliophthora,Yes
+503,Monosporascus ibericus,10657,Monosporascus ibericus,Monosporascus ibericus,Fungi,Ascomycota,Sordariomycetes,Xylariales,NA,Monosporascus,No
+504,Monosporascus sp. 5C6A,12056,Monosporascus sp. 5C6A,Monosporascus sp.,Fungi,Ascomycota,Sordariomycetes,Xylariales,NA,Monosporascus,No
+505,Monosporascus sp. CRB-8-3,11350,Monosporascus sp. CRB-8-3,Monosporascus sp.,Fungi,Ascomycota,Sordariomycetes,Xylariales,NA,Monosporascus,No
+506,Monosporascus sp. CRB-9-2,11553,Monosporascus sp. CRB-9-2,Monosporascus sp.,Fungi,Ascomycota,Sordariomycetes,Xylariales,NA,Monosporascus,No
+507,Monosporascus sp. GIB2,11338,Monosporascus sp. GIB2,Monosporascus sp.,Fungi,Ascomycota,Sordariomycetes,Xylariales,NA,Monosporascus,No
+508,Monosporascus sp. MC13-8B,10271,Monosporascus sp. MC13-8B,Monosporascus sp.,Fungi,Ascomycota,Sordariomycetes,Xylariales,NA,Monosporascus,No
+509,Monosporascus sp. MG133,11110,Monosporascus sp. MG133,Monosporascus sp.,Fungi,Ascomycota,Sordariomycetes,Xylariales,NA,Monosporascus,No
+510,Monosporascus sp. mg162,11416,Monosporascus sp. mg162,Monosporascus sp.,Fungi,Ascomycota,Sordariomycetes,Xylariales,NA,Monosporascus,No
+511,Morchella conica CCBAS932,11248,Morchella conica CCBAS932,Morchella conica,Fungi,Ascomycota,Pezizomycetes,Pezizales,Morchellaceae,Morchella,No
+512,Mucor ambiguus,10841,Mucor ambiguus,Mucor ambiguus,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Mucoraceae,Mucor,Yes
+513,Mucor circinelloides f. circinelloides (strain 1006PhL) (Mucormycosis agent) (Calyptromyces circinelloides),11800,Mucor circinelloides f. circinelloides ,Mucor circinelloides,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Mucoraceae,Mucor,Yes
+514,Mucor lusitanicus CBS 277.49,11365,Mucor lusitanicus CBS 277.49,Mucor lusitanicus,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Mucoraceae,Mucor,No
+515,Naematelia encephala,7723,Naematelia encephala,Naematelia encephala,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Naemateliaceae,Naematelia,Yes
+516,Neocallimastix californiae,18924,Neocallimastix californiae,Neocallimastix californiae,Fungi,Chytridiomycota,Neocallimastigomycetes,Neocallimastigales,Neocallimastigaceae,Neocallimastix,No
+517,Neohortaea acidophila,9583,Neohortaea acidophila,Neohortaea acidophila,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Teratosphaeriaceae,Neohortaea,No
+518,Neolentinus lepideus HHB14362 ss-1,12840,Neolentinus lepideus HHB14362 ss-1,Neolentinus lepideus,Fungi,Basidiomycota,Agaricomycetes,Gloeophyllales,Gloeophyllaceae,Neolentinus,Yes
+519,Neonectria ditissima,12221,Neonectria ditissima,Neonectria ditissima,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Neonectria,No
+520,Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / CBS 544.65 / FGSC A1164 / JCM 1740 / NRRL 181 / WB 181) (Aspergillus fischerianus),10070,Neosartorya fischeri ,Neosartorya fischeri,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Yes
+521,Neurospora crassa,13014,Neurospora crassa,Neurospora crassa,Fungi,Ascomycota,Sordariomycetes,Sordariales,Sordariaceae,Neurospora,No
+522,Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987),9845,Neurospora crassa ,Neurospora crassa,Fungi,Ascomycota,Sordariomycetes,Sordariales,Sordariaceae,Neurospora,No
+523,Neurospora tetrasperma (strain FGSC 2508 / ATCC MYA-4615 / P0657),9991,Neurospora tetrasperma ,Neurospora tetrasperma,Fungi,Ascomycota,Sordariomycetes,Sordariales,Sordariaceae,Neurospora,No
+524,Neurospora tetrasperma (strain FGSC 2509 / P0656),10789,Neurospora tetrasperma ,Neurospora tetrasperma,Fungi,Ascomycota,Sordariomycetes,Sordariales,Sordariaceae,Neurospora,No
+525,Oidiodendron maius (strain Zn),16292,Oidiodendron maius ,Oidiodendron maius,Fungi,Ascomycota,Leotiomycetes,NA,Myxotrichaceae,Oidiodendron,No
+526,Ophiobolus disseminans,15640,Ophiobolus disseminans,Ophiobolus disseminans,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Phaeosphaeriaceae,Ophiobolus,Yes
+527,Ophiocordyceps australis,15473,Ophiocordyceps australis,Ophiocordyceps australis,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Ophiocordyceps,No
+528,Ophiocordyceps camponoti-leonardi (nom. inval.),6686,Ophiocordyceps camponoti-leonardi ,Ophiocordyceps camponoti-leonardi,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Ophiocordyceps,No
+529,Ophiocordyceps camponoti-rufipedis,7287,Ophiocordyceps camponoti-rufipedis,Ophiocordyceps camponoti-rufipedis,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Ophiocordyceps,No
+530,Ophiocordyceps camponoti-saundersi (nom. inval.),6591,Ophiocordyceps camponoti-saundersi ,Ophiocordyceps camponoti-saundersi,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Ophiocordyceps,No
+531,Ophiocordyceps polyrhachis-furcata BCC 54312,9672,Ophiocordyceps polyrhachis-furcata BCC 54312,Ophiocordyceps polyrhachis-furcata,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Ophiocordyceps,No
+532,Ophiocordyceps sinensis (strain Co18 / CGMCC 3.14243) (Yarsagumba caterpillar fungus) (Hirsutella sinensis),6768,Ophiocordyceps sinensis ,Ophiocordyceps sinensis,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Ophiocordyceps,No
+533,Ophiocordyceps unilateralis (Zombie-ant fungus) (Torrubia unilateralis),8370,Ophiocordyceps unilateralis ,Ophiocordyceps unilateralis,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Ophiocordyceps,No
+534,Ophiostoma piceae (strain UAMH 11346) (Sap stain fungus),8410,Ophiostoma piceae ,Ophiostoma piceae,Fungi,Ascomycota,Sordariomycetes,Ophiostomatales,Ophiostomataceae,Ophiostoma,No
+535,Orbilia oligospora (Nematode-trapping fungus) (Arthrobotrys oligospora),54572,Orbilia oligospora ,Orbilia oligospora,Fungi,Ascomycota,Orbiliomycetes,Orbiliales,Orbiliaceae,Orbilia,Yes
+536,Panaeolus cyanescens,12740,Panaeolus cyanescens,Panaeolus cyanescens,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Galeropsidaceae,Panaeolus,Yes
+537,Paracoccidioides brasiliensis,14322,Paracoccidioides brasiliensis,Paracoccidioides brasiliensis,Fungi,Ascomycota,Eurotiomycetes,Onygenales,NA,Paracoccidioides,No
+538,Paracoccidioides brasiliensis (strain Pb03),8133,Paracoccidioides brasiliensis ,Paracoccidioides brasiliensis,Fungi,Ascomycota,Eurotiomycetes,Onygenales,NA,Paracoccidioides,No
+539,Paracoccidioides brasiliensis (strain Pb18),8096,Paracoccidioides brasiliensis ,Paracoccidioides brasiliensis,Fungi,Ascomycota,Eurotiomycetes,Onygenales,NA,Paracoccidioides,Yes
+540,Paracoccidioides lutzii (strain ATCC MYA-826 / Pb01) (Paracoccidioides brasiliensis),8797,Paracoccidioides lutzii ,Paracoccidioides lutzii,Fungi,Ascomycota,Eurotiomycetes,Onygenales,NA,Paracoccidioides,Yes
+541,Paraphaeosphaeria sporulosa,14398,Paraphaeosphaeria sporulosa,Paraphaeosphaeria sporulosa,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymosphaeriaceae,Paraphaeosphaeria,Yes
+542,Parasitella parasitica,12718,Parasitella parasitica,Parasitella parasitica,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Mucoraceae,Parasitella,Yes
+543,Paxillus involutus ATCC 200175,11563,Paxillus involutus ATCC 200175,Paxillus involutus,Fungi,Basidiomycota,Agaricomycetes,Boletales,Paxillaceae,Paxillus,No
+544,Paxillus rubicundulus Ve08.2h10,21643,Paxillus rubicundulus Ve08.2h10,Paxillus rubicundulus,Fungi,Basidiomycota,Agaricomycetes,Boletales,Paxillaceae,Paxillus,Yes
+545,Peltaster fructicola,7799,Peltaster fructicola,Peltaster fructicola,Fungi,Ascomycota,Dothideomycetes,NA,NA,Peltaster,Yes
+546,Penicilliopsis zonata CBS 506.65,9497,Penicilliopsis zonata CBS 506.65,Penicilliopsis zonata,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicilliopsis,No
+547,Penicillium antarcticum,10999,Penicillium antarcticum,Penicillium antarcticum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+548,Penicillium arizonense,11694,Penicillium arizonense,Penicillium arizonense,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+549,Penicillium brasilianum,20755,Penicillium brasilianum,Penicillium brasilianum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,Yes
+550,Penicillium camemberti (strain FM 013),13949,Penicillium camemberti ,Penicillium camemberti,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+551,Penicillium chrysogenum (Penicillium notatum),11135,Penicillium chrysogenum ,Penicillium chrysogenum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+552,Penicillium coprophilum,8644,Penicillium coprophilum,Penicillium coprophilum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+553,Penicillium decumbens,6927,Penicillium decumbens,Penicillium decumbens,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,Yes
+554,Penicillium digitatum (Green mold),8696,Penicillium digitatum ,Penicillium digitatum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+555,Penicillium digitatum (strain Pd1 / CECT 20795) (Green mold),8666,Penicillium digitatum ,Penicillium digitatum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,Yes
+556,Penicillium digitatum (strain PHI26 / CECT 20796) (Green mold),8704,Penicillium digitatum ,Penicillium digitatum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+557,Penicillium expansum (Blue mold rot fungus),10760,Penicillium expansum ,Penicillium expansum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,Yes
+558,Penicillium flavigenum,10528,Penicillium flavigenum,Penicillium flavigenum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+559,Penicillium freii,11370,Penicillium freii,Penicillium freii,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+560,Penicillium italicum (Blue mold),9562,Penicillium italicum ,Penicillium italicum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,Yes
+561,Penicillium nalgiovense,11360,Penicillium nalgiovense,Penicillium nalgiovense,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+562,Penicillium nordicum,12568,Penicillium nordicum,Penicillium nordicum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+563,Penicillium occitanis (nom. inval.),10817,Penicillium occitanis ,Penicillium occitanis,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+564,Penicillium oxalicum (strain 114-2 / CGMCC 5302) (Penicillium decumbens),9648,Penicillium oxalicum ,Penicillium oxalicum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+565,Penicillium patulum (Penicillium griseofulvum),9271,Penicillium patulum ,Penicillium patulum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+566,Penicillium polonicum,10318,Penicillium polonicum,Penicillium polonicum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+567,Penicillium roqueforti (strain FM164),11999,Penicillium roqueforti ,Penicillium roqueforti,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+568,Penicillium rubens (strain ATCC 28089 / DSM 1075 / NRRL 1951 / Wisconsin 54-1255) (Penicillium chrysogenum),12224,Penicillium rubens ,Penicillium rubens,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,Yes
+569,Penicillium solitum,11549,Penicillium solitum,Penicillium solitum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+570,Penicillium steckii,10054,Penicillium steckii,Penicillium steckii,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,Yes
+571,Penicillium subrubescens,13661,Penicillium subrubescens,Penicillium subrubescens,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,Yes
+572,Penicillium vulpinum,9862,Penicillium vulpinum,Penicillium vulpinum,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,No
+573,Peniophora sp. CBMAI 1063,16814,Peniophora sp. CBMAI 1063,Peniophora sp.,Fungi,Basidiomycota,Agaricomycetes,Russulales,Peniophoraceae,Peniophora,No
+574,Peniophora sp. CONT,18531,Peniophora sp. CONT,Peniophora sp.,Fungi,Basidiomycota,Agaricomycetes,Russulales,Peniophoraceae,Peniophora,Yes
+575,Periconia macrospinosa,18278,Periconia macrospinosa,Periconia macrospinosa,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Periconiaceae,Periconia,Yes
+576,Pestalotiopsis fici (strain W106-1 / CGMCC3.15140),14924,Pestalotiopsis fici ,Pestalotiopsis fici,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,No
+577,Petromyces alliaceus (Aspergillus alliaceus),22367,Petromyces alliaceus ,Petromyces alliaceus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,No
+578,Phaeoacremonium minimum (strain UCR-PA7) (Esca disease fungus) (Togninia minima),8642,Phaeoacremonium minimum ,Phaeoacremonium minimum,Fungi,Ascomycota,Sordariomycetes,Togniniales,Togniniaceae,Phaeoacremonium,No
+579,Phaeomoniella chlamydospora,6600,Phaeomoniella chlamydospora,Phaeomoniella chlamydospora,Fungi,Ascomycota,Eurotiomycetes,Phaeomoniellales,Phaeomoniellaceae,Phaeomoniella,Yes
+580,Phaeosphaeria nodorum (strain SN15 / ATCC MYA-4574 / FGSC 10173) (Glume blotch fungus) (Parastagonospora nodorum),28308,Phaeosphaeria nodorum ,Phaeosphaeria nodorum,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Phaeosphaeriaceae,Parastagonospora,No
+581,Phaffia rhodozyma (Yeast) (Xanthophyllomyces dendrorhous),6231,Phaffia rhodozyma ,Phaffia rhodozyma,Fungi,Basidiomycota,Tremellomycetes,Cystofilobasidiales,Mrakiaceae,Phaffia,Yes
+582,Phanerochaete carnosa (strain HHB-10118-sp) (White-rot fungus) (Peniophora carnosa),13589,Phanerochaete carnosa ,Phanerochaete carnosa,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Phanerochaetaceae,Phanerochaete,Yes
+583,Phellinidium pouzarii,6923,Phellinidium pouzarii,Phellinidium pouzarii,Fungi,Basidiomycota,Agaricomycetes,Hymenochaetales,Hymenochaetaceae,Phellinidium,Yes
+584,Phialocephala subalpina,19562,Phialocephala subalpina,Phialocephala subalpina,Fungi,Ascomycota,Leotiomycetes,Helotiales,Mollisiaceae,Phialocephala,Yes
+585,Phialophora americana,11134,Phialophora americana,Phialophora americana,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Phialophora,Yes
+586,Phialophora attinorum,11534,Phialophora attinorum,Phialophora attinorum,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Phialophora,Yes
+587,Phlebiopsis gigantea (strain 11061_1 CR5-6) (White-rot fungus) (Peniophora gigantea),11533,Phlebiopsis gigantea ,Phlebiopsis gigantea,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Phanerochaetaceae,Phlebiopsis,Yes
+588,Phycomyces blakesleeanus (strain ATCC 8743b / DSM 1359 / FGSC 10004 / NBRC 33097 / NRRL 1555),15936,Phycomyces blakesleeanus ,Phycomyces blakesleeanus,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Phycomycetaceae,Phycomyces,Yes
+589,Pichia kudriavzevii (Yeast) (Issatchenkia orientalis),16568,Pichia kudriavzevii ,Pichia kudriavzevii,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Pichiaceae,Pichia,No
+590,Pichia sorbitophila (strain ATCC MYA-4447 / BCRC 22081 / CBS 7064 / NBRC 10061 / NRRL Y-12695) (Hybrid yeast),8562,Pichia sorbitophila ,Pichia sorbitophila,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Millerozyma,Yes
+591,Piedraia hortae CBS 480.64,7335,Piedraia hortae CBS 480.64,Piedraia hortae,Fungi,Ascomycota,Dothideomycetes,Capnodiales,Piedraiaceae,Piedraia,Yes
+592,Piloderma croceum (strain F 1598),20984,Piloderma croceum ,Piloderma croceum,Fungi,Basidiomycota,Agaricomycetes,Atheliales,Atheliaceae,Piloderma,Yes
+593,Piromyces finnis,10096,Piromyces finnis,Piromyces finnis,Fungi,Chytridiomycota,Neocallimastigomycetes,Neocallimastigales,Neocallimastigaceae,Piromyces,Yes
+594,Piromyces sp. (strain E2),14193,Piromyces sp. ,Piromyces sp.,Fungi,Chytridiomycota,Neocallimastigomycetes,Neocallimastigales,Neocallimastigaceae,Piromyces,No
+595,Pisolithus microcarpus 441,20482,Pisolithus microcarpus 441,Pisolithus microcarpus,Fungi,Basidiomycota,Agaricomycetes,Boletales,Pisolithaceae,Pisolithus,No
+596,Pisolithus tinctorius Marx 270,22142,Pisolithus tinctorius Marx 270,Pisolithus tinctorius,Fungi,Basidiomycota,Agaricomycetes,Boletales,Pisolithaceae,Pisolithus,No
+597,Plenodomus tracheiphilus IPT5,12815,Plenodomus tracheiphilus IPT5,Plenodomus tracheiphilus,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Leptosphaeriaceae,Plenodomus,Yes
+598,Pleomassaria siparia CBS 279.74,13085,Pleomassaria siparia CBS 279.74,Pleomassaria siparia,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleomassariaceae,Pleomassaria,Yes
+599,Pleurotus ostreatus PC15,11921,Pleurotus ostreatus PC15,Pleurotus ostreatus,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Pleurotaceae,Pleurotus,No
+600,Pochonia chlamydosporia 123,10835,Pochonia chlamydosporia 123,Pochonia chlamydosporia,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Pochonia,No
+601,Pochonia chlamydosporia 170,13678,Pochonia chlamydosporia 170,Pochonia chlamydosporia,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Pochonia,No
+602,Podospora anserina (strain S / ATCC MYA-4624 / DSM 980 / FGSC 10383) (Pleurage anserina),12207,Podospora anserina ,Podospora anserina,Fungi,Ascomycota,Sordariomycetes,Sordariales,Podosporaceae,Podospora,No
+603,Podospora comata,10053,Podospora comata,Podospora comata,Fungi,Ascomycota,Sordariomycetes,Sordariales,Podosporaceae,Podospora,No
+604,Polyporus arcularius HHB13444,17180,Polyporus arcularius HHB13444,Polyporus arcularius,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Polyporaceae,Polyporus,No
+605,Polyporus brumalis,17878,Polyporus brumalis,Polyporus brumalis,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Polyporaceae,Polyporus,Yes
+606,Polytolypa hystricis UAMH7299,9585,Polytolypa hystricis UAMH7299,Polytolypa hystricis,Fungi,Ascomycota,Eurotiomycetes,Onygenales,NA,Polytolypa,Yes
+607,Postia placenta (strain ATCC 44394 / Madison 698-R) (Brown rot fungus) (Poria monticola),8787,Postia placenta ,Postia placenta,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Postiaceae,Postia,No
+608,Postia placenta MAD-698-R-SB12,12217,Postia placenta MAD-698-R-SB12,Postia placenta,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Postiaceae,Postia,No
+609,Powellomyces hirtus,6189,Powellomyces hirtus,Powellomyces hirtus,Fungi,Chytridiomycota,Chytridiomycetes,Spizellomycetales,Powellomycetaceae,Powellomyces,No
+610,Protomyces lactucae-debilis,6542,Protomyces lactucae-debilis,Protomyces lactucae-debilis,Fungi,Ascomycota,Taphrinomycetes,Taphrinales,Protomycetaceae,Protomyces,No
+611,Pseudallescheria apiosperma (Scedosporium apiospermum),8179,Pseudallescheria apiosperma ,Pseudallescheria apiosperma,Fungi,Ascomycota,Sordariomycetes,Microascales,Microascaceae,Scedosporium,No
+612,Pseudocercospora eumusae,11636,Pseudocercospora eumusae,Pseudocercospora eumusae,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Pseudocercospora,Yes
+613,Pseudocercospora fijiensis (strain CIRAD86) (Black leaf streak disease fungus) (Mycosphaerella fijiensis),12726,Pseudocercospora fijiensis ,Pseudocercospora fijiensis,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Pseudocercospora,Yes
+614,Pseudocercospora musae,11648,Pseudocercospora musae,Pseudocercospora musae,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Pseudocercospora,Yes
+615,Pseudogymnoascus destructans,9147,Pseudogymnoascus destructans,Pseudogymnoascus destructans,Fungi,Ascomycota,Leotiomycetes,NA,Pseudeurotiaceae,Pseudogymnoascus,No
+616,Pseudogymnoascus destructans (strain ATCC MYA-4855 / 20631-21) (Bat white-nose syndrome fungus) (Geomyces destructans),8836,Pseudogymnoascus destructans ,Pseudogymnoascus destructans,Fungi,Ascomycota,Leotiomycetes,NA,Pseudeurotiaceae,Pseudogymnoascus,No
+617,Pseudogymnoascus sp. 03VT05,9902,Pseudogymnoascus sp. 03VT05,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,NA,Pseudeurotiaceae,Pseudogymnoascus,Yes
+618,Pseudogymnoascus sp. 05NY08,9929,Pseudogymnoascus sp. 05NY08,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,NA,Pseudeurotiaceae,Pseudogymnoascus,Yes
+619,Pseudogymnoascus sp. 23342-1-I1,10280,Pseudogymnoascus sp. 23342-1-I1,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,NA,Pseudeurotiaceae,Pseudogymnoascus,No
+620,Pseudogymnoascus sp. 24MN13,9885,Pseudogymnoascus sp. 24MN13,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,NA,Pseudeurotiaceae,Pseudogymnoascus,Yes
+621,Pseudogymnoascus sp. VKM F-103,9289,Pseudogymnoascus sp. VKM F-103,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,NA,Pseudeurotiaceae,Pseudogymnoascus,No
+622,Pseudogymnoascus sp. VKM F-3557,9076,Pseudogymnoascus sp. VKM F-3557,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,NA,Pseudeurotiaceae,Pseudogymnoascus,No
+623,Pseudogymnoascus sp. VKM F-3775,9166,Pseudogymnoascus sp. VKM F-3775,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,NA,Pseudeurotiaceae,Pseudogymnoascus,Yes
+624,Pseudogymnoascus sp. VKM F-3808,9530,Pseudogymnoascus sp. VKM F-3808,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,NA,Pseudeurotiaceae,Pseudogymnoascus,Yes
+625,Pseudogymnoascus sp. VKM F-4246,8114,Pseudogymnoascus sp. VKM F-4246,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,NA,Pseudeurotiaceae,Pseudogymnoascus,Yes
+626,Pseudogymnoascus sp. VKM F-4281 (FW-2241),8296,Pseudogymnoascus sp. VKM F-4281 ,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,Incertae sedis,Pseudeurotiaceae,Pseudogymnoascus,No
+627,Pseudogymnoascus sp. VKM F-4513 (FW-928),8230,Pseudogymnoascus sp. VKM F-4513 ,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,Incertae sedis,Pseudeurotiaceae,Pseudogymnoascus,No
+628,Pseudogymnoascus sp. VKM F-4515 (FW-2607),10158,Pseudogymnoascus sp. VKM F-4515 ,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,Incertae sedis,Pseudeurotiaceae,Pseudogymnoascus,No
+629,Pseudogymnoascus sp. VKM F-4516 (FW-969),8893,Pseudogymnoascus sp. VKM F-4516 ,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,Incertae sedis,Pseudeurotiaceae,Pseudogymnoascus,No
+630,Pseudogymnoascus sp. VKM F-4517 (FW-2822),10269,Pseudogymnoascus sp. VKM F-4517 ,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,Incertae sedis,Pseudeurotiaceae,Pseudogymnoascus,No
+631,Pseudogymnoascus sp. VKM F-4518 (FW-2643),11058,Pseudogymnoascus sp. VKM F-4518 ,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,Incertae sedis,Pseudeurotiaceae,Pseudogymnoascus,No
+632,Pseudogymnoascus sp. VKM F-4519 (FW-2642),10143,Pseudogymnoascus sp. VKM F-4519 ,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,Incertae sedis,Pseudeurotiaceae,Pseudogymnoascus,No
+633,Pseudogymnoascus sp. VKM F-4520 (FW-2644),11053,Pseudogymnoascus sp. VKM F-4520 ,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,Incertae sedis,Pseudeurotiaceae,Pseudogymnoascus,No
+634,Pseudogymnoascus sp. WSF 3629,10603,Pseudogymnoascus sp. WSF 3629,Pseudogymnoascus sp.,Fungi,Ascomycota,Leotiomycetes,NA,Pseudeurotiaceae,Pseudogymnoascus,No
+635,Pseudogymnoascus verrucosus,10316,Pseudogymnoascus verrucosus,Pseudogymnoascus verrucosus,Fungi,Ascomycota,Leotiomycetes,NA,Pseudeurotiaceae,Pseudogymnoascus,Yes
+636,Pseudomassariella vexata,12216,Pseudomassariella vexata,Pseudomassariella vexata,Fungi,Ascomycota,Sordariomycetes,Xylariales,Pseudomassariaceae,Pseudomassariella,No
+637,Pseudomicrostroma glucosiphilum,6290,Pseudomicrostroma glucosiphilum,Pseudomicrostroma glucosiphilum,Fungi,Basidiomycota,Exobasidiomycetes,Microstromatales,NA,Pseudomicrostroma,No
+638,Pseudovirgaria hyperparasitica,10884,Pseudovirgaria hyperparasitica,Pseudovirgaria hyperparasitica,Fungi,Ascomycota,Dothideomycetes,Acrospermales,Acrospermaceae,Pseudovirgaria,No
+639,Pseudozyma antarctica (strain T-34) (Yeast) (Candida antarctica),6121,Pseudozyma antarctica ,Pseudozyma antarctica,Fungi,Basidiomycota,Ustilaginomycetes,Ustilaginales,Ustilaginaceae,Moesziomyces,Yes
+640,Pseudozyma antarctica (Yeast) (Candida antarctica),7944,Pseudozyma antarctica ,Pseudozyma antarctica,Fungi,Basidiomycota,Ustilaginomycetes,Ustilaginales,Ustilaginaceae,Moesziomyces,Yes
+641,Pseudozyma flocculosa,7205,Pseudozyma flocculosa,Pseudozyma flocculosa,Fungi,Basidiomycota,Ustilaginomycetes,Ustilaginales,Ustilaginaceae,Pseudozyma,No
+642,Pseudozyma hubeiensis (strain SY62) (Yeast),6951,Pseudozyma hubeiensis ,Pseudozyma hubeiensis,Fungi,Basidiomycota,Ustilaginomycetes,Ustilaginales,Ustilaginaceae,Pseudozyma,Yes
+643,Psilocybe cyanescens,15159,Psilocybe cyanescens,Psilocybe cyanescens,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Strophariaceae,Psilocybe,Yes
+644,Pterula gracilis,12556,Pterula gracilis,Pterula gracilis,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Pterulaceae,Pterula,Yes
+645,Puccinia coronata f. sp. avenae,42204,Puccinia coronata f. sp. avenae,Puccinia coronata,Fungi,Basidiomycota,Pucciniomycetes,Pucciniales,Pucciniaceae,Puccinia,Yes
+646,Puccinia graminis f. sp. tritici,57298,Puccinia graminis f. sp. tritici,Puccinia graminis,Fungi,Basidiomycota,Pucciniomycetes,Pucciniales,Pucciniaceae,Puccinia,Yes
+647,Puccinia graminis f. sp. tritici (strain CRL 75-36-700-3 / race SCCL) (Black stem rust fungus),15405,Puccinia graminis f. sp. tritici ,Puccinia graminis,Fungi,Basidiomycota,Pucciniomycetes,Pucciniales,Pucciniaceae,Puccinia,Yes
+648,Puccinia sorghi,20462,Puccinia sorghi,Puccinia sorghi,Fungi,Basidiomycota,Pucciniomycetes,Pucciniales,Pucciniaceae,Puccinia,Yes
+649,Puccinia striiformis,27171,Puccinia striiformis,Puccinia striiformis,Fungi,Basidiomycota,Pucciniomycetes,Pucciniales,Pucciniaceae,Puccinia,No
+650,Puccinia striiformis f. sp. tritici PST-78,19510,Puccinia striiformis f. sp. tritici PST-78,Puccinia striiformis,Fungi,Basidiomycota,Pucciniomycetes,Pucciniales,Pucciniaceae,Puccinia,No
+651,Puccinia triticina (isolate 1-1 / race 1 (BBBD)) (Brown leaf rust fungus),23813,Puccinia triticina ,Puccinia triticina,Fungi,Basidiomycota,Pucciniomycetes,Pucciniales,Pucciniaceae,Puccinia,Yes
+652,Purpureocillium lilacinum (Paecilomyces lilacinus),25834,Purpureocillium lilacinum ,Purpureocillium lilacinum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Purpureocillium,No
+653,Pycnoporus cinnabarinus (Cinnabar-red polypore) (Trametes cinnabarina),9535,Pycnoporus cinnabarinus ,Pycnoporus cinnabarinus,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Polyporaceae,Trametes,Yes
+654,Pyrenochaeta sp. DS3sAY3a,14574,Pyrenochaeta sp. DS3sAY3a,Pyrenochaeta sp.,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Cucurbitariaceae,Pyrenochaeta,Yes
+655,Pyrenophora seminiperda CCB06,8295,Pyrenophora seminiperda CCB06,Pyrenophora seminiperda,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Pyrenophora,No
+656,Pyrenophora teres f. teres,11040,Pyrenophora teres f. teres,Pyrenophora teres,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Pyrenophora,No
+657,Pyrenophora teres f. teres (strain 0-1) (Barley net blotch fungus) (Drechslera teres f. teres),11335,Pyrenophora teres f. teres ,Pyrenophora teres,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Pyrenophora,No
+658,Pyrenophora tritici-repentis,18527,Pyrenophora tritici-repentis,Pyrenophora tritici-repentis,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Pyrenophora,No
+659,Pyrenophora tritici-repentis (strain Pt-1C-BFP) (Wheat tan spot fungus) (Drechslera tritici-repentis),11709,Pyrenophora tritici-repentis ,Pyrenophora tritici-repentis,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Pyrenophora,Yes
+660,Pyronema omphalodes (strain CBS 100304) (Pyronema confluens),12848,Pyronema omphalodes ,Pyronema omphalodes,Fungi,Ascomycota,Pezizomycetes,Pezizales,Pyronemataceae,Pyronema,No
+661,Pyrrhoderma noxium,9487,Pyrrhoderma noxium,Pyrrhoderma noxium,Fungi,Basidiomycota,Agaricomycetes,Hymenochaetales,Hymenochaetaceae,Pyrrhoderma,Yes
+662,Rachicladosporium antarcticum,17894,Rachicladosporium antarcticum,Rachicladosporium antarcticum,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Rachicladosporium,Yes
+663,Rachicladosporium sp. CCFEE 5018,17521,Rachicladosporium sp. CCFEE 5018,Rachicladosporium sp.,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Rachicladosporium,Yes
+664,Ramularia collo-cygni,6424,Ramularia collo-cygni,Ramularia collo-cygni,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Ramularia,No
+665,Rasamsonia emersonii CBS 393.64,9482,Rasamsonia emersonii CBS 393.64,Rasamsonia emersonii,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Rasamsonia,Yes
+666,Rhinocladiella mackenziei CBS 650.93,11021,Rhinocladiella mackenziei CBS 650.93,Rhinocladiella mackenziei,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Rhinocladiella,Yes
+667,Rhizoclosmatium globosum,16337,Rhizoclosmatium globosum,Rhizoclosmatium globosum,Fungi,Chytridiomycota,Chytridiomycetes,Chytridiales,Chytriomycetaceae,Rhizoclosmatium,Yes
+668,Rhizoctonia solani,11094,Rhizoctonia solani,Rhizoctonia solani,Fungi,Basidiomycota,Agaricomycetes,Cantharellales,Ceratobasidiaceae,Rhizoctonia,Yes
+669,Rhizoctonia solani 123E,10493,Rhizoctonia solani 123E,Rhizoctonia solani,Fungi,Basidiomycota,Agaricomycetes,Cantharellales,Ceratobasidiaceae,Rhizoctonia,Yes
+670,Rhizoctonia solani AG-3 Rhs1AP,12086,Rhizoctonia solani AG-3 Rhs1AP,Rhizoctonia solani,Fungi,Basidiomycota,Agaricomycetes,Cantharellales,Ceratobasidiaceae,Rhizoctonia,No
+671,Rhizoctonia solani AG-8 WAC10335,12095,Rhizoctonia solani AG-8 WAC10335,Rhizoctonia solani,Fungi,Basidiomycota,Agaricomycetes,Cantharellales,Ceratobasidiaceae,Rhizoctonia,No
+672,Rhizophagus clarus,26349,Rhizophagus clarus,Rhizophagus clarus,Fungi,Mucoromycota,Glomeromycetes,Glomerales,Glomeraceae,Rhizophagus,Yes
+673,Rhizophagus irregularis,77629,Rhizophagus irregularis,Rhizophagus irregularis,Fungi,Mucoromycota,Glomeromycetes,Glomerales,Glomeraceae,Rhizophagus,No
+674,Rhizophagus irregularis (strain DAOM 181602 / DAOM 197198 / MUCL 43194) (Arbuscular mycorrhizal fungus) (Glomus intraradices),47075,Rhizophagus irregularis ,Rhizophagus irregularis,Fungi,Mucoromycota,Glomeromycetes,Glomerales,Glomeraceae,Rhizophagus,No
+675,Rhizophagus irregularis (strain DAOM 197198w) (Glomus intraradices),28118,Rhizophagus irregularis ,Rhizophagus irregularis,Fungi,Mucoromycota,Glomeromycetes,Glomerales,Glomeraceae,Rhizophagus,Yes
+676,Rhizophagus sp. MUCL 43196,21921,Rhizophagus sp. MUCL 43196,Rhizophagus sp.,Fungi,Mucoromycota,Glomeromycetes,Glomerales,Glomeraceae,Rhizophagus,No
+677,Rhizopogon vesiculosus,12711,Rhizopogon vesiculosus,Rhizopogon vesiculosus,Fungi,Basidiomycota,Agaricomycetes,Boletales,Rhizopogonaceae,Rhizopogon,No
+678,Rhizopogon vinicolor AM-OR11-026,14168,Rhizopogon vinicolor AM-OR11-026,Rhizopogon vinicolor,Fungi,Basidiomycota,Agaricomycetes,Boletales,Rhizopogonaceae,Rhizopogon,Yes
+679,Rhizopus azygosporus (Rhizopus microsporus var. azygosporus),15445,Rhizopus azygosporus ,Rhizopus azygosporus,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Rhizopodaceae,Rhizopus,No
+680,Rhizopus delemar (strain RA 99-880 / ATCC MYA-4621 / FGSC 9543 / NRRL 43880) (Mucormycosis agent) (Rhizopus arrhizus var. delemar),16569,Rhizopus delemar ,Rhizopus delemar,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Rhizopodaceae,Rhizopus,Yes
+681,Rhizopus microsporus,11136,Rhizopus microsporus,Rhizopus microsporus,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Rhizopodaceae,Rhizopus,No
+682,Rhizopus microsporus ATCC 52813,10599,Rhizopus microsporus ATCC 52813,Rhizopus microsporus,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Rhizopodaceae,Rhizopus,No
+683,Rhizopus microsporus var. microsporus,11240,Rhizopus microsporus var. microsporus,Rhizopus microsporus,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Rhizopodaceae,Rhizopus,No
+684,Rhizopus stolonifer (Rhizopus nigricans),13658,Rhizopus stolonifer ,Rhizopus stolonifer,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Rhizopodaceae,Rhizopus,No
+685,Rhodofomes roseus,10550,Rhodofomes roseus,Rhodofomes roseus,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Fomitopsidaceae,Rhodofomes,No
+686,Rhodotorula diobovata,7572,Rhodotorula diobovata,Rhodotorula diobovata,Fungi,Basidiomycota,Microbotryomycetes,Sporidiobolales,Sporidiobolaceae,Rhodotorula,Yes
+687,Rhodotorula graminis (strain WP1),6933,Rhodotorula graminis ,Rhodotorula graminis,Fungi,Basidiomycota,Microbotryomycetes,Sporidiobolales,Sporidiobolaceae,Rhodotorula,Yes
+688,Rhodotorula sp. JG-1b,6359,Rhodotorula sp. JG-1b,Rhodotorula sp.,Fungi,Basidiomycota,Microbotryomycetes,Sporidiobolales,Sporidiobolaceae,Rhodotorula,No
+689,Rhodotorula taiwanensis,6652,Rhodotorula taiwanensis,Rhodotorula taiwanensis,Fungi,Basidiomycota,Microbotryomycetes,Sporidiobolales,Sporidiobolaceae,Rhodotorula,No
+690,Rhodotorula toruloides (strain NP11) (Yeast) (Rhodosporidium toruloides),7741,Rhodotorula toruloides ,Rhodotorula toruloides,Fungi,Basidiomycota,Microbotryomycetes,Sporidiobolales,Sporidiobolaceae,Rhodotorula,No
+691,Rhodotorula toruloides (Yeast) (Rhodosporidium toruloides),26066,Rhodotorula toruloides ,Rhodotorula toruloides,Fungi,Basidiomycota,Microbotryomycetes,Sporidiobolales,Sporidiobolaceae,Rhodotorula,No
+692,Rhynchosporium agropyri,13243,Rhynchosporium agropyri,Rhynchosporium agropyri,Fungi,Ascomycota,Leotiomycetes,Helotiales,Ploettnerulaceae,Rhynchosporium,Yes
+693,Rhynchosporium commune,11942,Rhynchosporium commune,Rhynchosporium commune,Fungi,Ascomycota,Leotiomycetes,Helotiales,Ploettnerulaceae,Rhynchosporium,No
+694,Rhynchosporium secalis (Barley scald fungus),12861,Rhynchosporium secalis ,Rhynchosporium secalis,Fungi,Ascomycota,Leotiomycetes,Helotiales,Ploettnerulaceae,Rhynchosporium,Yes
+695,Rickenella mellea,16710,Rickenella mellea,Rickenella mellea,Fungi,Basidiomycota,Agaricomycetes,Hymenochaetales,Rickenellaceae,Rickenella,Yes
+696,Rosellinia necatrix (White root-rot fungus),12058,Rosellinia necatrix ,Rosellinia necatrix,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Rosellinia,No
+697,Rozella allomycis (strain CSF55),10857,Rozella allomycis ,Rozella allomycis,Fungi,Cryptomycota,NA,NA,NA,Rozella,No
+698,Rutstroemia sp. NJR-2017a BBW,10450,Rutstroemia sp. NJR-2017a BBW,Rutstroemia sp.,Fungi,Ascomycota,Leotiomycetes,Helotiales,Rutstroemiaceae,Rutstroemia,Yes
+699,Rutstroemia sp. NJR-2017a BVV2,8285,Rutstroemia sp. NJR-2017a BVV2,Rutstroemia sp.,Fungi,Ascomycota,Leotiomycetes,Helotiales,Rutstroemiaceae,Rutstroemia,No
+700,Rutstroemia sp. NJR-2017a WRK4,10137,Rutstroemia sp. NJR-2017a WRK4,Rutstroemia sp.,Fungi,Ascomycota,Leotiomycetes,Helotiales,Rutstroemiaceae,Rutstroemia,Yes
+701,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),6718,Saccharomyces cerevisiae ,Saccharomyces cerevisiae,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,Saccharomyces,No
+702,Saccharomyces cerevisiae x Saccharomyces kudriavzevii (strain VIN7) (Yeast),7504,Saccharomyces cerevisiae x Saccharomyces kudriavzevii ,Saccharomyces cerevisiae,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,Saccharomyces,No
+703,Saccharomyces pastorianus (Lager yeast) (Saccharomyces cerevisiae x Saccharomyces eubayanus),10508,Saccharomyces pastorianus ,Saccharomyces pastorianus,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,Saccharomyces,No
+704,Saitoella complicata (strain BCRC 22490 / CBS 7301 / JCM 7358 / NBRC 10748 / NRRL Y-17804),6784,Saitoella complicata ,Saitoella complicata,Fungi,Ascomycota,NA,NA,NA,Saitoella,No
+705,Saitozyma podzolica,9796,Saitozyma podzolica,Saitozyma podzolica,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Trimorphomycetaceae,Saitozyma,Yes
+706,Salinomyces thailandica,8402,Salinomyces thailandica,Salinomyces thailandica,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Teratosphaeriaceae,Salinomyces,Yes
+707,Schizophyllum commune (strain H4-8 / FGSC 9210) (Split gill fungus),12780,Schizophyllum commune ,Schizophyllum commune,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Schizophyllaceae,Schizophyllum,Yes
+708,Schizopora paradoxa,16729,Schizopora paradoxa,Schizopora paradoxa,Fungi,Basidiomycota,Agaricomycetes,Hymenochaetales,Schizoporaceae,Schizopora,Yes
+709,Scleroderma citrinum Foug A,20619,Scleroderma citrinum Foug A,Scleroderma citrinum,Fungi,Basidiomycota,Agaricomycetes,Boletales,Sclerodermataceae,Scleroderma,Yes
+710,Sclerotinia borealis (strain F-4128),9745,Sclerotinia borealis ,Sclerotinia borealis,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Sclerotinia,No
+711,Sclerotinia sclerotiorum (strain ATCC 18683 / 1980 / Ss-1) (White mold) (Whetzelinia sclerotiorum),24794,Sclerotinia sclerotiorum ,Sclerotinia sclerotiorum,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Sclerotinia,Yes
+712,Scytalidium lignicola (Hyphomycete),11683,Scytalidium lignicola ,Scytalidium lignicola,Fungi,Ascomycota,Leotiomycetes,NA,NA,Scytalidium,No
+713,Serendipita indica (strain DSM 11827) (Root endophyte fungus) (Piriformospora indica),11355,Serendipita indica ,Serendipita indica,Fungi,Basidiomycota,Agaricomycetes,Sebacinales,Serendipitaceae,Serendipita,No
+714,Serendipita vermifera MAFF 305830,14601,Serendipita vermifera MAFF 305830,Serendipita vermifera,Fungi,Basidiomycota,Agaricomycetes,Sebacinales,Serendipitaceae,Serendipita,Yes
+715,Serpula lacrymans var. lacrymans (strain S7.3) (Dry rot fungus),14103,Serpula lacrymans var. lacrymans ,Serpula lacrymans,Fungi,Basidiomycota,Agaricomycetes,Boletales,Serpulaceae,Serpula,No
+716,Serpula lacrymans var. lacrymans (strain S7.9) (Dry rot fungus),12495,Serpula lacrymans var. lacrymans ,Serpula lacrymans,Fungi,Basidiomycota,Agaricomycetes,Boletales,Serpulaceae,Serpula,Yes
+717,Sistotremastrum niveocremeum HHB9708,12746,Sistotremastrum niveocremeum HHB9708,Sistotremastrum niveocremeum,Fungi,Basidiomycota,Agaricomycetes,Trechisporales,NA,Sistotremastrum,Yes
+718,Sistotremastrum suecicum HHB10207 ss-3,13334,Sistotremastrum suecicum HHB10207 ss-3,Sistotremastrum suecicum,Fungi,Basidiomycota,Agaricomycetes,Trechisporales,NA,Sistotremastrum,No
+719,Smittium angustum,6335,Smittium angustum,Smittium angustum,Fungi,Zoopagomycota,Harpellomycetes,Harpellales,Legeriomycetaceae,Smittium,Yes
+720,Smittium culicis,20425,Smittium culicis,Smittium culicis,Fungi,Zoopagomycota,Harpellomycetes,Harpellales,Legeriomycetaceae,Smittium,No
+721,Smittium megazygosporum,6533,Smittium megazygosporum,Smittium megazygosporum,Fungi,Zoopagomycota,Harpellomycetes,Harpellales,Legeriomycetaceae,Smittium,Yes
+722,Smittium mucronatum,7592,Smittium mucronatum,Smittium mucronatum,Fungi,Zoopagomycota,Harpellomycetes,Harpellales,Legeriomycetaceae,Smittium,No
+723,Smittium simulii,6161,Smittium simulii,Smittium simulii,Fungi,Zoopagomycota,Harpellomycetes,Harpellales,Legeriomycetaceae,Smittium,Yes
+724,Sodiomyces alkalinus F11,9063,Sodiomyces alkalinus F11,Sodiomyces alkalinus,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Plectosphaerellaceae,Sodiomyces,No
+725,Sordaria macrospora (strain ATCC MYA-333 / DSM 997 / K(L3346) / K-hell),9452,Sordaria macrospora ,Sordaria macrospora,Fungi,Ascomycota,Sordariomycetes,Sordariales,Sordariaceae,Sordaria,No
+726,Sparassis crispa,12680,Sparassis crispa,Sparassis crispa,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Sparassidaceae,Sparassis,No
+727,Sphaceloma murrayae,7942,Sphaceloma murrayae,Sphaceloma murrayae,Fungi,Ascomycota,Dothideomycetes,Myriangiales,Elsinoaceae,Sphaceloma,Yes
+728,Sphaerobolus stellatus (strain SS14),24421,Sphaerobolus stellatus ,Sphaerobolus stellatus,Fungi,Basidiomycota,Agaricomycetes,Geastrales,Sphaerobolaceae,Sphaerobolus,Yes
+729,Sphaerosporella brunnea,12118,Sphaerosporella brunnea,Sphaerosporella brunnea,Fungi,Ascomycota,Pezizomycetes,Pezizales,Pyronemataceae,Sphaerosporella,Yes
+730,Sphaerulina musiva (strain SO2202) (Poplar stem canker fungus) (Septoria musiva),9859,Sphaerulina musiva ,Sphaerulina musiva,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Sphaerulina,Yes
+731,Spizellomyces punctatus (strain DAOM BR117),8809,Spizellomyces punctatus ,Spizellomyces punctatus,Fungi,Chytridiomycota,Chytridiomycetes,Spizellomycetales,Spizellomycetaceae,Spizellomyces,Yes
+732,Spizellomyces sp. 'palustris',8080,Spizellomyces sp. 'palustris',Spizellomyces sp.,Fungi,Chytridiomycota,Chytridiomycetes,Spizellomycetales,Spizellomycetaceae,Spizellomyces,Yes
+733,Sporisorium graminicola,6107,Sporisorium graminicola,Sporisorium graminicola,Fungi,Basidiomycota,Ustilaginomycetes,Ustilaginales,Ustilaginaceae,Sporisorium,No
+734,Sporisorium reilianum (strain SRZ2) (Maize head smut fungus),6188,Sporisorium reilianum ,Sporisorium reilianum,Fungi,Basidiomycota,Ustilaginomycetes,Ustilaginales,Ustilaginaceae,Sporisorium,Yes
+735,Sporisorium scitamineum,10461,Sporisorium scitamineum,Sporisorium scitamineum,Fungi,Basidiomycota,Ustilaginomycetes,Ustilaginales,Ustilaginaceae,Sporisorium,Yes
+736,Sporormia fimetaria CBS 119925,10447,Sporormia fimetaria CBS 119925,Sporormia fimetaria,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Sporormiaceae,Sporormia,Yes
+737,Sporothrix brasiliensis 5110,8689,Sporothrix brasiliensis 5110,Sporothrix brasiliensis,Fungi,Ascomycota,Sordariomycetes,Ophiostomatales,Ophiostomataceae,Sporothrix,No
+738,Sporothrix insectorum RCEF 264,9021,Sporothrix insectorum RCEF 264,Sporothrix insectorum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Sporothrix,No
+739,Sporothrix schenckii (strain ATCC 58251 / de Perez 2211183) (Rose-picker's disease fungus),8652,Sporothrix schenckii ,Sporothrix schenckii,Fungi,Ascomycota,Sordariomycetes,Ophiostomatales,Ophiostomataceae,Sporothrix,No
+740,Sporothrix schenckii 1099-18,9842,Sporothrix schenckii 1099-18,Sporothrix schenckii,Fungi,Ascomycota,Sordariomycetes,Ophiostomatales,Ophiostomataceae,Sporothrix,No
+741,Stachybotrys chartarum (strain CBS 109288 / IBT 7711) (Toxic black mold) (Stilbospora chartarum),11006,Stachybotrys chartarum ,Stachybotrys chartarum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Stachybotryaceae,Stachybotrys,No
+742,Stachybotrys chartarum IBT 40288,10891,Stachybotrys chartarum IBT 40288,Stachybotrys chartarum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Stachybotryaceae,Stachybotrys,No
+743,Stachybotrys chlorohalonata (strain IBT 40285),10209,Stachybotrys chlorohalonata ,Stachybotrys chlorohalonata,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Stachybotryaceae,Stachybotrys,No
+744,Stagonospora sp. SRC1lsM3a,14047,Stagonospora sp. SRC1lsM3a,Stagonospora sp.,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Massarinaceae,Stagonospora,Yes
+745,Steccherinum ochraceum,11832,Steccherinum ochraceum,Steccherinum ochraceum,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Steccherinaceae,Steccherinum,No
+746,Stemphylium lycopersici,8477,Stemphylium lycopersici,Stemphylium lycopersici,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Stemphylium,No
+747,Suillus luteus UH-Slu-Lm8-n1,18005,Suillus luteus UH-Slu-Lm8-n1,Suillus luteus,Fungi,Basidiomycota,Agaricomycetes,Boletales,Suillaceae,Suillus,No
+748,Syncephalastrum racemosum (Filamentous fungus),10781,Syncephalastrum racemosum ,Syncephalastrum racemosum,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Syncephalastraceae,Syncephalastrum,Yes
+749,Synchytrium endobioticum,12764,Synchytrium endobioticum,Synchytrium endobioticum,Fungi,Chytridiomycota,Chytridiomycetes,Synchytriales,Synchytriaceae,Synchytrium,Yes
+750,Talaromyces amestolkiae,9007,Talaromyces amestolkiae,Talaromyces amestolkiae,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,No
+751,Talaromyces atroroseus,9133,Talaromyces atroroseus,Talaromyces atroroseus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,No
+752,Talaromyces islandicus (Penicillium islandicum),9476,Talaromyces islandicus ,Talaromyces islandicus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,Yes
+753,Talaromyces marneffei (Penicillium marneffei),9829,Talaromyces marneffei ,Talaromyces marneffei,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,No
+754,Talaromyces marneffei (strain ATCC 18224 / CBS 334.59 / QM 7333) (Penicillium marneffei),10030,Talaromyces marneffei ,Talaromyces marneffei,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,No
+755,Talaromyces marneffei PM1,11562,Talaromyces marneffei PM1,Talaromyces marneffei,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,No
+756,Talaromyces pinophilus (Penicillium pinophilum),10574,Talaromyces pinophilus ,Talaromyces pinophilus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,No
+757,Talaromyces rugulosus,11323,Talaromyces rugulosus,Talaromyces rugulosus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,No
+758,Talaromyces stipitatus (strain ATCC 10500 / CBS 375.48 / QM 6759 / NRRL 1006) (Penicillium stipitatum),12545,Talaromyces stipitatus ,Talaromyces stipitatus,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,Yes
+759,Teratosphaeria nubilosa,10762,Teratosphaeria nubilosa,Teratosphaeria nubilosa,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Teratosphaeriaceae,Teratosphaeria,Yes
+760,Terfezia boudieri ATCC MYA-4762,11718,Terfezia boudieri ATCC MYA-4762,Terfezia boudieri,Fungi,Ascomycota,Pezizomycetes,Pezizales,Pezizaceae,Terfezia,Yes
+761,Termitomyces sp. J132,10808,Termitomyces sp. J132,Termitomyces sp.,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Lyophyllaceae,Termitomyces,No
+762,Testicularia cyperi,6551,Testicularia cyperi,Testicularia cyperi,Fungi,Basidiomycota,Ustilaginomycetes,Ustilaginales,Anthracoideaceae,Testicularia,Yes
+763,Thamnocephalis sphaerospora,6629,Thamnocephalis sphaerospora,Thamnocephalis sphaerospora,Fungi,Zoopagomycota,Zoopagomycetes,Zoopagales,Sigmoideomycetaceae,Thamnocephalis,Yes
+764,Thanatephorus cucumeris (strain AG1-IA) (Rice sheath blight fungus) (Rhizoctonia solani),10135,Thanatephorus cucumeris ,Thanatephorus cucumeris,Fungi,Basidiomycota,Agaricomycetes,Cantharellales,Ceratobasidiaceae,Thanatephorus,Yes
+765,Thanatephorus cucumeris (strain AG1-IB / isolate 7/3/14) (Lettuce bottom rot fungus) (Rhizoctonia solani),22851,Thanatephorus cucumeris ,Thanatephorus cucumeris,Fungi,Basidiomycota,Agaricomycetes,Cantharellales,Ceratobasidiaceae,Thanatephorus,Yes
+766,Thermothelomyces thermophilus (strain ATCC 42464 / BCRC 31852 / DSM 1799) (Sporotrichum thermophile),8776,Thermothelomyces thermophilus ,Thermothelomyces thermophilus,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Thermothelomyces,No
+767,Thermothielavioides terrestris,9222,Thermothielavioides terrestris,Thermothielavioides terrestris,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Thermothielavioides,No
+768,Thermothielavioides terrestris (strain ATCC 38088 / NRRL 8126) (Thielavia terrestris),9445,Thermothielavioides terrestris ,Thermothielavioides terrestris,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Thermothielavioides,No
+769,Thyridium curvatum,11612,Thyridium curvatum,Thyridium curvatum,Fungi,Ascomycota,Sordariomycetes,NA,Thyridiaceae,Thyridium,No
+770,Tilletia caries (wheat bunt fungus),6017,Tilletia caries ,Tilletia caries,Fungi,Basidiomycota,Exobasidiomycetes,Tilletiales,Tilletiaceae,Tilletia,No
+771,Tilletia indica,6601,Tilletia indica,Tilletia indica,Fungi,Basidiomycota,Exobasidiomycetes,Tilletiales,Tilletiaceae,Tilletia,No
+772,Tilletiaria anomala (strain ATCC 24038 / CBS 436.72 / UBC 951),6390,Tilletiaria anomala ,Tilletiaria anomala,Fungi,Basidiomycota,Exobasidiomycetes,Georgefischeriales,Tilletiariaceae,Tilletiaria,Yes
+773,Tilletiopsis washingtonensis,6620,Tilletiopsis washingtonensis,Tilletiopsis washingtonensis,Fungi,Basidiomycota,Exobasidiomycetes,Entylomatales,NA,Tilletiopsis,No
+774,Tolypocladium capitatum,7275,Tolypocladium capitatum,Tolypocladium capitatum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Tolypocladium,No
+775,Tolypocladium ophioglossoides (strain CBS 100239) (Elaphocordyceps ophioglossoides),7835,Tolypocladium ophioglossoides ,Tolypocladium ophioglossoides,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Tolypocladium,No
+776,Tolypocladium paradoxum,8613,Tolypocladium paradoxum,Tolypocladium paradoxum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Tolypocladium,No
+777,Trametes coccinea BRFM310,12338,Trametes coccinea BRFM310,Trametes coccinea,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Polyporaceae,Trametes,Yes
+778,Trametes pubescens (White-rot fungus),13724,Trametes pubescens ,Trametes pubescens,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Polyporaceae,Trametes,No
+779,Trematosphaeria pertusa,16906,Trematosphaeria pertusa,Trematosphaeria pertusa,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Trematosphaeriaceae,Trematosphaeria,No
+780,Tremella mesenterica (Jelly fungus),7751,Tremella mesenterica ,Tremella mesenterica,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Tremellaceae,Tremella,No
+781,Trichodelitschia bisporula,9884,Trichodelitschia bisporula,Trichodelitschia bisporula,Fungi,Ascomycota,Dothideomycetes,Phaeotrichales,Phaeotrichaceae,Trichodelitschia,Yes
+782,Trichoderma arundinaceum,10050,Trichoderma arundinaceum,Trichoderma arundinaceum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,No
+783,Trichoderma asperellum,8811,Trichoderma asperellum,Trichoderma asperellum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,No
+784,Trichoderma asperellum CBS 433.97,12164,Trichoderma asperellum CBS 433.97,Trichoderma asperellum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,No
+785,Trichoderma citrinoviride,9487,Trichoderma citrinoviride,Trichoderma citrinoviride,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,No
+786,Trichoderma gamsii,19352,Trichoderma gamsii,Trichoderma gamsii,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,No
+787,Trichoderma guizhouense,10886,Trichoderma guizhouense,Trichoderma guizhouense,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,No
+788,Trichoderma harzianum (Hypocrea lixii),35616,Trichoderma harzianum ,Trichoderma harzianum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,No
+789,Trichoderma harzianum CBS 226.95,13608,Trichoderma harzianum CBS 226.95,Trichoderma harzianum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,No
+790,Trichoderma longibrachiatum ATCC 18648,10588,Trichoderma longibrachiatum ATCC 18648,Trichoderma longibrachiatum,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,No
+791,Trichoderma parareesei (Filamentous fungus),8739,Trichoderma parareesei ,Trichoderma parareesei,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,No
+792,Trichomonascus ciferrii,6731,Trichomonascus ciferrii,Trichomonascus ciferrii,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Trichomonascaceae,Trichomonascus,Yes
+793,Trichophyton equinum (strain ATCC MYA-4606 / CBS 127.97) (Horse ringworm fungus),8414,Trichophyton equinum ,Trichophyton equinum,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Trichophyton,Yes
+794,Trichophyton interdigitale (strain MR816),7929,Trichophyton interdigitale ,Trichophyton interdigitale,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Trichophyton,No
+795,Trichophyton rubrum (Athlete's foot fungus) (Epidermophyton rubrum),6791,Trichophyton rubrum ,Trichophyton rubrum,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Trichophyton,No
+796,Trichophyton rubrum (strain ATCC MYA-4607 / CBS 118892) (Athlete's foot fungus),9747,Trichophyton rubrum ,Trichophyton rubrum,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Trichophyton,No
+797,Trichophyton rubrum CBS 288.86,9990,Trichophyton rubrum CBS 288.86,Trichophyton rubrum,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Trichophyton,No
+798,Trichophyton soudanense CBS 452.61,10012,Trichophyton soudanense CBS 452.61,Trichophyton soudanense,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Trichophyton,No
+799,Trichophyton tonsurans (strain CBS 112818) (Scalp ringworm fungus),8243,Trichophyton tonsurans ,Trichophyton tonsurans,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Trichophyton,No
+800,Trichophyton verrucosum (strain HKI 0517),7736,Trichophyton verrucosum ,Trichophyton verrucosum,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Trichophyton,Yes
+801,Trichophyton violaceum,6765,Trichophyton violaceum,Trichophyton violaceum,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Trichophyton,Yes
+802,Trichosporon asahii var. asahii (strain ATCC 90039 / CBS 2479 / JCM 2466 / KCTC 7840 / NBRC 103889/ NCYC 2677 / UAMH 7654) (Yeast),7962,Trichosporon asahii var. asahii ,Trichosporon asahii,Fungi,Basidiomycota,Tremellomycetes,Trichosporonales,Trichosporonaceae,Trichosporon,No
+803,Trichosporon asahii var. asahii (strain CBS 8904) (Yeast),8168,Trichosporon asahii var. asahii ,Trichosporon asahii,Fungi,Basidiomycota,Tremellomycetes,Trichosporonales,Trichosporonaceae,Trichosporon,No
+804,Tuber aestivum (summer truffle),8982,Tuber aestivum ,Tuber aestivum,Fungi,Ascomycota,Pezizomycetes,Pezizales,Tuberaceae,Tuber,Yes
+805,Tuber borchii (White truffle),12135,Tuber borchii ,Tuber borchii,Fungi,Ascomycota,Pezizomycetes,Pezizales,Tuberaceae,Tuber,Yes
+806,Tuber magnatum (white Piedmont truffle),9063,Tuber magnatum ,Tuber magnatum,Fungi,Ascomycota,Pezizomycetes,Pezizales,Tuberaceae,Tuber,Yes
+807,Tuber melanosporum (strain Mel28) (Perigord black truffle),7217,Tuber melanosporum ,Tuber melanosporum,Fungi,Ascomycota,Pezizomycetes,Pezizales,Tuberaceae,Tuber,Yes
+808,Tulasnella calospora MUT 4182,19055,Tulasnella calospora MUT 4182,Tulasnella calospora,Fungi,Basidiomycota,Agaricomycetes,Cantharellales,Tulasnellaceae,Tulasnella,Yes
+809,Uncinocarpus reesii (strain UAMH 1704),7494,Uncinocarpus reesii ,Uncinocarpus reesii,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Onygenaceae,Uncinocarpus,Yes
+810,Uncinula necator (Grape powdery mildew),6363,Uncinula necator ,Uncinula necator,Fungi,Ascomycota,Leotiomycetes,Erysiphales,Erysiphaceae,Erysiphe,No
+811,uncultured fungus,6235,uncultured fungus,uncultured fungus,Fungi,NA,NA,NA,NA,NA,No
+812,Ustilaginoidea virens (Rice false smut fungus) (Villosiclava virens),6292,Ustilaginoidea virens ,Ustilaginoidea virens,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Ustilaginoidea,No
+813,Ustilago bromivora,6715,Ustilago bromivora,Ustilago bromivora,NA,NA,NA,NA,NA,NA,Yes
+814,Ustilago hordei (Barley covered smut fungus),6659,Ustilago hordei ,Ustilago hordei,NA,NA,NA,NA,NA,NA,No
+815,Ustilago maydis (strain 521 / FGSC 9021) (Corn smut fungus),6346,Ustilago maydis ,Ustilago maydis,NA,NA,NA,NA,NA,NA,Yes
+816,Ustilago trichophora,12031,Ustilago trichophora,Ustilago trichophora,NA,NA,NA,NA,NA,NA,Yes
+817,Valsa mali,10762,Valsa mali,Valsa mali,NA,NA,NA,NA,NA,NA,No
+818,Valsa mali var. pyri (nom. inval.),10373,Valsa mali var. pyri ,Valsa mali,NA,NA,NA,NA,NA,NA,No
+819,Valsa malicola,10174,Valsa malicola,Valsa malicola,NA,NA,NA,NA,NA,NA,No
+820,Valsa sordida,9485,Valsa sordida,Valsa sordida,NA,NA,NA,NA,NA,NA,No
+821,Venturia effusa,10457,Venturia effusa,Venturia effusa,NA,NA,NA,NA,NA,NA,Yes
+822,Venturia nashicola,11387,Venturia nashicola,Venturia nashicola,NA,NA,NA,NA,NA,NA,Yes
+823,Venustampulla echinocandica,10271,Venustampulla echinocandica,Venustampulla echinocandica,NA,NA,NA,NA,NA,NA,No
+824,Verruconis gallopava,10467,Verruconis gallopava,Verruconis gallopava,NA,NA,NA,NA,NA,NA,Yes
+825,Verticillium alfalfae (strain VaMs.102 / ATCC MYA-4576 / FGSC 10136) (Verticillium wilt of alfalfa) (Verticillium albo-atrum),9986,Verticillium alfalfae ,Verticillium alfalfae,NA,NA,NA,NA,NA,NA,No
+826,Verticillium dahliae (strain VdLs.17 / ATCC MYA-4575 / FGSC 10137) (Verticillium wilt),10212,Verticillium dahliae ,Verticillium dahliae,NA,NA,NA,NA,NA,NA,No
+827,Verticillium dahliae (Verticillium wilt),24299,Verticillium dahliae ,Verticillium dahliae,NA,NA,NA,NA,NA,NA,No
+828,Verticillium longisporum,30906,Verticillium longisporum,Verticillium longisporum,NA,NA,NA,NA,NA,NA,No
+829,Verticillium nonalfalfae,9220,Verticillium nonalfalfae,Verticillium nonalfalfae,NA,NA,NA,NA,NA,NA,No
+830,Viridothelium virens,11490,Viridothelium virens,Viridothelium virens,NA,NA,NA,NA,NA,NA,Yes
+831,Wallemia ichthyophaga,6667,Wallemia ichthyophaga,Wallemia ichthyophaga,NA,NA,NA,NA,NA,NA,No
+832,Wallemia mellicola,14614,Wallemia mellicola,Wallemia mellicola,NA,NA,NA,NA,NA,NA,No
+833,Westerdykella ornata,10079,Westerdykella ornata,Westerdykella ornata,NA,NA,NA,NA,NA,NA,No
+834,Wickerhamomyces anomalus (strain ATCC 58044 / CBS 1984 / NCYC 433 / NRRL Y-366-8) (Yeast) (Hansenula anomala),6260,Wickerhamomyces anomalus ,Wickerhamomyces anomalus,NA,NA,NA,NA,NA,NA,No
+835,Wickerhamomyces ciferrii (strain ATCC 14091 / BCRC 22168 / CBS 111 / JCM 3599 / NBRC 0793 / NRRL Y-1031 F-60-10) (Yeast) (Pichia ciferrii),6477,Wickerhamomyces ciferrii ,Wickerhamomyces ciferrii,NA,NA,NA,NA,NA,NA,No
+836,Wolfiporia cocos (strain MD-104) (Brown rot fungus),11923,Wolfiporia cocos ,Wolfiporia cocos,NA,NA,NA,NA,NA,NA,Yes
+837,Xylaria flabelliformis,10889,Xylaria flabelliformis,Xylaria flabelliformis,NA,NA,NA,NA,NA,NA,No
+838,Xylaria grammica,11618,Xylaria grammica,Xylaria grammica,NA,NA,NA,NA,NA,NA,No
+839,Xylaria hypoxylon,10638,Xylaria hypoxylon,Xylaria hypoxylon,NA,NA,NA,NA,NA,NA,No
+840,Xylaria multiplex,9770,Xylaria multiplex,Xylaria multiplex,NA,NA,NA,NA,NA,NA,No
+841,Xylariales sp. No.14919,13903,Xylariales sp. No.14919,Xylariales sp.,NA,NA,NA,NA,NA,NA,No
+842,Xylona heveae (strain CBS 132557 / TC161),7882,Xylona heveae ,Xylona heveae,NA,NA,NA,NA,NA,NA,Yes
+843,Yarrowia lipolytica (Candida lipolytica),10964,Yarrowia lipolytica ,Yarrowia lipolytica,NA,NA,NA,NA,NA,NA,No
+844,Yarrowia lipolytica (strain CLIB 122 / E 150) (Yeast) (Candida lipolytica),6239,Yarrowia lipolytica ,Yarrowia lipolytica,NA,NA,NA,NA,NA,NA,No
+845,Zancudomyces culisetae (Gut fungus) (Smittium culisetae),7214,Zancudomyces culisetae ,Zancudomyces culisetae,NA,NA,NA,NA,NA,NA,No
+846,Zasmidium cellare ATCC 36951,15636,Zasmidium cellare ATCC 36951,Zasmidium cellare,NA,NA,NA,NA,NA,NA,No
+847,Zopfia rhizophila CBS 207.26,21021,Zopfia rhizophila CBS 207.26,Zopfia rhizophila,NA,NA,NA,NA,NA,NA,Yes
+848,Zygosaccharomyces rouxii (Candida mogii),9867,Zygosaccharomyces rouxii ,Zygosaccharomyces rouxii,NA,NA,NA,NA,NA,NA,No
+849,Zymoseptoria brevis,10217,Zymoseptoria brevis,Zymoseptoria brevis,NA,NA,NA,NA,NA,NA,No
+850,Zymoseptoria tritici (strain CBS 115943 / IPO323) (Speckled leaf blotch fungus) (Septoria tritici),10689,Zymoseptoria tritici ,Zymoseptoria tritici,NA,NA,NA,NA,NA,NA,Yes
+851,Zymoseptoria tritici ST99CH_1A5,11635,Zymoseptoria tritici ST99CH_1A5,Zymoseptoria tritici,NA,NA,NA,NA,NA,NA,No
+852,Zymoseptoria tritici ST99CH_1E4,11594,Zymoseptoria tritici ST99CH_1E4,Zymoseptoria tritici,NA,NA,NA,NA,NA,NA,No
+853,Zymoseptoria tritici ST99CH_3D7,11350,Zymoseptoria tritici ST99CH_3D7,Zymoseptoria tritici,NA,NA,NA,NA,NA,NA,No
