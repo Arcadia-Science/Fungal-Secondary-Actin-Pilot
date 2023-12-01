@@ -91,7 +91,7 @@ We manually collapsed information per species from results/step3/traits_FDA_info
 
 For each trait, before running any model, we visualized the distribution of the data that are input for the models (Figure 6AF)
 
-Code for this section is available in the Jupyter notebook: notebooks/Step4_Statistical_modeling
+Code for this section is available in the Jupyter notebook: notebooks/Step4_Statistical_modeling.ipynb
 
 ### Predicting FDA from discrete and continuous variables
 We used phylogeny-corrected generalized linear models (pglmm) for continuous and discrete predictor variables (pglmm_compare function from the R package phyr (https://doi.org/10.1111/2041-210X.13471)).
