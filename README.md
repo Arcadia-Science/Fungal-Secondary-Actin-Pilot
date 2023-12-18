@@ -1,14 +1,118 @@
-# Fungal-Secondary-Actin-Pilot
-This pilot investigates the distribution of conserved divergent fungal actins as well as their potential correlation with specific fungal traits
+# Investigating a structurally conserved secondary actin in fungi and its possible association with specific traits
+This pilot investigates the potentially new function of a divergent actin form mainly found in fungal species using trait mapping and association analysis as a novel strategy to generate hypotheses about protein function.
+For more information, read the pub: [Investigating a structurally conserved secondary actin in fungi and its possible correlation with specific traits](https://doi.org/10.57844/arcadia-9768-f6c5)
 
-This pilot originates from an observation made by the Functional Annotation team. Using ProteinCartography on human actin, they identified a well defined cluster of divergent actins found mainly in fungal species. Primary actin functions have been the subject of many investigations and have been mostly characterized. In fungi for instance, primary actin are known to be involved in growth, cytoskletton traffick and cell division. Yet divergent actins with modfied strucure are expected to underly potentially unknown/different functions than primary actins (in fungi or any other species). In this pilot, we want to understand if these specific divergent actins, further refered to as fungal secondary actin (FSA) are restricted to Fungi and if they evolutonary correlate with particular fungal traits. 
-In this pilot we: (i) use sequence-based and structure-based search to characterize the distribution of these FSA in different kingdoms and within the Fungi kingdom, (ii) conduct trait mapping between these FSA and a variety of fungal traits, and (iii) use statistical model (phylogeny-based statistical modeling) to test whether there is any evolutionary correlation between these FSA and fungal traits
+This pilot originates from an observation made in previous Arcadia work about actin. Using ProteinCartography on human actin, a well defined cluster of divergent actins found mainly in fungal species has been identified. Primary actin functions have been the subject of many investigations and have been mostly characterized. In fungi for instance, primary actin are known to be involved in growth, cytoskeleton traffic and cell division. Yet divergent actins are expected to have a modified structure underlying potentially unknown/different functions than primary actins (in Fungi or any other species). 
+In this pilot, we want to investigate the potential new function of this divergent actin that we further refer to as Fungal Divergent Actin (FDA). We use the [ProteinCartography pipeline](https://doi.org/10.57844/arcadia-a5a6-1068), combined with trait mapping and trait association analysis to generate hypotheses about the function of FDA.
 
-## 1 - Distribution of the Fungal secondary actin
-To be updated
+Our approach is divided into four main steps described below and for which code and data are provided in this repository. 
+- Step 1: Expanding the initial set of fungal species that possess FDA 
+- Step 2: Defining the ‘working set of species’ (set of fungal species for which we can determine their FDA status (presence or absence))
+- Step 3: Curating fungal trait information
+- Step 4: Statistical modeling of the association of FDA and chosen fungal traits
 
-## 2 - Fungal trait curation and trait mapping
-To be updated
+## 1 - Expanding the initial set of fungal species that possess FDA 
+### Clustering of original set of divergent actin and identification of representative sequences
 
-## 3 - Statistical modeling of fungal trait and FSA correlation
-To be updated
+We used mmseqs and the clustering module (MMseqs2 version 14.7e284) (https://doi.org/10.1038/s41467-018-04964-5; https://doi.org/10.1038/nbt.3988) to cluster the 292 original sequences of FDA. We first created a database of the different sequences: 
+`mmseqs createdb LC23_sequences.fasta LC23_DB` from the fasta file containing all 292 amino acid sequences ([data/step1/LC23_sequences.fasta](data/step1/LC23_sequences.fasta)). Then, we used the easy-clust module with default parameters: `mmseqs cluster LC23_DB LC23_clu tmp`. 
+We exported the clusters information: `mmseqs createtsv LC23_DB LC23_DB LC23_clu LC23_clu.tsv`. This file can be found in the folder [results/step1/](results/step1/) .
+From each cluster, we extracted the longest sequence as the representative sequence (cluster 1: A0A401L4A6; cluster 2: A0A0C9N219; cluster 3:A0A2N1JBK3; cluster 4: A0A5B0SCN5; cluster 5: A0A226D8X1; cluster 6: A0A7J6TT41). Amino acid sequences of the six representative sequences are stored in the fasta file: [results/step1/Clusters_Rep_Seq_Long.fasta](results/step1/Clusters_Rep_Seq_Long.fasta).
+
+### ProteinCartography run
+We used each of the six proteins as input proteins for “Search Mode'' of the pipeline ProteinCartography (version v0.4.0-alpha) to expand the original cluster of FDA. Full details on the ProteinCartography pipeline can be found in the GitHub repository and accompanying pub (https://doi.org/10.57844/arcadia-a5a6-1068). 
+All input and output information are stored in Zenodo: [10.5281/zenodo.10211653](https://doi.org/10.5281/zenodo.10211653)
+
+### ProteinCartography metadata analysis (Figure 3 C & E)
+
+The ProteinCartography run identified 8 well defined clusters. Using the UMAP .csv file generated by ProteinCartography [data/step1/Protein_Cartography_umap_output.csv](data/step1/Protein_Cartography_umap_output.csv), we visualize the kingdom distribution as well as the protein length distribution for each cluster.
+Among the 8 clusters, 2 of them, LC04 and LC11 actually contain FDAs. We eventually extract the associated metadata information specifically for these two clusters: [results/step1/Protein_Cartography_output_FDAclusters.csv](results/step1/Protein_Cartography_output_FDAclusters.csv)
+All the associated code is provided in the R Jupyter notebook: [notebooks/Step1_Protein_Cartography_Metadata_Analysis.ipynb](notebooks/Step1_Protein_Cartography_Metadata_Analysis.ipynb)
+
+### Taxonomic analysis of the extended set of FDA (Figure 4A)
+Altogteher, the two clusters identified with the new ProteinCartography run and the original cluster of FDA represent 436 sequences (spanning 415 species).
+We merged all metadata information of these species with FDA into the file: [data/step1/Extended_cluster_hits_FDA.csv](data/step1/Extended_cluster_hits_FDA.csv)
+We extracted the kingdom, phylum and order information. As some proteins belong to organisms that do not have an identified kingdom, we manually curated them and added corresponding clade information instead ([data/step1/FDA_clust_taxo_manually_corrected.csv](data/step1/FDA_clust_taxo_manually_corrected.csv)). This includes: Discoba, Sar, Amoebozoa and Opisthokonta. 
+We further investigated the distribution of FDA at the kingdom (or relevant clades) level. We generated the associated tree using representative species for each kingdom or clade in TimeTree(https://doi.org/10.1093/molbev/msac174): [data/step1/FDA_king_tree.nwk](data/step1/FDA_king_tree.nwk). Figure 4A of the Pub displays the FDA distribution at the kingdom level.
+
+All the associated code is provided in the R Jupyter notebook: [notebooks/Step1_Taxonomic_analysis_extented_FDA_set.ipynb](notebooks/Step1_Taxonomic_analysis_extented_FDA_set.ipynb)
+
+## 2 - Defining the ‘working set of species’
+In order to carry out trait mapping and association analysis between the presence/absence of FDA and fungal traits, we need to confidently establish whether or not a fungal species possesses FDA. The working set is defined as the set of species for which the presence or absence of FDA was putatively established.
+Because ProteinCartography relies and protein structures available in UniProt and AlphaFold, we decide to define our working set as any fungal species that has a minimum of 6000 protein structures in AlphaFold. Then we consider that any species of this set that is not part of the extended cluster doesn't possess FDA.
+
+### Filtering out fungal species with less than 6000 protein structures available in Uniprot
+We first obtained the list of fungal proteins and associated species that have structure available in AlphaFold from UniProt: Fungi_prot_uniprot.csv (this file is [available on Zenodo](https://zenodo.org/records/10211653/files/Fungi_prot_uniprot.csv?download=1))
+We then count the number of proteins per fungal species from this search ([results/step2/uniprot_fungal_species_and_proteinpdb.csv](results/step2/uniprot_fungal_species_and_proteinpdb.csv)) and filter anything below 6000 proteins.
+This code is part of the Jupyter Notebook: [notebooks/Step2_Defining_working_set_of_species.ipynb](notebooks/Step2_Defining_working_set_of_species.ipynb)
+
+### Obtaining taxonomic information of the species in the working set
+We obtained taxonomic information for these species by querying the NCBI Taxonomy database.
+
+*Note*: when querying taxonomic information for many species, the connection with NCBI can stop. When this happens, the for loop must be restarted at the species number when the connection broke.  
+
+Taxonomic information were not retrieved for 22 species ([results/step2/species_need_taxo_manually.csv](results/step2/species_need_taxo_manually.csv)) and where added manually: [data/step2/manually_curated_taxonomy_species.csv](data/step2/manually_curated_taxonomy_species.csv)
+The final file containing all species of the workings set, the protein number and taxonomic information is: [results/step2/uniprot_all_wset_taxo.csv](results/step2/uniprot_all_wset_taxo.csv)
+This code is part of the Jupyter Notebook: [notebooks/Step2_Defining_working_set_of_species.ipynb](notebooks/Step2_Defining_working_set_of_species.ipynb)
+
+### Distribution of FDA in Fungi - Order level analysis
+Now that we have a working set of fungal species, using the extended set information, we can attribute the FDA status of all the 853 fungal species of the workig set: [results/step2/working_set_w_FDA.csv](results/step2/working_set_w_FDA.csv)
+We further investigate the distribution of FDA in the Fungi kingdom by calculating and visualizing the distribution of FDA at the order level. For each order, we calculate the fraction of species that possess FDA (number of species with FDA in order divided number of species in the order): [results/step2/order_information_FDA_fraction.csv](results/step2/order_information_FDA_fraction.csv)
+
+We obtained fungal order phylogeny information in TimeTree: [data/step2/Fungi_order_timetree.nwk](data/step2/Fungi_order_timetree.nwk)
+After trimming this tree, keeping only the orders present in our study, we visualize the order FDA fraction distribution and order size onto this tree (Figure 4B of the Pub)
+Code for this section is available in the Jupyter Notebook: [notebooks/Step2_Order_distribution_FDA_Figure4B.ipynb](notebooks/Step2_Order_distribution_FDA_Figure4B.ipynb)
+
+## 3 - Curating fungal trait information
+We used the database FunFun as the source of fungal trait information (https://doi.org/10.1111/brv.12570). This database contains a large set of information from different studies and other databases and provides them at the species level. 
+We obtained the .csv representation of the database following their instruction on their [github page](https://github.com/traitecoevo/fungaltraits).
+In R:
+
+```
+install.packages("devtools")
+devtools::install_github("ropenscilabs/datastorr")
+devtools::install_github("traitecoevo/fungaltraits")
+library(fungaltraits)
+```
+
+and exported the database:
+
+```
+data_fun=fungal_traits()
+write.csv(data_fun,'FunFun_database_all.csv')
+```
+
+We decided to focus on 6 traits: presence/absence of auxin responsive promoter, spore length, spore width, ascus dehiscence, growth form and trophic mode. We extracted the corresponding information for the species present in the database that overlap with the species in the working set.  While in FunFun 1,538 species have information for at least one of the traits, it only represents 142 species in our working set. Also, in our working set, some species are represented by multiple strains, and whenever a species has different FDA status for its associated strains, that species is removed from the study.  
+Eventually, we obtained phylogenetic relationships and the corresponding tree for 102 species using Timetree  (https://doi.org/10.1093/molbev/msac174): [data/step3/species_trait_tree_final.nwk](data/step3/species_trait_tree_final.nwk)
+Altogether, we were able to collect FDA status, trait information and phylogenetic relationship for a total of 102 species and mapped this information onto a species-level tree (Figure 4B of the Pub) : [results/step3/traits_FDA_info.csv](results/step3/traits_FDA_info.csv)
+
+Code for this section is available in the Jupyter Notebook: [notebooks/Step3_Curating_and_maping_trait_information.ipynb](notebooks/Step3_Curating_and_maping_trait_information.ipynb)
+
+## 4 - Statistical modeling of the association of FDA and chosen fungal traits
+We used statistical modeling to determine whether the presence/absence of FDA is associated with specific fungal traits. 
+Presence/absence of FDA is a binary variable and fungal traits are either binary (auxin responsive promoter), continuous (spore length and spore width) or discrete variables (Ascus dehiscence, growth form and trophic mode).
+We manually collapsed information per species from [results/step3/traits_FDA_info.csv](results/step3/traits_FDA_info.csv), to have only a single row of trait information per species and created the input dataset: [data/step4/traits_FDA_info_col.csv](data/step4/traits_FDA_info_col.csv) (note for *Agaricus bisporus* the spore length and spore width have been averaged across two replicates)
+
+For each trait, before running any model, we visualized the distribution of the data that are input for the models (Figure 6AF)
+
+Code for this section is available in the Jupyter notebook: [notebooks/Step4_Statistical_modeling.ipynb](notebooks/Step4_Statistical_modeling.ipynb)
+
+### Correlation analysis of FDA and continuous traits
+We used phylogeny-corrected generalized linear models (pglmm) for continuous variables (pglmm_compare function from the R package [phyr](https://doi.org/10.1111/2041-210X.13471)).
+For each model we report intercept, slope and associated p-values in the Pub Table 3
+
+### Correlation analysis of FDA and binary or discrete traits
+
+For binary and discrete variables, we used the corHMM package and fitCorrelationTest function to fits hidden Markov models of binary characters evolution. These models allow different transition rate classes on different portions of a phylogeny. 
+For each trait, the function fits different models of trait evolution of the divergent actin and fungal trait with and without correlated evolution, as well as with corresponding Hidden-Markov models. This allows to identify which models best describes/fits the evolutionary history of FDA and the binary or discrete trait of interest. 
+Then, for each trait, we report models parameters and AIC to identify the model that best fits the trait evolution of FDA and the trait.
+
+*Discrete traits*
+Discrete trait information from the FunFun database was reorganized to maximize the number of levels containing four or more species. For ‘Growth form’, we collapsed the levels ‘Yeast’ and ‘Facultative yeast’ into a single level: ‘Yeast’. For ‘trophic mode’, we defined three levels: ‘Saprotroph’, ‘Pathotroph’ and ‘Symbiotrioph’. Some species are associated with two or more different trophic modes. We parsed these species into the associated single levels. For instance, if a species is labeled as ‘Saprotroph-Pathotroph’, it is counted into ‘Saprotroph’ and ‘Pathotroph’.  
+Eventually, we removed any level that have fewer than 4 species
+
+*Binary trait*
+Originally auxin responsive promoters information was provided as the number of promoters in eacg species. Because the distribution was skewed toward 0, we decided to tansform that trait into a binary trait presence/absence of auxin-responsive promoter.
+
+## Contributing
+See [this guide](https://github.com/Arcadia-Science/arcadia-software-handbook/blob/main/guides-and-standards/guide-credit-for-contributions.md) to see how we recognize feedback and contributions on our code.
