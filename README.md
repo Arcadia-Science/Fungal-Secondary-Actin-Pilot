@@ -11,7 +11,6 @@ Our approach is divided into four main steps described below and for which code 
 - Step 3: Curating fungal trait information
 - Step 4: Statistical modeling of the association of FDA and chosen fungal traits
 
-
 ## 1 - Expanding the initial set of fungal species that possess FDA 
 ### Clustering of original set of divergent actin and identification of representative sequences
 
@@ -19,7 +18,6 @@ We used mmseqs and the clustering module (MMseqs2 version 14.7e284) (https://doi
 `mmseqs createdb LC23_sequences.fasta LC23_DB` from the fasta file containing all 292 amino acid sequences ([data/step1/LC23_sequences.fasta](data/step1/LC23_sequences.fasta)). Then, we used the easy-clust module with default parameters: `mmseqs cluster LC23_DB LC23_clu tmp`. 
 We exported the clusters information: `mmseqs createtsv LC23_DB LC23_DB LC23_clu LC23_clu.tsv`. This file can be found in the folder [results/step1/](results/step1/) .
 From each cluster, we extracted the longest sequence as the representative sequence (cluster 1: A0A401L4A6; cluster 2: A0A0C9N219; cluster 3:A0A2N1JBK3; cluster 4: A0A5B0SCN5; cluster 5: A0A226D8X1; cluster 6: A0A7J6TT41). Amino acid sequences of the six representative sequences are stored in the fasta file: [results/step1/Clusters_Rep_Seq_Long.fasta](results/step1/Clusters_Rep_Seq_Long.fasta).
-
 
 ### ProteinCartography run
 We used each of the six proteins as input proteins for “Search Mode'' of the pipeline ProteinCartography (version v0.4.0-alpha) to expand the original cluster of FDA. Full details on the ProteinCartography pipeline can be found in the GitHub repository and accompanying pub (https://doi.org/10.57844/arcadia-a5a6-1068). 
@@ -31,7 +29,6 @@ The ProteinCartography run identified 8 well defined clusters. Using the UMAP .c
 Among the 8 clusters, 2 of them, LC04 and LC11 actually contain FDAs. We eventually extract the associated metadata information specifically for these two clusters: [results/step1/Protein_Cartography_output_FDAclusters.csv](results/step1/Protein_Cartography_output_FDAclusters.csv)
 All the associated code is provided in the R Jupyter notebook: [notebooks/Step1_Protein_Cartography_Metadata_Analysis.ipynb](notebooks/Step1_Protein_Cartography_Metadata_Analysis.ipynb)
 
-
 ### Taxonomic analysis of the extended set of FDA (Figure 4A)
 Altogteher, the two clusters identified with the new ProteinCartography run and the original cluster of FDA represent 436 sequences (spanning 415 species).
 We merged all metadata information of these species with FDA into the file: [data/step1/Extended_cluster_hits_FDA.csv](data/step1/Extended_cluster_hits_FDA.csv)
@@ -39,12 +36,11 @@ We extracted the kingdom, phylum and order information. As some proteins belong 
 We further investigated the distribution of FDA at the kingdom (or relevant clades) level. We generated the associated tree using representative species for each kingdom or clade in TimeTree(https://doi.org/10.1093/molbev/msac174): [data/step1/FDA_king_tree.nwk](data/step1/FDA_king_tree.nwk). Figure 4A of the Pub displays the FDA distribution at the kingdom level.
 
 All the associated code is provided in the R Jupyter notebook: [notebooks/Step1_Taxonomic_analysis_extented_FDA_set.ipynb](notebooks/Step1_Taxonomic_analysis_extented_FDA_set.ipynb)
- 
 
 ## 2 - Defining the ‘working set of species’
 In order to carry out trait mapping and association analysis between the presence/absence of FDA and fungal traits, we need to confidently establish whether or not a fungal species possesses FDA. The working set is defined as the set of species for which the presence or absence of FDA was putatively established.
 Because ProteinCartography relies and protein structures available in UniProt and AlphaFold, we decide to define our working set as any fungal species that has a minimum of 6000 protein structures in AlphaFold. Then we consider that any species of this set that is not part of the extended cluster doesn't possess FDA.
-.
+
 ### Filtering out fungal species with less than 6000 protein structures available in Uniprot
 We first obtained the list of fungal proteins and associated species that have structure available in AlphaFold from UniProt: Fungi_prot_uniprot.csv (this file is [available on Zenodo](https://zenodo.org/records/10211653/files/Fungi_prot_uniprot.csv?download=1))
 We then count the number of proteins per fungal species from this search ([results/step2/uniprot_fungal_species_and_proteinpdb.csv](results/step2/uniprot_fungal_species_and_proteinpdb.csv)) and filter anything below 6000 proteins.
@@ -71,21 +67,26 @@ Code for this section is available in the Jupyter Notebook: [notebooks/Step2_Ord
 We used the database FunFun as the source of fungal trait information (https://doi.org/10.1111/brv.12570). This database contains a large set of information from different studies and other databases and provides them at the species level. 
 We obtained the .csv representation of the database following their instruction on their [github page](https://github.com/traitecoevo/fungaltraits).
 In R:
-`install.packages("devtools")
+
+```
+install.packages("devtools")
 devtools::install_github("ropenscilabs/datastorr")
 devtools::install_github("traitecoevo/fungaltraits")
-library(fungaltraits)`
-and exported the database:
-`data_fun=fungal_traits()
-write.csv(data_fun,'FunFun_database_all.csv')`
+library(fungaltraits)
+```
 
+and exported the database:
+
+```
+data_fun=fungal_traits()
+write.csv(data_fun,'FunFun_database_all.csv')
+```
 
 We decided to focus on 6 traits: presence/absence of auxin responsive promoter, spore length, spore width, ascus dehiscence, growth form and trophic mode. We extracted the corresponding information for the species present in the database that overlap with the species in the working set.  While in FunFun 1,538 species have information for at least one of the traits, it only represents 142 species in our working set. Also, in our working set, some species are represented by multiple strains, and whenever a species has different FDA status for its associated strains, that species is removed from the study.  
 Eventually, we obtained phylogenetic relationships and the corresponding tree for 102 species using Timetree  (https://doi.org/10.1093/molbev/msac174): [data/step3/species_trait_tree_final.nwk](data/step3/species_trait_tree_final.nwk)
 Altogether, we were able to collect FDA status, trait information and phylogenetic relationship for a total of 102 species and mapped this information onto a species-level tree (Figure 4B of the Pub) : [results/step3/traits_FDA_info.csv](results/step3/traits_FDA_info.csv)
 
 Code for this section is available in the Jupyter Notebook: [notebooks/Step3_Curating_and_maping_trait_information.ipynb](notebooks/Step3_Curating_and_maping_trait_information.ipynb)
-
 
 ## 4 - Statistical modeling of the association of FDA and chosen fungal traits
 We used statistical modeling to determine whether the presence/absence of FDA is associated with specific fungal traits. 
@@ -113,9 +114,5 @@ Eventually, we removed any level that have fewer than 4 species
 *Binary trait*
 Originally auxin responsive promoters information was provided as the number of promoters in eacg species. Because the distribution was skewed toward 0, we decided to tansform that trait into a binary trait presence/absence of auxin-responsive promoter.
 
-
-
-
 ## Contributing
 See [this guide](https://github.com/Arcadia-Science/arcadia-software-handbook/blob/main/guides-and-standards/guide-credit-for-contributions.md) to see how we recognize feedback and contributions on our code.
-
