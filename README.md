@@ -55,20 +55,20 @@ We obtained taxonomic information for these species by querying the NCBI Taxonom
 *Note*: when querying taxonomic information for many species, the connection with NCBI can stop. When this happens, the for loop must be restarted at the species number when the connection broke.  
 
 Taxonomic information were not retrieved for 22 species (results/step2/species_need_taxo_manually.csv) and where added manually: data/step2/manually_curated_taxonomy_species.csv
-The final file containing all species of the workings set, the protein number and taxonomic information is: results/step2/uniprot_all_wset_taxo.csv
-This code is part of the Jupyter Notebook: notebooks/Step2_Defining_working_set_of_species.ipynb
+The final file containing all species of the workings set, the protein number and taxonomic information is: [results/step2/uniprot_all_wset_taxo.csv](results/step2/uniprot_all_wset_taxo.csv)
+This code is part of the Jupyter Notebook: [notebooks/Step2_Defining_working_set_of_species.ipynb](notebooks/Step2_Defining_working_set_of_species.ipynb)
 
 ### Distribution of FDA in Fungi - Order level analysis
-Now that we have a working set of fungal species, using the extended set information, we can attribute the FDA status of all the 853 fungal species of the workig set: results/step2/working_set_w_FDA.csv 
-We further investigate the distribution of FDA in the Fungi kingdom by calculating and visualizing the distribution of FDA at the order level. For each order, we calculate the fraction of species that possess FDA (number of species with FDA in order divided number of species in the order): results/step2/order_information_FDA_fraction.csv
+Now that we have a working set of fungal species, using the extended set information, we can attribute the FDA status of all the 853 fungal species of the workig set: [results/step2/working_set_w_FDA.csv](results/step2/working_set_w_FDA.csv)
+We further investigate the distribution of FDA in the Fungi kingdom by calculating and visualizing the distribution of FDA at the order level. For each order, we calculate the fraction of species that possess FDA (number of species with FDA in order divided number of species in the order): [results/step2/order_information_FDA_fraction.csv](results/step2/order_information_FDA_fraction.csv)
 
-We obtained fungal order phylogeny information in TimeTree: data/step2/Fungi_order_timetree.nwk
+We obtained fungal order phylogeny information in TimeTree: [data/step2/Fungi_order_timetree.nwk](data/step2/Fungi_order_timetree.nwk)
 After trimming this tree, keeping only the orders present in our study, we visualize the order FDA fraction distribution and order size onto this tree (Figure 4B of the Pub)
-Code for this section is available in the Jupyter Notebook: notebooks/Step2_Order_distribution_FDA_Figure4B.ipynb
+Code for this section is available in the Jupyter Notebook: [notebooks/Step2_Order_distribution_FDA_Figure4B.ipynb](notebooks/Step2_Order_distribution_FDA_Figure4B.ipynb)
 
 ## 3 - Curating fungal trait information
 We used the database FunFun as the source of fungal trait information (https://doi.org/10.1111/brv.12570). This database contains a large set of information from different studies and other databases and provides them at the species level. 
-We obtained the .csv representation of the database following their instruction on their github page:https://doi.org/10.1111/brv.12570. 
+We obtained the .csv representation of the database following their instruction on their [github page](https://github.com/traitecoevo/fungaltraits).
 In R:
 `install.packages("devtools")
 devtools::install_github("ropenscilabs/datastorr")
@@ -80,23 +80,23 @@ write.csv(data_fun,'FunFun_database_all.csv')`
 
 
 We decided to focus on 6 traits: presence/absence of auxin responsive promoter, spore length, spore width, ascus dehiscence, growth form and trophic mode. We extracted the corresponding information for the species present in the database that overlap with the species in the working set.  While in FunFun 1,538 species have information for at least one of the traits, it only represents 142 species in our working set. Also, in our working set, some species are represented by multiple strains, and whenever a species has different FDA status for its associated strains, that species is removed from the study.  
-Eventually, we obtained phylogenetic relationships and the corresponding tree for 102 species using Timetree  (https://doi.org/10.1093/molbev/msac174): data/step3/species_trait_tree_final.nwk
-Altogether, we were able to collect FDA status, trait information and phylogenetic relationship for a total of 102 species and mapped this information onto a species-level tree (Figure 4B of the Pub) : results/step3/traits_FDA_info.csv
+Eventually, we obtained phylogenetic relationships and the corresponding tree for 102 species using Timetree  (https://doi.org/10.1093/molbev/msac174): [data/step3/species_trait_tree_final.nwk](data/step3/species_trait_tree_final.nwk)
+Altogether, we were able to collect FDA status, trait information and phylogenetic relationship for a total of 102 species and mapped this information onto a species-level tree (Figure 4B of the Pub) : [results/step3/traits_FDA_info.csv](results/step3/traits_FDA_info.csv)
 
-Code for this section is available in the Jupyter Notebook: notebooks/Step3_Curating_and_maping_trait_information.ipynb
+Code for this section is available in the Jupyter Notebook: [notebooks/Step3_Curating_and_maping_trait_information.ipynb](notebooks/Step3_Curating_and_maping_trait_information.ipynb)
 
 
 ## 4 - Statistical modeling of the association of FDA and chosen fungal traits
 We used statistical modeling to determine whether the presence/absence of FDA is associated with specific fungal traits. 
 Presence/absence of FDA is a binary variable and fungal traits are either binary (auxin responsive promoter), continuous (spore length and spore width) or discrete variables (Ascus dehiscence, growth form and trophic mode).
-We manually collapsed information per species from results/step3/traits_FDA_info.csv, to have only a single row of trait information per species and created the input dataset: data/step4/traits_FDA_info_col.csv (note for *Agaricus bisporus* the spore length and spore width have been averaged across two replicates)
+We manually collapsed information per species from [results/step3/traits_FDA_info.csv](results/step3/traits_FDA_info.csv), to have only a single row of trait information per species and created the input dataset: [data/step4/traits_FDA_info_col.csv](data/step4/traits_FDA_info_col.csv) (note for *Agaricus bisporus* the spore length and spore width have been averaged across two replicates)
 
 For each trait, before running any model, we visualized the distribution of the data that are input for the models (Figure 6AF)
 
-Code for this section is available in the Jupyter notebook: notebooks/Step4_Statistical_modeling.ipynb
+Code for this section is available in the Jupyter notebook: [notebooks/Step4_Statistical_modeling.ipynb](notebooks/Step4_Statistical_modeling.ipynb)
 
 ### Correlation analysis of FDA and continuous traits
-We used phylogeny-corrected generalized linear models (pglmm) for continuous variables (pglmm_compare function from the R package phyr (https://doi.org/10.1111/2041-210X.13471)).
+We used phylogeny-corrected generalized linear models (pglmm) for continuous variables (pglmm_compare function from the R package [phyr](https://doi.org/10.1111/2041-210X.13471)).
 For each model we report intercept, slope and associated p-values in the Pub Table 3
 
 ### Correlation analysis of FDA and binary or discrete traits
