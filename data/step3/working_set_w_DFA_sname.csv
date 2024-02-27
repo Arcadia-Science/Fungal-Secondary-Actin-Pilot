@@ -1,4 +1,4 @@
-,Organism_uniprot,n_prot,species_name,species_short,kingdom,phylum,class,order,family,genus,FDA
+,Organism_uniprot,n_prot,species_name,species_short,kingdom,phylum,class,order,family,genus,DFA
 1,[Candida] intermedia,10617,[Candida] intermedia,Candida intermedia,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Metschnikowiaceae,Candida,No
 2,[Torrubiella] hemipterigena,11065,[Torrubiella] hemipterigena,Torrubiella hemipterigena,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Torrubiella,Yes
 3,Aaosphaeria arxii CBS 175.79,13815,Aaosphaeria arxii CBS 175.79,Aaosphaeria arxii,Fungi,Ascomycota,Dothideomycetes,Pleosporales,NA,Aaosphaeria,No
@@ -852,4 +852,3 @@
 851,Zymoseptoria tritici ST99CH_1A5,11635,Zymoseptoria tritici ST99CH_1A5,Zymoseptoria tritici,NA,NA,NA,NA,NA,NA,No
 852,Zymoseptoria tritici ST99CH_1E4,11594,Zymoseptoria tritici ST99CH_1E4,Zymoseptoria tritici,NA,NA,NA,NA,NA,NA,No
 853,Zymoseptoria tritici ST99CH_3D7,11350,Zymoseptoria tritici ST99CH_3D7,Zymoseptoria tritici,NA,NA,NA,NA,NA,NA,No
-
