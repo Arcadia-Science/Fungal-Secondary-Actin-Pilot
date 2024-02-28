@@ -1,4 +1,4 @@
-,tip.label,Phylum,FDA,ascus_dehiscence,auxinResponsivePromoter_count,growth_form_fg,spore_length,spore_width,trophic_mode_fg
+,tip.label,Phylum,DFA,ascus_dehiscence,auxinResponsivePromoter_count,growth_form_fg,spore_length,spore_width,trophic_mode_fg
 1,Agaricus_bisporus,Basidiomycota,No,NA,NA,NA,9,6.55,NA
 4,Amanita_muscaria,Basidiomycota,Yes,NA,0,Agaricoid,9,6.5,Symbiotroph
 6,Amanita_thiersii,Basidiomycota,Yes,NA,NA,Mushroom,NA,NA,Saprotroph
